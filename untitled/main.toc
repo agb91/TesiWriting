@@ -1,0 +1,22 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {chapter}{Abstract}{iii}{section*.1}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}
+\contentsline {section}{\numberline {1.1}AEgIS experiment}{1}{section.4}
+\contentsline {section}{\numberline {1.2}User friendly Data analysis framework}{1}{section.5}
+\contentsline {chapter}{\numberline {2}User Interface }{3}{chapter.6}
+\contentsline {section}{\numberline {2.1}Human Machine Interaction principles}{3}{section.7}
+\contentsline {section}{\numberline {2.2}Web interface vs Java Fx vs Xojo}{3}{section.8}
+\contentsline {section}{\numberline {2.3}Used Technologies and Framworks}{3}{section.9}
+\contentsline {subsection}{\numberline {2.3.1}PHP}{3}{subsection.10}
+\contentsline {subsection}{\numberline {2.3.2}Javascript}{4}{subsection.11}
+\contentsline {subsection}{\numberline {2.3.3}Bootstrap}{4}{subsection.12}
+\contentsline {subsection}{\numberline {2.3.4}Sass}{4}{subsection.13}
+\contentsline {chapter}{\numberline {3}Data Analysis}{5}{chapter.14}
+\contentsline {section}{\numberline {3.1}What is?}{5}{section.15}
+\contentsline {section}{\numberline {3.2}Relevance in the modern market}{5}{section.16}
+\contentsline {section}{\numberline {3.3}Root - Physical Data Analysis }{5}{section.17}
+\contentsline {section}{\numberline {3.4}Data Analysis in Aegis Experiment}{5}{section.18}
+\contentsline {chapter}{\numberline {4}Conclusions}{7}{chapter.19}
+\contentsline {section}{\numberline {4.1}Conclusions}{7}{section.20}
