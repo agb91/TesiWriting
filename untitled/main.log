@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  1 SEP 2016 11:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  2 SEP 2016 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,20 +1530,26 @@ Package pdftex.def Info: Chapters/images/AEgISScheme.png used on input line 24.
 
 (pdftex.def)             Requested size: 266.49498pt x 174.65207pt.
 
-<Chapters/images/MoireDeflectometer.png, id=141, 642.4pt x 526.96875pt>
+Overfull \hbox (3.39772pt too wide) in paragraph at lines 43--44
+\T1/ppl/m/n/12 tron and pro-ton, the an-ti-hy-dro-gen atom is made up of a posi
+tron
+ []
+
+[2 <./Chapters/images/AEgISScheme.png>]
+<Chapters/images/MoireDeflectometer.png, id=153, 461.725pt x 235.88126pt>
 File: Chapters/images/MoireDeflectometer.png Graphic file (type png)
 
 <use Chapters/images/MoireDeflectometer.png>
 Package pdftex.def Info: Chapters/images/MoireDeflectometer.png used on input l
-ine 47.
-(pdftex.def)             Requested size: 321.19922pt x 263.48372pt.
- [2 <./Chapters/images/AEgISScheme.png>]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 58.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+ine 57.
+(pdftex.def)             Requested size: 230.86194pt x 117.94034pt.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 68.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
 ) [3 <./Chapters/images/MoireDeflectometer.png>]
 \openout2 = `Chapters/Chapter2.aux'.
 
@@ -1586,19 +1592,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 50DBEF56CCFC2C0666717F9A45FE8BFD;2841.
+(rerunfilecheck)             Checksum: D4BBEA983DAF2B3196E8DB852983B4C5;2841.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28720 strings out of 493304
- 587386 string characters out of 6139871
+ 28722 strings out of 493304
+ 587400 string characters out of 6139871
  705326 words of memory out of 5000000
  31774 multiletter control sequences out of 15000+600000
  34136 words of font info for 59 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 53i,19n,77p,10402b,1713s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,19n,78p,10402b,1782s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
@@ -1606,10 +1612,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on main.pdf (15 pages, 276993 bytes).
+Output written on main.pdf (15 pages, 345556 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
