@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  4 SEP 2016 09:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  4 SEP 2016 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1214,7 +1214,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (./main.aux
 (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux)
-(./Chapters/Chapter4.aux))
+(./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
@@ -1461,7 +1461,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 93.
 Package hyperref Warning: Suppressing link with empty target on input line 103.
 
 
-<Chapters/images/Logo.png, id=80, 120.45pt x 116.8365pt>
+<Chapters/images/Logo.png, id=112, 120.45pt x 116.8365pt>
 File: Chapters/images/Logo.png Graphic file (type png)
 
 <use Chapters/images/Logo.png>
@@ -1510,7 +1510,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 11.
-<Chapters/images/aegisLogo.png, id=132, 1156.32pt x 314.17375pt>
+<Chapters/images/aegisLogo.png, id=173, 1156.32pt x 314.17375pt>
 File: Chapters/images/aegisLogo.png Graphic file (type png)
 
 <use Chapters/images/aegisLogo.png>
@@ -1522,7 +1522,7 @@ Package pdftex.def Info: Chapters/images/aegisLogo.png used on input line 16.
 
 
  <./Chapters/images/aegisLogo.png>]
-<Chapters/images/AEgISScheme.png, id=140, 532.99126pt x 349.305pt>
+<Chapters/images/AEgISScheme.png, id=181, 532.99126pt x 349.305pt>
 File: Chapters/images/AEgISScheme.png Graphic file (type png)
 
 <use Chapters/images/AEgISScheme.png>
@@ -1541,7 +1541,7 @@ Overfull \hbox (0.39877pt too wide) in paragraph at lines 52--53
 and driven
  []
 
-<Chapters/images/MoireDeflectometer.png, id=152, 461.725pt x 235.88126pt>
+<Chapters/images/MoireDeflectometer.png, id=193, 461.725pt x 235.88126pt>
 File: Chapters/images/MoireDeflectometer.png Graphic file (type png)
 
 <use Chapters/images/MoireDeflectometer.png>
@@ -1564,7 +1564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--64
  []
 
 [3 <./Chapters/images/MoireDeflectometer.png>]
-<Chapters/images/SchemeMachineSetUp.png, id=161, 1025.8325pt x 397.485pt>
+<Chapters/images/SchemeMachineSetUp.png, id=202, 1025.8325pt x 397.485pt>
 File: Chapters/images/SchemeMachineSetUp.png Graphic file (type png)
 
 <use Chapters/images/SchemeMachineSetUp.png>
@@ -1577,7 +1577,7 @@ Overfull \hbox (151.56506pt too wide) in paragraph at lines 73--74
  []
 
 [4 <./Chapters/images/SchemeMachineSetUp.png>]
-<Chapters/images/GeneralGAnSchema.png, id=169, 626.34pt x 262.73157pt>
+<Chapters/images/GeneralGAnSchema.png, id=209, 626.34pt x 262.73157pt>
 File: Chapters/images/GeneralGAnSchema.png Graphic file (type png)
 
 <use Chapters/images/GeneralGAnSchema.png>
@@ -1604,38 +1604,61 @@ Chapter 2.
 
 ]
 Chapter 3.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
-1: section
-[9]) [10]
-\openout2 = `Chapters/Chapter4.aux'.
-
- (./Chapters/Chapter4.tex
-Chapter 4.
 )
 1: section
-[11
+[9]
+\openout2 = `Chapters/Chapter4.aux'.
+
+ (./Chapters/Chapter4.tex [10
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+Chapter 4.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
+1: section
+[11]) [12]
+\openout2 = `Chapters/Chapter5.aux'.
+
+ (./Chapters/Chapter5.tex
+Chapter 5.
+)
+1: section
+[13
+
+
+
+]
+\openout2 = `Chapters/Chapter6.aux'.
+
+ (./Chapters/Chapter6.tex [14
+
+
+
+]
+Chapter 6.
+)
+1: section
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
-(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
+(./Chapters/Chapter6.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0EDC5CD3A5236ECF8591796655275E53;2839.
+(rerunfilecheck)             Checksum: B0CED669FB0FC77C3AA5ED15F5D1D542;4294.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28718 strings out of 493304
- 587498 string characters out of 6139871
- 705333 words of memory out of 5000000
- 31765 multiletter control sequences out of 15000+600000
+ 28762 strings out of 493304
+ 588215 string characters out of 6139871
+ 707333 words of memory out of 5000000
+ 31783 multiletter control sequences out of 15000+600000
  34136 words of font info for 59 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  54i,19n,77p,10402b,1784s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1646,10 +1669,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on main.pdf (17 pages, 462327 bytes).
+Output written on main.pdf (21 pages, 466196 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 299 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
