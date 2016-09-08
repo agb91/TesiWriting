@@ -7,24 +7,25 @@
 \contentsline {section}{\numberline {1.2}User friendly Data analysis: gAn Web}{4}{section.14}
 \contentsline {chapter}{\numberline {2}Data Analysis}{7}{chapter.18}
 \contentsline {section}{\numberline {2.1}What is?}{7}{section.19}
-\contentsline {section}{\numberline {2.2}Relevance in the modern market}{7}{section.20}
-\contentsline {section}{\numberline {2.3}Root - Physical Data Analysis }{7}{section.21}
-\contentsline {section}{\numberline {2.4}Data Analysis in Aegis Experiment}{7}{section.22}
-\contentsline {chapter}{\numberline {3}Human-Machine Interface }{9}{chapter.23}
-\contentsline {section}{\numberline {3.1}Human Machine Interaction principles}{9}{section.24}
-\contentsline {section}{\numberline {3.2}Expected users}{9}{section.25}
-\contentsline {section}{\numberline {3.3}Validation of gAn Web against HMI principles}{9}{section.26}
-\contentsline {section}{\numberline {3.4}Modifications to match HMI principles}{9}{section.27}
-\contentsline {chapter}{\numberline {4}Used Technologies}{11}{chapter.28}
-\contentsline {section}{\numberline {4.1}Web interface vs Java Fx vs Xojo}{11}{section.29}
-\contentsline {section}{\numberline {4.2}Used Technologies and Framworks}{11}{section.30}
-\contentsline {subsection}{\numberline {4.2.1}PHP}{11}{subsection.31}
-\contentsline {subsection}{\numberline {4.2.2}Javascript}{11}{subsection.32}
-\contentsline {subsection}{\numberline {4.2.3}Bootstrap}{12}{subsection.33}
-\contentsline {subsection}{\numberline {4.2.4}Sass}{12}{subsection.34}
-\contentsline {chapter}{\numberline {5}The resulting software}{13}{chapter.35}
-\contentsline {section}{\numberline {5.1}A tour of the application}{13}{section.36}
-\contentsline {section}{\numberline {5.2}Use example}{13}{section.37}
-\contentsline {section}{\numberline {5.3}Some Screenshots}{13}{section.38}
-\contentsline {chapter}{\numberline {6}Conclusions}{15}{chapter.39}
-\contentsline {section}{\numberline {6.1}Conclusions}{15}{section.40}
+\contentsline {section}{\numberline {2.2}What a user can obtain from the data?}{9}{section.27}
+\contentsline {section}{\numberline {2.3}Relevance in the modern market}{10}{section.33}
+\contentsline {section}{\numberline {2.4}Root - Physical Data Analysis }{10}{section.34}
+\contentsline {section}{\numberline {2.5}Data Analysis in Aegis Experiment}{10}{section.35}
+\contentsline {chapter}{\numberline {3}Human-Machine Interface }{11}{chapter.36}
+\contentsline {section}{\numberline {3.1}Human Machine Interaction principles}{11}{section.37}
+\contentsline {section}{\numberline {3.2}Expected users}{11}{section.38}
+\contentsline {section}{\numberline {3.3}Validation of gAn Web against HMI principles}{11}{section.39}
+\contentsline {section}{\numberline {3.4}Modifications to match HMI principles}{11}{section.40}
+\contentsline {chapter}{\numberline {4}Used Technologies}{13}{chapter.41}
+\contentsline {section}{\numberline {4.1}Web interface vs Java Fx vs Xojo}{13}{section.42}
+\contentsline {section}{\numberline {4.2}Used Technologies and Framworks}{13}{section.43}
+\contentsline {subsection}{\numberline {4.2.1}PHP}{13}{subsection.44}
+\contentsline {subsection}{\numberline {4.2.2}Javascript}{13}{subsection.45}
+\contentsline {subsection}{\numberline {4.2.3}Bootstrap}{14}{subsection.46}
+\contentsline {subsection}{\numberline {4.2.4}Sass}{14}{subsection.47}
+\contentsline {chapter}{\numberline {5}The resulting software}{15}{chapter.48}
+\contentsline {section}{\numberline {5.1}A tour of the application}{15}{section.49}
+\contentsline {section}{\numberline {5.2}Use example}{15}{section.50}
+\contentsline {section}{\numberline {5.3}Some Screenshots}{15}{section.51}
+\contentsline {chapter}{\numberline {6}Conclusions}{17}{chapter.52}
+\contentsline {section}{\numberline {6.1}Conclusions}{17}{section.53}

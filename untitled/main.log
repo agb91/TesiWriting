@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  4 SEP 2016 10:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  8 SEP 2016 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1461,7 +1461,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 93.
 Package hyperref Warning: Suppressing link with empty target on input line 103.
 
 
-<Chapters/images/Logo.png, id=112, 120.45pt x 116.8365pt>
+<Chapters/images/Logo.png, id=116, 120.45pt x 116.8365pt>
 File: Chapters/images/Logo.png Graphic file (type png)
 
 <use Chapters/images/Logo.png>
@@ -1510,7 +1510,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 11.
-<Chapters/images/aegisLogo.png, id=173, 1156.32pt x 314.17375pt>
+<Chapters/images/aegisLogo.png, id=178, 1156.32pt x 314.17375pt>
 File: Chapters/images/aegisLogo.png Graphic file (type png)
 
 <use Chapters/images/aegisLogo.png>
@@ -1522,7 +1522,7 @@ Package pdftex.def Info: Chapters/images/aegisLogo.png used on input line 16.
 
 
  <./Chapters/images/aegisLogo.png>]
-<Chapters/images/AEgISScheme.png, id=181, 532.99126pt x 349.305pt>
+<Chapters/images/AEgISScheme.png, id=186, 532.99126pt x 349.305pt>
 File: Chapters/images/AEgISScheme.png Graphic file (type png)
 
 <use Chapters/images/AEgISScheme.png>
@@ -1541,7 +1541,7 @@ Overfull \hbox (0.39877pt too wide) in paragraph at lines 52--53
 and driven
  []
 
-<Chapters/images/MoireDeflectometer.png, id=193, 461.725pt x 235.88126pt>
+<Chapters/images/MoireDeflectometer.png, id=198, 461.725pt x 235.88126pt>
 File: Chapters/images/MoireDeflectometer.png Graphic file (type png)
 
 <use Chapters/images/MoireDeflectometer.png>
@@ -1564,7 +1564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--64
  []
 
 [3 <./Chapters/images/MoireDeflectometer.png>]
-<Chapters/images/SchemeMachineSetUp.png, id=202, 1025.8325pt x 397.485pt>
+<Chapters/images/SchemeMachineSetUp.png, id=207, 1025.8325pt x 397.485pt>
 File: Chapters/images/SchemeMachineSetUp.png Graphic file (type png)
 
 <use Chapters/images/SchemeMachineSetUp.png>
@@ -1577,7 +1577,7 @@ Overfull \hbox (151.56506pt too wide) in paragraph at lines 73--74
  []
 
 [4 <./Chapters/images/SchemeMachineSetUp.png>]
-<Chapters/images/GeneralGAnSchema.png, id=209, 626.34pt x 262.73157pt>
+<Chapters/images/GeneralGAnSchema.png, id=214, 626.34pt x 262.73157pt>
 File: Chapters/images/GeneralGAnSchema.png Graphic file (type png)
 
 <use Chapters/images/GeneralGAnSchema.png>
@@ -1589,27 +1589,62 @@ e 101.
 
  (./Chapters/Chapter2.tex
 Chapter 2.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 15.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+<Chapters/images/DataAnalysisProcess.png, id=228, 526.96875pt x 395.22656pt>
+File: Chapters/images/DataAnalysisProcess.png Graphic file (type png)
+
+<use Chapters/images/DataAnalysisProcess.png>
+Package pdftex.def Info: Chapters/images/DataAnalysisProcess.png used on input 
+line 22.
+(pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
+
 1: section
 [7
 
 
 
 ]
+Overfull \hbox (1.75409pt too wide) in paragraph at lines 37--38
+[]\T1/ppl/m/n/12 Data clean-ing: Once pre-processed and or-ga-nized, the data m
+ay
+ []
+
+
+Overfull \hbox (0.97293pt too wide) in paragraph at lines 37--38
+\T1/ppl/m/n/12 be in-com-plete, con-tain du-pli-cates, or con-tain er-rors. Dat
+a clean-
+ []
+
+[8 <./Chapters/images/DataAnalysisProcess.png>]
+Overfull \hbox (6.63757pt too wide) in paragraph at lines 63--64
+\T1/ppl/m/n/12 tem can show the max-i-mums o min-i-mums val-ues in the datasets
+,
+ []
+
+
+Overfull \hbox (4.29657pt too wide) in paragraph at lines 69--70
+[]\T1/ppl/m/n/12 Clustering: the anal-y-sis is ex-tremely eas-ier if is pos-si-
+ble to group
+ []
+
+[9]) [10]
 \openout2 = `Chapters/Chapter3.aux'.
 
- (./Chapters/Chapter3.tex [8
+ (./Chapters/Chapter3.tex
+Chapter 3.
+)
+1: section
+[11
 
 
 
 ]
-Chapter 3.
-)
-1: section
-[9]
 \openout2 = `Chapters/Chapter4.aux'.
 
- (./Chapters/Chapter4.tex [10
+ (./Chapters/Chapter4.tex [12
 
 
 
@@ -1618,21 +1653,21 @@ Chapter 4.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
 1: section
-[11]) [12]
+[13]) [14]
 \openout2 = `Chapters/Chapter5.aux'.
 
  (./Chapters/Chapter5.tex
 Chapter 5.
 )
 1: section
-[13
+[15
 
 
 
 ]
 \openout2 = `Chapters/Chapter6.aux'.
 
- (./Chapters/Chapter6.tex [14
+ (./Chapters/Chapter6.tex [16
 
 
 
@@ -1640,7 +1675,7 @@ Chapter 5.
 Chapter 6.
 )
 1: section
-[15]
+[17]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
@@ -1649,30 +1684,30 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B0CED669FB0FC77C3AA5ED15F5D1D542;4294.
+(rerunfilecheck)             Checksum: 53692DE53E7474788B2077649FA86C8C;4555.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28762 strings out of 493304
- 588215 string characters out of 6139871
+ 28817 strings out of 493304
+ 589017 string characters out of 6139871
  707333 words of memory out of 5000000
- 31783 multiletter control sequences out of 15000+600000
- 34136 words of font info for 59 fonts, out of 8000000 for 9000
+ 31817 multiletter control sequences out of 15000+600000
+ 34757 words of font info for 61 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 54i,19n,77p,10402b,1784s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,84p,10402b,1784s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatin
-o/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
-b>
-Output written on main.pdf (21 pages, 466196 bytes).
+/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
+/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (23 pages, 558661 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 
