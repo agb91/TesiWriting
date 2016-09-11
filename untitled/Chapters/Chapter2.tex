@@ -123,31 +123,48 @@ Some detractors say that the statistical support is incomplete if compared with 
 For the AEgIS experiment ROOT is the chosen software to carry out the activities of data analysis. The reason is that this software has been specifically tailored to meet the requirements of the analysis applied to particle physics.
 Another advantage of Root is that there are a lot of libraries created during the years related to the activities of the experiments of the Cern and it is nearly impossible rebuilt them from scratch with another software.
 
-ROOT development was started by René Brun and Fons Rademakers in 1994. This software is partially released under GPL (this means that everyone is allowed to use, redistribute and change the software, but any changes made must also be licensed under the GPL), and partially under LGPL (The LGPL is similar to the GPL, but is more designed for software libraries where you want to allow non-GPL applications to link to your library and utilise it).
+ROOT development was started by René Brun and Fons Rademakers in 1994 (but a more extended and precise list of collaborators is accessible here \url{https://root.cern.ch/root/htmldoc/guides/users-guide/ROOTUsersGuide.html#preface}). 
+The ROOT's user guide start with this prefaction, that explains in detail how ROOT was born.:
+"In late 1994, we decided to learn and investigate Object Oriented programming and C++ to better judge the suitability of these relatively new techniques for scientific programming. We knew that there is no better way to learn a new programming environment than to use it to write a program that can solve a real problem. After a few weeks, we had our first histogramming package in C++. A few weeks later we had a rewrite of the same package using the, at that time, very new template features of C++. Again, a few weeks later we had another rewrite of the package without templates since we could only compile the version with templates on one single platform using a specific compiler. Finally, after about four months we had a histogramming package that was faster and more efficient than the well-known FORTRAN based HBOOK histogramming package. This gave us enough confidence in the new technologies to decide to continue the development. Thus was born ROOT."
+(Taken from \url{https://root.cern.ch/root/htmldoc/guides/users-guide/ROOTUsersGuide.html#preface})
 
-It provides the possibility to use a computer's graphics subsystem and operating system with abstraction, allowing the developer to create a graphical user interface and a GUI builder. Root provides also an abstract platform that allows to run C++ and command line scripts. More precisely Root includes (among others):
+
+This software is partially released under GPL (this means that everyone is allowed to use, redistribute and change the software, but any changes made must also be licensed under the GPL), and partially under LGPL (The LGPL is similar to the GPL, but is more designed for software libraries where you want to allow non-GPL applications to link to your library and utilise it).
+
+ROOT is an object oriented framework that aims to solve problems related to high-energy physics. To better understand what is ROOT is important to start with understanding what is a framework: in IT a framework is a structure that helps the programmers providing them a set of already working utilities and services (for example, I/O, graphics, etcetera) often related to the sector in which the framework aims to work (for example, the services of a web development framework are related to the layout of a web page, to the organization of DBs etcetera). ROOT in particular offer services, functions, and packages related on the world of high-energy physics research, that allow to save much work.
+It provides, for example the possibility to use a computer's graphics subsystem and operating system with abstraction, allowing the developer to create a graphical user interface and a GUI builder. Root provides also an abstract platform that allows to run C++ and command line scripts. More precisely Root includes (among others):
 
 \begin{enumerate}
 
 % 1
-\item Packages related to histogramming and graphing, that allows the developer to easily represent graphically statistical distributions. Also 3D visualization is allowed
+\item Libraries related to histogramming and graphing, that allows the developer to easily represent graphically statistical distributions. Also 3D visualization is allowed.
 
 % 2
-\item Packages related to regression analysis
+\item Libraries related to regression analysis.
 
 % 3
-\item Various statistics tools 
+\item Various statistics tools. 
 
 % 4
-\item Packages related to digital image processing and manipulation
+\item Libraries related to digital image processing and manipulation.
 
 % 5
-\item Parallel computing, (parallelize data analysis can be really useful to manage the complexity of the calculations)
+\item Libraries aimed to allow Parallel computing, (parallelize data analysis can be really useful to manage the complexity of the calculations).
 
 %6
-\item Interfacing with Python and Ruby code in both directions
+\item The possibility of interfacing with Python and Ruby code in both directions.
 
 %7 
-\item Interfacing with Javascript, allowing the developer to access Root functionalities by a Browser
+\item The possibility of interfacing with Javascript, allowing the developer to access Root functionalities by a Browser.
 
 \end{enumerate}
+
+In the following image we can see the structure of the ROOT's libraries:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{RootStructure.png} 
+\caption{ROOT structure}
+\end{figure}
+
+
