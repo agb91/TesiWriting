@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  17 SEP 2016 10:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  17 SEP 2016 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1549,50 +1549,69 @@ tron
  []
 
 [3 <./Chapters/images/AEgISScheme.png>]
-<Chapters/images/MoireDeflectometer.png, id=348, 461.725pt x 235.88126pt>
+Overfull \hbox (12.56645pt too wide) in paragraph at lines 67--68
+[]\T1/ppl/m/n/12 The pro-cess shown in the fig-ure 1.3 is the fol-low-ing: a be
+am of positrons
+ []
+
+<Chapters/images/MoireDeflectometer.png, id=347, 461.725pt x 235.88126pt>
 File: Chapters/images/MoireDeflectometer.png Graphic file (type png)
 
 <use Chapters/images/MoireDeflectometer.png>
 Package pdftex.def Info: Chapters/images/MoireDeflectometer.png used on input l
-ine 74.
+ine 75.
 (pdftex.def)             Requested size: 230.86194pt x 117.94034pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
  []\T1/ppl/m/sc/10.95 Figure 1.4: |\T1/ppl/m/n/10.95 Moiré De-flec-tome- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
  \T1/ppl/m/n/10.95 ter's Scheme, taken from "A 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
  \T1/ppl/m/n/10.95 http://www.nature.com/articles/ncomms5538" 
  []
 
-<Chapters/images/SchemeMachineSetUp.png, id=349, 1025.8325pt x 397.485pt>
+[4 <./Chapters/images/MoireDeflectometer.png>]
+<Chapters/images/SchemeMachineSetUp.png, id=355, 1025.8325pt x 397.485pt>
 File: Chapters/images/SchemeMachineSetUp.png Graphic file (type png)
 
 <use Chapters/images/SchemeMachineSetUp.png>
 Package pdftex.def Info: Chapters/images/SchemeMachineSetUp.png used on input l
-ine 85.
-(pdftex.def)             Requested size: 512.91501pt x 198.742pt.
+ine 86.
+(pdftex.def)             Requested size: 359.04675pt x 139.12183pt.
 
-Overfull \hbox (151.56506pt too wide) in paragraph at lines 85--86
- [][] 
+Overfull \hbox (2.7742pt too wide) in paragraph at lines 95--96
+\T1/ppl/m/n/12 data pro-cess-ing, sta-tis-ti-cal anal-y-sis, vi-su-al-i-sa-tion
+ and stor-age of phys-
  []
 
-[4 <./Chapters/images/MoireDeflectometer.png>] [5 <./Chapters/images/SchemeMach
-ineSetUp.png>]
-<Chapters/images/GeneralGAnSchema.png, id=363, 626.34pt x 262.73157pt>
+[5 <./Chapters/images/SchemeMachineSetUp.png>]
+<Chapters/images/GeneralGAnSchema.png, id=365, 626.34pt x 262.73157pt>
 File: Chapters/images/GeneralGAnSchema.png Graphic file (type png)
 
 <use Chapters/images/GeneralGAnSchema.png>
 Package pdftex.def Info: Chapters/images/GeneralGAnSchema.png used on input lin
-e 113.
+e 114.
 (pdftex.def)             Requested size: 313.16922pt x 131.36545pt.
- [6 <./Chapters/images/GeneralGAnSchema.png>]) [7]
+
+<Chapters/images/DAQSchema.png, id=366, 993.7125pt x 616.3025pt>
+File: Chapters/images/DAQSchema.png Graphic file (type png)
+
+<use Chapters/images/DAQSchema.png>
+Package pdftex.def Info: Chapters/images/DAQSchema.png used on input line 123.
+(pdftex.def)             Requested size: 496.85503pt x 308.1505pt.
+
+Overfull \hbox (135.50508pt too wide) in paragraph at lines 123--124
+ [][] 
+ []
+
+[6 <./Chapters/images/GeneralGAnSchema.png>]) [7 <./Chapters/images/DAQSchema.p
+ng>]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex [8
@@ -1601,7 +1620,7 @@ e 113.
 
 ]
 Chapter 2.
-<Chapters/images/DataAnalysisProcess.png, id=382, 526.96875pt x 395.22656pt>
+<Chapters/images/DataAnalysisProcess.png, id=386, 526.96875pt x 395.22656pt>
 File: Chapters/images/DataAnalysisProcess.png Graphic file (type png)
 
 <use Chapters/images/DataAnalysisProcess.png>
@@ -1681,7 +1700,7 @@ Overfull \hbox (35.14989pt too wide) in paragraph at lines 126--130
 uide .
  []
 
-[15] <Chapters/images/RootStructure.png, id=442, 524.96124pt x 383.4325pt>
+[15] <Chapters/images/RootStructure.png, id=446, 524.96124pt x 383.4325pt>
 File: Chapters/images/RootStructure.png Graphic file (type png)
 
 <use Chapters/images/RootStructure.png>
@@ -1742,16 +1761,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C3DAA552BAED1D991B4B091806AF1C54;4515.
+(rerunfilecheck)             Checksum: 5251D9F1673489815B91D7E2A8733A7E;4515.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28846 strings out of 493304
- 589591 string characters out of 6139871
+ 28852 strings out of 493304
+ 589756 string characters out of 6139871
  709333 words of memory out of 5000000
- 31825 multiletter control sequences out of 15000+600000
+ 31829 multiletter control sequences out of 15000+600000
  34757 words of font info for 61 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  54i,20n,77p,10402b,1784s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1763,10 +1782,10 @@ ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
 tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (29 pages, 1040224 bytes).
+Output written on main.pdf (29 pages, 1142214 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 396 compressed objects within 4 object streams
- 96 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 
