@@ -3,29 +3,29 @@
 \select@language {english}
 \contentsline {chapter}{Abstract}{iii}{section*.1}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.3}
-\contentsline {section}{\numberline {1.1}AEgIS experiment}{1}{section.4}
-\contentsline {section}{\numberline {1.2}User friendly Data analysis: gAn Web}{4}{section.14}
-\contentsline {chapter}{\numberline {2}Data Analysis}{7}{chapter.18}
-\contentsline {section}{\numberline {2.1}What is?}{7}{section.19}
-\contentsline {section}{\numberline {2.2}What a user can obtain from the data?}{9}{section.27}
-\contentsline {section}{\numberline {2.3}Relevance in the modern market}{10}{section.33}
-\contentsline {section}{\numberline {2.4}Data Analysis at CERN}{11}{section.34}
-\contentsline {section}{\numberline {2.5}Root - Physical Data Analysis }{12}{section.35}
-\contentsline {chapter}{\numberline {3}Human-Machine Interface }{15}{chapter.48}
-\contentsline {section}{\numberline {3.1}Human Machine Interaction principles}{15}{section.49}
-\contentsline {section}{\numberline {3.2}Expected users}{15}{section.50}
-\contentsline {section}{\numberline {3.3}Validation of gAn Web against HMI principles}{15}{section.51}
-\contentsline {section}{\numberline {3.4}Modifications to match HMI principles}{15}{section.52}
-\contentsline {chapter}{\numberline {4}Used Technologies}{17}{chapter.53}
-\contentsline {section}{\numberline {4.1}Web interface vs Java Fx vs Xojo}{17}{section.54}
-\contentsline {section}{\numberline {4.2}Used Technologies and Framworks}{17}{section.55}
-\contentsline {subsection}{\numberline {4.2.1}PHP}{17}{subsection.56}
-\contentsline {subsection}{\numberline {4.2.2}Javascript}{17}{subsection.57}
-\contentsline {subsection}{\numberline {4.2.3}Bootstrap}{18}{subsection.58}
-\contentsline {subsection}{\numberline {4.2.4}Sass}{18}{subsection.59}
-\contentsline {chapter}{\numberline {5}The resulting software}{19}{chapter.60}
-\contentsline {section}{\numberline {5.1}A tour of the application}{19}{section.61}
-\contentsline {section}{\numberline {5.2}Use example}{19}{section.62}
-\contentsline {section}{\numberline {5.3}Some Screenshots}{19}{section.63}
-\contentsline {chapter}{\numberline {6}Conclusions}{21}{chapter.64}
-\contentsline {section}{\numberline {6.1}Conclusions}{21}{section.65}
+\contentsline {section}{\numberline {1.1}The AEgIS experiment}{1}{section.4}
+\contentsline {section}{\numberline {1.2}User friendly Data analysis: gAn Web}{5}{section.15}
+\contentsline {chapter}{\numberline {2}Data Analysis}{9}{chapter.19}
+\contentsline {section}{\numberline {2.1}What is?}{9}{section.20}
+\contentsline {section}{\numberline {2.2}What a user can obtain from the data?}{11}{section.28}
+\contentsline {section}{\numberline {2.3}Relevance in the modern market}{12}{section.34}
+\contentsline {section}{\numberline {2.4}Data Analysis at CERN}{13}{section.35}
+\contentsline {section}{\numberline {2.5}Root - Physical Data Analysis }{14}{section.36}
+\contentsline {chapter}{\numberline {3}Human-Machine Interface }{17}{chapter.49}
+\contentsline {section}{\numberline {3.1}Human Machine Interaction principles}{17}{section.50}
+\contentsline {section}{\numberline {3.2}Expected users}{17}{section.51}
+\contentsline {section}{\numberline {3.3}Validation of gAn Web against HMI principles}{17}{section.52}
+\contentsline {section}{\numberline {3.4}Modifications to match HMI principles}{17}{section.53}
+\contentsline {chapter}{\numberline {4}Used Technologies}{19}{chapter.54}
+\contentsline {section}{\numberline {4.1}Web interface vs Java Fx vs Xojo}{19}{section.55}
+\contentsline {section}{\numberline {4.2}Used Technologies and Framworks}{19}{section.56}
+\contentsline {subsection}{\numberline {4.2.1}PHP}{19}{subsection.57}
+\contentsline {subsection}{\numberline {4.2.2}Javascript}{19}{subsection.58}
+\contentsline {subsection}{\numberline {4.2.3}Bootstrap}{20}{subsection.59}
+\contentsline {subsection}{\numberline {4.2.4}Sass}{20}{subsection.60}
+\contentsline {chapter}{\numberline {5}The resulting software}{21}{chapter.61}
+\contentsline {section}{\numberline {5.1}A tour of the application}{21}{section.62}
+\contentsline {section}{\numberline {5.2}Use example}{21}{section.63}
+\contentsline {section}{\numberline {5.3}Some Screenshots}{21}{section.64}
+\contentsline {chapter}{\numberline {6}Conclusions}{23}{chapter.65}
+\contentsline {section}{\numberline {6.1}Conclusions}{23}{section.66}

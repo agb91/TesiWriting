@@ -6,9 +6,9 @@
 
 %----------------------------------------------------------------------------------------
 
-First of all is important to understand at least generically what is the AEgIS experiment at the CERN and what are its goals. The acronym AEgIS stands for "Antimatter Experiment: gravity, Interferometry, Spectroscopy", this experiment aims to measure weak equivalence principle for antimatter. In the first part of this chapter are explained some particulars about this experiment, in the second part is introduced gAn Web, the main topic of this document, the application that allows the physicists to do data analysis in the AEgIS experiment environment easily, by a web interface. 
+First of all it is important to understand at least generically what is the AEgIS experiment at the CERN and what are its goals. The acronym AEgIS stands for "Antimatter Experiment: gravity, Interferometry, Spectroscopy", this research aims to measure weak equivalence principle for antimatter. In the first part of this chapter some particulars are explained about this experiment, in the second part is introduced gAn Web, the main topic of this document, the application that allows the physicists to do data analysis in the AEgIS experiment environment easily, through a web interface. 
 
-\section{AEgIS experiment}
+\section{The AEgIS experiment}
 
 
 \begin{figure}[H]
@@ -17,15 +17,27 @@ First of all is important to understand at least generically what is the AEgIS e
 \caption{AEgIS's Logo}
 \end{figure}
 
-The weak equivalence principle, also known as universality of free fall, states that in the same field all bodies fall with the same acceleration, regardless of the mass and the composition. This principle has been thoroughly tested for the matter, but not for the antimatter: the most important goal of AEgIS experiment is to measure the weak equivalence principle for the anti-matter; to test this principle AEgIS measures gravitational interaction between matter (the earth) and anti-matter (anti-hydrogen). In the context of neutral antimatter, the gravitational interaction is of high interest, because it can potentially revealing new forces that violate the weak equivalence principle. Thomas Phillips, from Duke University, says: "If antimatter fell down faster, it would mean the discovery of at least one new force, probably two. If it fell up, it would mean our understanding of general relativity is incorrect". In a practical point of view AEgIS tries to mesure the time of flight and the vertical displacement of anti-hydrogen, by a moire deflectometer: this process is quite complex, and it is easier explain it by the following two images [TODO INSERT-THE-NUMBER-OF-THE-IMAGE].
+The weak equivalence principle, also known as universality of free fall, states that in the same field all bodies fall with the same acceleration, regardless of the mass and the composition. This principle has been thoroughly tested for the matter, but not for the antimatter: the most important goal of AEgIS experiment is to measure the weak equivalence principle for the anti-matter; to test the universality of free fall, AEgIS measures gravitational interaction between matter (the earth) and anti-matter (anti-hydrogen). Anti-hydrogen is the antimatter counterpart of hydrogen, it is the simplest atom built with antimatter (see below for a description of its components). The first anti-hydrogen in an electromagnetic trap has been produced by the ATHENA experiment in 2012 (\url{http://www.nature.com/nature/journal/v419/n6906/full/419439a.html})
+with the contribution of a group of the University of Brescia.
+
+The AEgIS experiment if the result of a wide and international scientific collaboration, as visible in the figure 1.2.
 
 \begin{figure}[H]
-\centering
+\centering 
+\includegraphics[scale=0.5]{aegis_collaboration_institutes.pdf} 
+\caption{Aegis Collaboration institutes}
+\end{figure}
+
+
+In the context of neutral antimatter, the gravitational interaction is of high interest, because it can potentially revealing new forces that violate the weak equivalence principle. Thomas Phillips, from Duke University, says: "If antimatter fell down faster, it would mean the discovery of at least one new force, probably two. If it fell up, it would mean our understanding of general relativity is incorrect". In a practical point of view AEgIS tries to mesure the time of flight and the vertical displacement of anti-hydrogen, by a moire deflectometer: this process is quite complex, and it is easier explain it by the following two figures (1.3 and 1.4).
+
+\begin{figure}[H]
+\centering 
 \includegraphics[scale=0.5]{AEgISScheme.png} 
 \caption{AEgIS's Scheme, taken from "AEgIS experiment at CERN: measuring antihydrogen free-fall in Earth’s gravitational field to test WEP with antimatter" TODO INSERT-bibliographical-reference}
 \end{figure}
 
-In this first image we can see the process that allows to create some anti-hydrogen. To correctly explain this process it is better start with some definitions:
+In this first figure we can see the process that allows to create some anti-hydrogen. To correctly explain this process it is better start with some definitions:
 
 
 \begin{enumerate}
@@ -37,7 +49,7 @@ In this first image we can see the process that allows to create some anti-hydro
 \item Positronium: it is an unstable system consisting of an electron and a positron, bound together into an exotic atom. It is indicated with $ {Ps} $.
 
 % 3
-\item Antiporoton: it is the antiparticle of the proton. Antiprotons are stable, but they are typically short-lived since any collision with a proton will cause both particles to be annihilated in a burst of energy. It is indicated with $ \overline{p} $ (pronunced P-Bar).
+\item Antiporoton: it is the antiparticle of the proton. Antiprotons are stable, but they are typically short-lived since any collision with a proton will cause both particles to be annihilated in a burst of energy. It is indicated with $ \overline{p} $ (pronounced pbar).
 
 % 4
 \item Antihydrogen: it is the antimatter counterpart of hydrogen. Whereas the common hydrogen atom is composed of an electron and proton, the antihydrogen atom is made up of a positron and antiproton. It is indicated with $ \overline{H} $ (pronunced H-Bar).
@@ -49,7 +61,7 @@ In this first image we can see the process that allows to create some anti-hydro
 
 \end{enumerate}
 
-The process shown in the image is the following: a beam of positrons (that comes from a 22Na radioactive source) is accelerated and driven to collide against a "positron-positronium converter" (that is a mesoporous silica film). This process creates positronium, that needs to be excited by lasers, to reach the Rydberg State. The positronium in Rydberg state is indicated by $ {Ps*} $, it has a longer life than the unexcited positronium, and can be driven to fly into an antiproton trap.
+The process shown in the figure is the following: a beam of positrons (that comes from a 22Na radioactive source) is accelerated and driven to collide against a "positron-positronium converter" (that is a mesoporous silica film). This process creates positronium, that needs to be excited by lasers, to reach the Rydberg State. The positronium in Rydberg state is indicated by $ {Ps*} $, it has a longer life than the unexcited positronium, and can be driven to fly into an antiproton trap.
 
 Antiprotons are provided in this way:
 Protons collide with nuclei inside a metal cylinder called "target". About four proton-antiproton pairs are produced in every million collisions, and is possible to separate antiprotons from matter using magnetic fields. The following step is to guide antiprotons toward the AD (Antiproton Decelerator) where they are slowed down (it is easier work with slow antiprotons). To carry out AEgIS experiment antiproton must be trapped and conserved inside an antiproton trap, where magnetic fields force the charged antiparticles to spiral around the magnetic field lines, and electric fields confine them along the magnetic axis.
@@ -64,7 +76,7 @@ In the following step $ {Ps*} $ and $ \overline{p} $ can combine themselves to g
 http://www.nature.com/articles/ncomms5538" TODO INSERT-bibliographical-reference}
 \end{figure}
 
-In the second image is visible how does the Moirè deflectometer work.
+In the second figure is visible how does the Moirè deflectometer work.
 A antihydrogen beam is thrown toward two subsequent gratings that restrict the transmitted particles to well-defined trajectories. The trajectories are inflected by a force (in this case the force related to $ {m*g} $) and follows a parabolic path. At the final part of the deflectometer there is a detector that shows where the antimatter annihilates, so is possible to compare the expected trajectories without forces with the obtained trajectories, and measure the force.
 
 
@@ -94,7 +106,7 @@ GAn Web is based on the pre-existent stand-alone program gAn, that allows users 
 \end{enumerate}
 
 
-The goal of gAn Web is to allow users to do analysis through a more friendly web interface, without install nothing on their machine. In the following image there is a schema that shows how this program is organized.
+The goal of gAn Web is to allow users to do analysis through a more friendly web interface, without install nothing on their machine. In the following figure there is a schema that shows how this program is organized.
 
 \begin{figure}[H]
 \centering
@@ -102,6 +114,6 @@ The goal of gAn Web is to allow users to do analysis through a more friendly web
 \caption{gAn - gAn Web simple scheme}
 \end{figure}
 
-The input of this system is represented by a set of files .root. These are raw, very big, binary files, incomprehensible to humans, generated by the hardware (mostly by detectors) of the AEgIS experiment, they need the Root Data Analysis Framework to be interpreted. These files contain a lot of information, too much and too disorganized to be helpful for the analysis. GAn can read these Root files, make an ordered and organized analysis, extract the most important information, and produce an output that consists of a text with the most important informations, comments, and eventual error logs, a folder with some images, that can summarise effectively the most important points of the analysis, and some other .root files, with useful informations that allow gAn Web to make further processing. GAn Web can close the cycle acting as intermediary between the users and gAn: gAn Web can receive requests from the users, configure gAn to satisfy these requests, and deliver to the users exactly what they need.
+The input of this system is represented by a set of files .root. These are raw, very big, binary files, incomprehensible to humans, generated by the hardware (mostly by detectors) of the AEgIS experiment, they need the Root Data Analysis Framework to be interpreted. These files contain a lot of information, too much and too disorganized to be helpful for the analysis. GAn can read these Root files, make an ordered and organized analysis, extract the most important information, and produce an output that consists of a text with the most important informations, comments, and eventual error logs, a folder with some figures, that can summarise effectively the most important points of the analysis, and some other .root files, with useful informations that allow gAn Web to make further processing. GAn Web can close the cycle acting as intermediary between the users and gAn: gAn Web can receive requests from the users, configure gAn to satisfy these requests, and deliver to the users exactly what they need.
 
 

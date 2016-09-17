@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  11 SEP 2016 10:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  17 SEP 2016 10:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1516,84 +1516,98 @@ File: Chapters/images/aegisLogo.png Graphic file (type png)
 <use Chapters/images/aegisLogo.png>
 Package pdftex.def Info: Chapters/images/aegisLogo.png used on input line 16.
 (pdftex.def)             Requested size: 289.07928pt x 78.54324pt.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 20.
 
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
 1: section
 [1
 
 
  <./Chapters/images/aegisLogo.png>]
-<Chapters/images/AEgISScheme.png, id=186, 532.99126pt x 349.305pt>
+<Chapters/images/aegis_collaboration_institutes.pdf, id=187, 722.7pt x 542.025p
+t>
+File: Chapters/images/aegis_collaboration_institutes.pdf Graphic file (type pdf
+)
+ <use Chapters/images/aegis_collaboration_institutes.pdf>
+Package pdftex.def Info: Chapters/images/aegis_collaboration_institutes.pdf use
+d on input line 27.
+(pdftex.def)             Requested size: 361.3491pt x 271.01183pt.
+
+<Chapters/images/AEgISScheme.png, id=188, 532.99126pt x 349.305pt>
 File: Chapters/images/AEgISScheme.png Graphic file (type png)
 
 <use Chapters/images/AEgISScheme.png>
-Package pdftex.def Info: Chapters/images/AEgISScheme.png used on input line 24.
+Package pdftex.def Info: Chapters/images/AEgISScheme.png used on input line 36.
 
 (pdftex.def)             Requested size: 266.49498pt x 174.65207pt.
-
-Overfull \hbox (3.39772pt too wide) in paragraph at lines 43--44
+ [2 <./Chapters/images/aegis_collaboration_institutes.pdf>]
+Overfull \hbox (3.39772pt too wide) in paragraph at lines 55--56
 \T1/ppl/m/n/12 tron and pro-ton, the an-ti-hy-dro-gen atom is made up of a posi
 tron
  []
 
-[2 <./Chapters/images/AEgISScheme.png>]
-Overfull \hbox (0.39877pt too wide) in paragraph at lines 52--53
+
+Overfull \hbox (0.39877pt too wide) in paragraph at lines 64--65
 \T1/ppl/m/n/12 (that comes from a 22Na ra-dioac-tive source) is ac-cel-er-ated 
 and driven
  []
 
-<Chapters/images/MoireDeflectometer.png, id=198, 461.725pt x 235.88126pt>
+[3 <./Chapters/images/AEgISScheme.png>]
+<Chapters/images/MoireDeflectometer.png, id=347, 461.725pt x 235.88126pt>
 File: Chapters/images/MoireDeflectometer.png Graphic file (type png)
 
 <use Chapters/images/MoireDeflectometer.png>
 Package pdftex.def Info: Chapters/images/MoireDeflectometer.png used on input l
-ine 62.
+ine 74.
 (pdftex.def)             Requested size: 230.86194pt x 117.94034pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
- []\T1/ppl/m/sc/10.95 Figure 1.3: |\T1/ppl/m/n/10.95 Moiré De-flec-tome- 
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+ []\T1/ppl/m/sc/10.95 Figure 1.4: |\T1/ppl/m/n/10.95 Moiré De-flec-tome- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
  \T1/ppl/m/n/10.95 ter's Scheme, taken from "A 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
  \T1/ppl/m/n/10.95 http://www.nature.com/articles/ncomms5538" 
  []
 
-[3 <./Chapters/images/MoireDeflectometer.png>]
-<Chapters/images/SchemeMachineSetUp.png, id=207, 1025.8325pt x 397.485pt>
+<Chapters/images/SchemeMachineSetUp.png, id=348, 1025.8325pt x 397.485pt>
 File: Chapters/images/SchemeMachineSetUp.png Graphic file (type png)
 
 <use Chapters/images/SchemeMachineSetUp.png>
 Package pdftex.def Info: Chapters/images/SchemeMachineSetUp.png used on input l
-ine 73.
+ine 85.
 (pdftex.def)             Requested size: 512.91501pt x 198.742pt.
 
-Overfull \hbox (151.56506pt too wide) in paragraph at lines 73--74
+Overfull \hbox (151.56506pt too wide) in paragraph at lines 85--86
  [][] 
  []
 
-[4 <./Chapters/images/SchemeMachineSetUp.png>]
-<Chapters/images/GeneralGAnSchema.png, id=214, 626.34pt x 262.73157pt>
+[4 <./Chapters/images/MoireDeflectometer.png>] [5 <./Chapters/images/SchemeMach
+ineSetUp.png>]
+<Chapters/images/GeneralGAnSchema.png, id=362, 626.34pt x 262.73157pt>
 File: Chapters/images/GeneralGAnSchema.png Graphic file (type png)
 
 <use Chapters/images/GeneralGAnSchema.png>
 Package pdftex.def Info: Chapters/images/GeneralGAnSchema.png used on input lin
-e 101.
+e 113.
 (pdftex.def)             Requested size: 313.16922pt x 131.36545pt.
- [5 <./Chapters/images/GeneralGAnSchema.png>]) [6]
+ [6 <./Chapters/images/GeneralGAnSchema.png>]) [7]
 \openout2 = `Chapters/Chapter2.aux'.
 
- (./Chapters/Chapter2.tex
+ (./Chapters/Chapter2.tex [8
+
+
+
+]
 Chapter 2.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 15.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-<Chapters/images/DataAnalysisProcess.png, id=228, 526.96875pt x 395.22656pt>
+<Chapters/images/DataAnalysisProcess.png, id=381, 526.96875pt x 395.22656pt>
 File: Chapters/images/DataAnalysisProcess.png Graphic file (type png)
 
 <use Chapters/images/DataAnalysisProcess.png>
@@ -1602,11 +1616,7 @@ line 22.
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
 
 1: section
-[7
-
-
-
-]
+[9]
 Overfull \hbox (1.75409pt too wide) in paragraph at lines 37--38
 []\T1/ppl/m/n/12 Data clean-ing: Once pre-processed and or-ga-nized, the data m
 ay
@@ -1618,7 +1628,7 @@ Overfull \hbox (0.97293pt too wide) in paragraph at lines 37--38
 a clean-
  []
 
-[8 <./Chapters/images/DataAnalysisProcess.png>]
+[10 <./Chapters/images/DataAnalysisProcess.png>]
 Overfull \hbox (6.63757pt too wide) in paragraph at lines 63--64
 \T1/ppl/m/n/12 tem can show the max-i-mums o min-i-mums val-ues in the datasets
 ,
@@ -1630,7 +1640,7 @@ Overfull \hbox (4.29657pt too wide) in paragraph at lines 69--70
 ble to group
  []
 
-[9]
+[11]
 Overfull \hbox (8.8499pt too wide) in paragraph at lines 80--82
 [][]$\T1/pcr/m/n/12 https : / / en . wikipedia . org / wiki / Big _ data # Appl
 ications$[][]\T1/ppl/m/n/12 ;
@@ -1648,7 +1658,7 @@ Overfull \hbox (165.04579pt too wide) in paragraph at lines 89--97
 ]universe-[]and-[]everything$[][]\T1/ppl/m/n/12 )
  []
 
-[10]
+[12]
 Overfull \hbox (16.57289pt too wide) in paragraph at lines 98--101
 []\T1/ppl/m/n/12 COMMENT: TODOTODOTODO AS-COLTATI QUESTO VIDEO E VEDI
  []
@@ -1665,7 +1675,7 @@ Overfull \hbox (25.77757pt too wide) in paragraph at lines 98--101
 erations 
  []
 
-[11] [12]
+[13] [14]
 Overfull \hbox (72.76924pt too wide) in paragraph at lines 126--130
 \T1/ppl/m/n/12 si-ble here [][]$\T1/pcr/m/n/12 https : / / root . cern . ch / r
 oot / htmldoc / guides / users-[]guide /
@@ -1677,28 +1687,28 @@ Overfull \hbox (35.14989pt too wide) in paragraph at lines 126--130
 uide .
  []
 
-[13] <Chapters/images/RootStructure.png, id=290, 524.96124pt x 383.4325pt>
+[15] <Chapters/images/RootStructure.png, id=441, 524.96124pt x 383.4325pt>
 File: Chapters/images/RootStructure.png Graphic file (type png)
 
 <use Chapters/images/RootStructure.png>
 Package pdftex.def Info: Chapters/images/RootStructure.png used on input line 1
 66.
 (pdftex.def)             Requested size: 262.47998pt x 191.71577pt.
-) [14 <./Chapters/images/RootStructure.png>]
+) [16 <./Chapters/images/RootStructure.png>]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
 Chapter 3.
 )
 1: section
-[15
+[17
 
 
 
 ]
 \openout2 = `Chapters/Chapter4.aux'.
 
- (./Chapters/Chapter4.tex [16
+ (./Chapters/Chapter4.tex [18
 
 
 
@@ -1707,21 +1717,21 @@ Chapter 4.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
 1: section
-[17]) [18]
+[19]) [20]
 \openout2 = `Chapters/Chapter5.aux'.
 
  (./Chapters/Chapter5.tex
 Chapter 5.
 )
 1: section
-[19
+[21
 
 
 
 ]
 \openout2 = `Chapters/Chapter6.aux'.
 
- (./Chapters/Chapter6.tex [20
+ (./Chapters/Chapter6.tex [22
 
 
 
@@ -1729,7 +1739,7 @@ Chapter 5.
 Chapter 6.
 )
 1: section
-[21]
+[23]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
@@ -1738,16 +1748,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D40B1DFBFADDA6E1B993248C0CE4CFE6;4492.
+(rerunfilecheck)             Checksum: C3DAA552BAED1D991B4B091806AF1C54;4515.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28838 strings out of 493304
- 589307 string characters out of 6139871
+ 28846 strings out of 493304
+ 589591 string characters out of 6139871
  708333 words of memory out of 5000000
- 31821 multiletter control sequences out of 15000+600000
+ 31825 multiletter control sequences out of 15000+600000
  34757 words of font info for 61 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  54i,20n,77p,10402b,1784s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1758,10 +1768,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (27 pages, 614821 bytes).
+Output written on main.pdf (29 pages, 1033510 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
- 93 named destinations out of 1000 (max. 500000)
- 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 532 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
