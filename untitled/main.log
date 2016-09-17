@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  17 SEP 2016 10:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  17 SEP 2016 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1548,14 +1548,8 @@ Overfull \hbox (3.39772pt too wide) in paragraph at lines 55--56
 tron
  []
 
-
-Overfull \hbox (0.39877pt too wide) in paragraph at lines 64--65
-\T1/ppl/m/n/12 (that comes from a 22Na ra-dioac-tive source) is ac-cel-er-ated 
-and driven
- []
-
 [3 <./Chapters/images/AEgISScheme.png>]
-<Chapters/images/MoireDeflectometer.png, id=347, 461.725pt x 235.88126pt>
+<Chapters/images/MoireDeflectometer.png, id=348, 461.725pt x 235.88126pt>
 File: Chapters/images/MoireDeflectometer.png Graphic file (type png)
 
 <use Chapters/images/MoireDeflectometer.png>
@@ -1577,7 +1571,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--76
  \T1/ppl/m/n/10.95 http://www.nature.com/articles/ncomms5538" 
  []
 
-<Chapters/images/SchemeMachineSetUp.png, id=348, 1025.8325pt x 397.485pt>
+<Chapters/images/SchemeMachineSetUp.png, id=349, 1025.8325pt x 397.485pt>
 File: Chapters/images/SchemeMachineSetUp.png Graphic file (type png)
 
 <use Chapters/images/SchemeMachineSetUp.png>
@@ -1591,7 +1585,7 @@ Overfull \hbox (151.56506pt too wide) in paragraph at lines 85--86
 
 [4 <./Chapters/images/MoireDeflectometer.png>] [5 <./Chapters/images/SchemeMach
 ineSetUp.png>]
-<Chapters/images/GeneralGAnSchema.png, id=362, 626.34pt x 262.73157pt>
+<Chapters/images/GeneralGAnSchema.png, id=363, 626.34pt x 262.73157pt>
 File: Chapters/images/GeneralGAnSchema.png Graphic file (type png)
 
 <use Chapters/images/GeneralGAnSchema.png>
@@ -1607,7 +1601,7 @@ e 113.
 
 ]
 Chapter 2.
-<Chapters/images/DataAnalysisProcess.png, id=381, 526.96875pt x 395.22656pt>
+<Chapters/images/DataAnalysisProcess.png, id=382, 526.96875pt x 395.22656pt>
 File: Chapters/images/DataAnalysisProcess.png Graphic file (type png)
 
 <use Chapters/images/DataAnalysisProcess.png>
@@ -1687,7 +1681,7 @@ Overfull \hbox (35.14989pt too wide) in paragraph at lines 126--130
 uide .
  []
 
-[15] <Chapters/images/RootStructure.png, id=441, 524.96124pt x 383.4325pt>
+[15] <Chapters/images/RootStructure.png, id=442, 524.96124pt x 383.4325pt>
 File: Chapters/images/RootStructure.png Graphic file (type png)
 
 <use Chapters/images/RootStructure.png>
@@ -1756,22 +1750,23 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  28846 strings out of 493304
  589591 string characters out of 6139871
- 708333 words of memory out of 5000000
+ 709333 words of memory out of 5000000
  31825 multiletter control sequences out of 15000+600000
  34757 words of font info for 61 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  54i,20n,77p,10402b,1784s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
-/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (29 pages, 1033510 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
+tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (29 pages, 1040224 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 393 compressed objects within 4 object streams
+ 536 PDF objects out of 1000 (max. 8388607)
+ 396 compressed objects within 4 object streams
  96 named destinations out of 1000 (max. 500000)
  270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
