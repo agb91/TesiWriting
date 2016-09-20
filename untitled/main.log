@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  17 SEP 2016 11:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  20 SEP 2016 17:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -616,7 +616,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box53
 )
-Package scrhack Info: loading float hack on input line 17.
+Package scrhack Info: loading float hack on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2013/12/19 v3.12 KOMA-Script package (hacking package float)
@@ -1154,7 +1154,7 @@ LaTeX Info: Redefining \pageref on input line 6369.
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 22.
+(scrhack)             need that hack, on input line 21.
 
 
 Package hyperref Message: Driver (autodetected): hpdftex.
@@ -1171,17 +1171,17 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip71
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 22.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 22.
-Package hyperref Info: Option `colorlinks' set `true' on input line 22.
-Package hyperref Info: Option `unicode' set `true' on input line 22.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 21.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 21.
+Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+Package hyperref Info: Option `unicode' set `true' on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 22.
+Package hyperref Info: Option `breaklinks' set `true' on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
@@ -1217,23 +1217,23 @@ Package csquotes Info: ... found 'babel' package.
 (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -1389,13 +1389,13 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 70.
-Package scrbase Info: activating english \authorshipname on input line 70.
-Package scrbase Info: activating english \byname on input line 70.
-Package scrbase Info: activating english \abbrevname on input line 70.
-Package scrbase Info: activating english \constantsname on input line 70.
-Package scrbase Info: activating english \symbolsname on input line 70.
-Package scrbase Info: activating english \acknowledgementname on input line 70.
+(scrlayer)             \begin{document} on input line 69.
+Package scrbase Info: activating english \authorshipname on input line 69.
+Package scrbase Info: activating english \byname on input line 69.
+Package scrbase Info: activating english \abbrevname on input line 69.
+Package scrbase Info: activating english \constantsname on input line 69.
+Package scrbase Info: activating english \symbolsname on input line 69.
+Package scrbase Info: activating english \acknowledgementname on input line 69.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1409,8 +1409,8 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 70.
-Package biblatex Info: Reference segment=0 on input line 70.
+Package biblatex Info: Reference section=0 on input line 69.
+Package biblatex Info: Reference segment=0 on input line 69.
 \AtBeginShipoutBox=\box56
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
@@ -1421,7 +1421,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring ON on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1431,9 +1431,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count363
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1441,34 +1441,34 @@ LaTeX Info: Redefining \nameref on input line 70.
 
 \c__siunitx_mathsf_int=\count364
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 70.
+(Font)              <12> on input line 69.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 70.
+(Font)              <8> on input line 69.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 70.
+(Font)              <6> on input line 69.
 \c__siunitx_mathtt_int=\count365
 
 1: section
 
-Package hyperref Warning: Suppressing empty link on input line 84.
+Package hyperref Warning: Suppressing empty link on input line 83.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 86.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 85.
 
-Package hyperref Warning: Suppressing link with empty target on input line 93.
+Package hyperref Warning: Suppressing link with empty target on input line 92.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 103.
+Package hyperref Warning: Suppressing link with empty target on input line 102.
 
 
 <Chapters/images/Logo.png, id=116, 120.45pt x 116.8365pt>
 File: Chapters/images/Logo.png Graphic file (type png)
 
 <use Chapters/images/Logo.png>
-Package pdftex.def Info: Chapters/images/Logo.png used on input line 121.
+Package pdftex.def Info: Chapters/images/Logo.png used on input line 120.
 (pdftex.def)             Requested size: 120.44969pt x 116.83621pt.
 
-Overfull \hbox (12.04361pt too wide) in paragraph at lines 121--122
+Overfull \hbox (12.04361pt too wide) in paragraph at lines 120--121
  [][] 
  []
 
@@ -1484,13 +1484,13 @@ Overfull \hbox (12.04361pt too wide) in paragraph at lines 121--122
  Abstract
 --------------------
 
-Package hyperref Warning: Suppressing empty link on input line 134.
+Package hyperref Warning: Suppressing empty link on input line 133.
 
 
-Package hyperref Warning: Suppressing empty link on input line 134.
+Package hyperref Warning: Suppressing empty link on input line 133.
 
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 134.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 133.
 1: section
 [3] [4
 
@@ -1554,7 +1554,7 @@ Overfull \hbox (12.56645pt too wide) in paragraph at lines 67--68
 am of positrons
  []
 
-<Chapters/images/MoireDeflectometer.png, id=347, 461.725pt x 235.88126pt>
+<Chapters/images/MoireDeflectometer.png, id=348, 461.725pt x 235.88126pt>
 File: Chapters/images/MoireDeflectometer.png Graphic file (type png)
 
 <use Chapters/images/MoireDeflectometer.png>
@@ -1604,14 +1604,9 @@ File: Chapters/images/DAQSchema.png Graphic file (type png)
 
 <use Chapters/images/DAQSchema.png>
 Package pdftex.def Info: Chapters/images/DAQSchema.png used on input line 123.
-(pdftex.def)             Requested size: 496.85503pt x 308.1505pt.
-
-Overfull \hbox (135.50508pt too wide) in paragraph at lines 123--124
- [][] 
- []
-
-[6 <./Chapters/images/GeneralGAnSchema.png>]) [7 <./Chapters/images/DAQSchema.p
-ng>]
+(pdftex.def)             Requested size: 347.80458pt x 215.7091pt.
+ [6 <./Chapters/images/GeneralGAnSchema.png>]) [7 <./Chapters/images/DAQSchema.
+png>]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex [8
@@ -1753,13 +1748,13 @@ Chapter 6.
 )
 1: section
 [23]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
 (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
 (./Chapters/Chapter6.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5251D9F1673489815B91D7E2A8733A7E;4515.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1769,7 +1764,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  28852 strings out of 493304
  589756 string characters out of 6139871
- 709333 words of memory out of 5000000
+ 708333 words of memory out of 5000000
  31829 multiletter control sequences out of 15000+600000
  34757 words of font info for 61 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1782,7 +1777,7 @@ ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
 tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (29 pages, 1142214 bytes).
+Output written on main.pdf (29 pages, 1142648 bytes).
 PDF statistics:
  541 PDF objects out of 1000 (max. 8388607)
  400 compressed objects within 4 object streams
