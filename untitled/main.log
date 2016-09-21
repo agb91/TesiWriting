@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  20 SEP 2016 17:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  21 SEP 2016 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1543,9 +1543,9 @@ Package pdftex.def Info: Chapters/images/AEgISScheme.png used on input line 36.
 
 (pdftex.def)             Requested size: 266.49498pt x 174.65207pt.
  [2 <./Chapters/images/aegis_collaboration_institutes.pdf>]
-Overfull \hbox (3.39772pt too wide) in paragraph at lines 55--56
-\T1/ppl/m/n/12 tron and pro-ton, the an-ti-hy-dro-gen atom is made up of a posi
-tron
+Overfull \hbox (11.67775pt too wide) in paragraph at lines 55--56
+\T1/ppl/m/n/12 tron and a pro-ton, the an-ti-hy-dro-gen atom is made up of a po
+sitron
  []
 
 [3 <./Chapters/images/AEgISScheme.png>]
@@ -1603,7 +1603,7 @@ e 114.
 File: Chapters/images/DAQSchema.png Graphic file (type png)
 
 <use Chapters/images/DAQSchema.png>
-Package pdftex.def Info: Chapters/images/DAQSchema.png used on input line 123.
+Package pdftex.def Info: Chapters/images/DAQSchema.png used on input line 124.
 (pdftex.def)             Requested size: 347.80458pt x 215.7091pt.
  [6 <./Chapters/images/GeneralGAnSchema.png>]) [7 <./Chapters/images/DAQSchema.
 png>]
@@ -1620,77 +1620,77 @@ File: Chapters/images/DataAnalysisProcess.png Graphic file (type png)
 
 <use Chapters/images/DataAnalysisProcess.png>
 Package pdftex.def Info: Chapters/images/DataAnalysisProcess.png used on input 
-line 22.
+line 23.
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
 
 1: section
 [9]
-Overfull \hbox (1.75409pt too wide) in paragraph at lines 37--38
+Overfull \hbox (1.75409pt too wide) in paragraph at lines 38--39
 []\T1/ppl/m/n/12 Data clean-ing: Once pre-processed and or-ga-nized, the data m
 ay
  []
 
 
-Overfull \hbox (0.97293pt too wide) in paragraph at lines 37--38
+Overfull \hbox (0.97293pt too wide) in paragraph at lines 38--39
 \T1/ppl/m/n/12 be in-com-plete, con-tain du-pli-cates, or con-tain er-rors. Dat
 a clean-
  []
 
 [10 <./Chapters/images/DataAnalysisProcess.png>]
-Overfull \hbox (6.63757pt too wide) in paragraph at lines 63--64
+Overfull \hbox (6.63757pt too wide) in paragraph at lines 64--65
 \T1/ppl/m/n/12 tem can show the max-i-mums o min-i-mums val-ues in the datasets
 ,
  []
 
 
-Overfull \hbox (4.29657pt too wide) in paragraph at lines 69--70
+Overfull \hbox (4.29657pt too wide) in paragraph at lines 70--71
 []\T1/ppl/m/n/12 Clustering: the anal-y-sis is ex-tremely eas-ier if is pos-si-
 ble to group
  []
 
 [11]
-Overfull \hbox (8.8499pt too wide) in paragraph at lines 80--82
+Overfull \hbox (8.8499pt too wide) in paragraph at lines 81--83
 [][]$\T1/pcr/m/n/12 https : / / en . wikipedia . org / wiki / Big _ data # Appl
 ications$[][]\T1/ppl/m/n/12 ;
  []
 
 
-Overfull \hbox (69.70049pt too wide) in paragraph at lines 80--82
+Overfull \hbox (69.70049pt too wide) in paragraph at lines 81--83
 \T1/ppl/m/n/12 mar-t-in-hilbert.net [][]$\T1/pcr/m/n/12 http : / / www . martin
 hilbert . net / WorldInfoCapacity .
  []
 
 
-Overfull \hbox (165.04579pt too wide) in paragraph at lines 89--97
+Overfull \hbox (165.04579pt too wide) in paragraph at lines 90--98
 \T1/pcr/m/n/12 cloudwatchhub . eu / what-[]big-[]data-[]really-[]looks-[]cern-[
 ]universe-[]and-[]everything$[][]\T1/ppl/m/n/12 )
  []
 
 [12]
-Overfull \hbox (16.57289pt too wide) in paragraph at lines 98--101
+Overfull \hbox (16.57289pt too wide) in paragraph at lines 99--102
 []\T1/ppl/m/n/12 COMMENT: TODOTODOTODO AS-COLTATI QUESTO VIDEO E VEDI
  []
 
 
-Overfull \hbox (39.2149pt too wide) in paragraph at lines 98--101
+Overfull \hbox (39.2149pt too wide) in paragraph at lines 99--102
 \T1/ppl/m/n/12 SE CI SONO BUONI SPUNTI https://ieondemand.com/presentations/big
 -
  []
 
 
-Overfull \hbox (25.77757pt too wide) in paragraph at lines 98--101
+Overfull \hbox (25.77757pt too wide) in paragraph at lines 99--102
 \T1/ppl/m/n/12 data-analytics-for-improving-the-cern-s-large-hadron-collider-op
 erations 
  []
 
 [13] [14]
-Overfull \hbox (72.76924pt too wide) in paragraph at lines 126--130
+Overfull \hbox (72.76924pt too wide) in paragraph at lines 127--131
 \T1/ppl/m/n/12 si-ble here [][]$\T1/pcr/m/n/12 https : / / root . cern . ch / r
 oot / htmldoc / guides / users-[]guide /
  []
 
 
-Overfull \hbox (35.14989pt too wide) in paragraph at lines 126--130
+Overfull \hbox (35.14989pt too wide) in paragraph at lines 127--131
 \T1/pcr/m/n/12 cern . ch / root / htmldoc / guides / users-[]guide / ROOTUsersG
 uide .
  []
@@ -1700,7 +1700,7 @@ File: Chapters/images/RootStructure.png Graphic file (type png)
 
 <use Chapters/images/RootStructure.png>
 Package pdftex.def Info: Chapters/images/RootStructure.png used on input line 1
-66.
+67.
 (pdftex.def)             Requested size: 262.47998pt x 191.71577pt.
 ) [16 <./Chapters/images/RootStructure.png>]
 \openout2 = `Chapters/Chapter3.aux'.
@@ -1777,7 +1777,7 @@ ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
 tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (29 pages, 1142648 bytes).
+Output written on main.pdf (29 pages, 1142675 bytes).
 PDF statistics:
  541 PDF objects out of 1000 (max. 8388607)
  400 compressed objects within 4 object streams
