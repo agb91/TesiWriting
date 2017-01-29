@@ -1,15 +1,13 @@
 % Chapter 2
 
-\chapter{Data Analysis} % Main chapter title
+\chapter{Pre-existing application: gAn} % Main chapter title
 
 \label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 %----------------------------------------------------------------------------------------
 
-This chapter aims to explain first of all what is the "big data analysis", and why it is important in the modern world. Subsequently it will be exposed the application of bid data analysis in AEgIS experiment, with reference to the used technologies and the choices made.   
+\section{What is data analysis?}
 
-
-\section{What is?}
 According to the John Tukey's definition data analysis is: 
 
 "Procedures for analyzing data, techniques for interpreting the results of such procedures, ways of planning the gathering of data to make its analysis easier, more precise or more accurate, and all the machinery and results of (mathematical) statistics which apply to analyzing data" 
@@ -48,45 +46,6 @@ Data analysis can be divided in some steps:
 
 \end{enumerate}
 
-\section{What a user can obtain from the data?}
-
-An user can benefit from the analysis of big data in various ways, in particular a working data analysis software can perform the subsequent tasks:
-
-\begin{enumerate}
-
-% 1
-\item Retrieve Value: the system receives in input a group of cases (for instance case-A, case-B etcetera) and a set of variables (for instance variable-A, variable-B etcetera), and produces in output the values that the variables of the set take in the inserted cases (in case-A, case-B, the user is interest in variable-A and variable-B, and the system gives in output variable-A = x and variable-B = y).
-
-% 2 
-\item Filter: the system can show only the subset of the data that respects some conditions.
-
-%3
-\item Find extremums, ranges and identify data distribution: the system can show the maximums o minimums values in the datasets, and in how large is the range in that the values are distributed. It is also possible to approximate with mathematical functions the statistical distributions of subsets of data. 
-
-%4 
-\item Find Anomalies: the system checks the dataset to find if there are some exceptional values, that are source of interest and needs an explanation (errors in the data? unknown phenomena?).
-
-%5
-\item Clustering: the analysis is strongly easier if it is possible to group different subset of data with similar characteristics. For example: in a market research, obtaining a correct clusterization of the customer allows to understand the different categories of customers, which have different goals and needs.      
-
-\end{enumerate}
-
-\section{Relevance in the modern market}
-
-The big data analysis in recent years has taken an extraordinary importance, as stated by The Economist, who says:
-"Big data has increased the demand of information management specialists in that Software AG, Oracle Corporation, IBM, Microsoft, SAP, EMC, HP and Dell have spent more than 15 billion dollars on software firms specializing in data management and analytics. In 2010, this industry was worth more than 100 billion dollars and was growing at almost 10 percent a year: about twice as fast as the software business as a whole."
-(taken from \url{http://www.economist.com/node/15557443}).
-This fact shows that companies (and governments) have realized the importance of the exploiting of the huge amount of data that the modern world produce. The hugeness of this amount of raw data is visible in the following data:
-
-"There are 4.6 billion mobile-phone worldwide, and 1-2 billion people accessing the internet. In recent years, more than 1 billion people in the world entered the middle class, which means more people become more literate, which in turn leads to information growth. The capacity to exchange information has grown rapidly in recent years, to 667 exabytes annually in 2014." 
-(data taken from: Wikipedia \url{https://en.wikipedia.org/wiki/Big_data#Applications}; The Economist \url{http://www.economist.com/node/15557443}; martinhilbert.net  \url{http://www.martinhilbert.net/WorldInfoCapacity.html/})
-
-An advanced big data analysis offers good opportunities to improve decision-making abilities, whether in a public or private institution, in numerous fields such as health care, employment, economic productivity, resource management etcetera. 
-
-Despite this kind of analysis provides benefits in a wide set of fields, in this document is specially important show the opportunities that data analysis can provide in a scientific environment, in particular in the AEgIS experiment. This is the main topic of the following paragraph.
-
-\section{Data Analysis at CERN}
-
 Some experiments at the CERN represents about 150 million sensors delivering data 40 million times per second. There are nearly 600 million collisions per second. The point is that not all these collisions are scientifically interesting. In the huge amount of collisions discussed previously there are only around 100 collisions of interest per second.
 This leads a big problem: it is difficult to find a rational way to work with flows of data having this dimension, and it is absolutely necessary to take only the part of the data actually required for the scientific analysis, but it is also important don't waste nothing interesting in this dataset.
 
@@ -100,7 +59,8 @@ This kind of problems are not just CERN's problems, they are common in major res
 Big data analysis can provide an answer to this problems: with an intelligent and parameterizable process of filtering it is possible extract only the subset of scientifically interesting information, and delivering them to the users in an organized and structured way, by tables, statistical values, graphical images. 
 In this way is possible improve the productivity of the physicists, exempting them from unnecessary commitments and dynamically meeting their needs. 
 
-COMMENT: %TODO %TODO %TODO %TODO %TODO %TODO %TODO TODOTODOTODO ASCOLTATI QUESTO VIDEO E VEDI SE CI SONO BUONI SPUNTI https://ieondemand.com/presentations/big-data-analytics-for-improving-the-cern-s-large-hadron-collider-operations
+\section{What is gAn?} 
+
 
 \section{Root - Physical Data Analysis }
 

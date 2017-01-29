@@ -1,0 +1,151 @@
+% Chapter 8
+
+\chapter{Users and Tests with them} % Main chapter title
+
+\label{Chapter6} % For referencing the chapter elsewhere, use \ref{Chapter6} 
+
+In this chapter first of all is exposed how the users are defined and what are their characteristics. Also, here are described the tests conducted with them and in which ways they are useful to improve the gAn Web's features.   
+
+\section{User's Profile: why?}
+
+Generically a correct understanding of the user is very important to adapt the features of an application to him; In this case is also more important, because the kind of users to that this application is intended to is quite particular.
+
+
+\section{User's Profile: classification}
+
+\subsection{Generic Characteristics}
+In this part of the document we can try to classify the user:
+The estimated number of users of the application is around at most a few tens.
+All the users of gAn Web work as "Shifters" in the AEgIS experiment: so they work with data acquisition and (simple) data analysis.
+A good advantage is that the users are already strictly defined, we have detailed information about them, and they are easily accessible for tests and co-developing.
+Usually the typical user is quite young: around 30-35 years. This is because the most of the time personnel with a major seniority doesn't work with tasks related to data acquisition. 
+Half of them are male, and half female: in this particular case we think that it is not relevant in their interaction with gAn Web.
+A considerable amount of the users use eyeglasses, and probably some of them work too much time in front of a screen, but the kind of interaction designed with gAn is usually fast and isn't a big commitment for human eyes. We tried to avoid too many white backgrounds and the use of dazzling colors, but for the images' background they are considered acceptable to improve contrast and let the image to be more clear.  
+
+\subsection{Education Background}
+The cultural and educational level of the users is very high: almost all of them have a Phd, and they do a complex scientific job. They often have in mind a really structural model of the processes that go on in all the AEgIS experiment applications.
+
+All of them have an extraordinary deep understanding of the particles physics: in particular they understand the technical terminology, the jargon in which the logbooks are written (because all the personnel, in shifts, write the logbooks) and the names of the sensors (this is quite important, each sensor has a proper name, they are very numerous, and the fact that the users can identify them easily is a big advantage). 
+
+Other important information: almost every time a user uses gAn he is quite sure about what he is looking for. Situation in which the user searches a run number and reads generically the output of an analysis (or thinks about which is the correct analysis to use) is not common: in the most of the use cases the user is pretty sure about what is the information to search and what is the correct analysis. 
+
+A different approach exists for the run number, in this case we must identify two different situations:
+
+\begin{enumerate}
+
+\item The most of the times (around 2/3) the user works with the last run, or the one immediately before. In this case is quite simple identify the correct run (the last is always shown on the application homepage).
+\item Sometimes the user searches information regarding a past run, that he remembers to be interesting for some reason. In this case often the user remembers the date (the precise day, or the week) of the interesting run, but not the run number exactly. To manage this situation in the homepage there is a "view" of the RunLog, on that there are information about all the runs, organized by date and run numbers (the implementation of this view is a consequence of the tests with the users). 
+
+\end{enumerate}
+
+Most of the users are used to use the Linux's terminal, so they are used to quite complex but efficient interaction. A good advantage is that the users are very used to approach new applications, even complex ones, and they learn very rapidly: the advantage is that they are used to giving developers hints about what they expect from a new application, because they do it quite often. GAn Web offers them a way to interact efficiently like in the terminal but easier (hopefully). They also are used to have a feedback for every action they do (using the Linux's terminal you can always know if the program is running, if it is crashed, and what are its outputs).
+
+One of the tested users is (also) a web developer, so his hints are particularly interesting because is quite expert in the creation of interfaces.
+ 
+All the users have an excellent proficiency in English (they are used to speaking English in their work environment). 
+
+\subsection{Models in the user's mind}
+An interesting additional observation about the users is that more than half of them (mainly the most expert) have in mind a structural model about how do the processes work. In fact in their mansion there are tasks related to the design, the installations, the linking system of the sensors on which gAn is based. So more than half of the users use gAn Web understanding directly the processes that take place behind them. Adding to this, a part (in this case less than half, maybe one third) of the users have a good understanding of software programming so can also really understand "how" the application is working.
+
+\subsection{User's psychological characteristics }
+The style of reasoning is quite deductive: the users seem to act in a very scientific way: they observe the situation, they make hypothesis and they experiment them to check if they are true. From the test highlights that the users think mostly in an analytic way, using only seldom their intuition. In gAn Web we can observe that when they are for the first time in front of the application they observe the screen, reading all the tooltips, they understand (of better, they make hypothesis about) what each function does, and they test the functionalities making comments regarding if the application's behavior is the expected one. According the users' propensity the designer of gAn Web tries to let the application act like the user expects.   
+
+Generically the users work in a quite enthusiast and positive way: the analysis done previous with the Linux terminal was quite time-consuming, so gAn Web is considered as an improvement (or at least, a step in the right direction) and the users seems to be quite happy to use it. All the people showed in the tests the maximum possible commitment and professionalism (in this way the opportunity to test the application directly with real users was very helpful).
+
+It is possible to analyse the arousal of the users from the point of view of the Yerkes–Dodson's Law: the situation seems to be favorable: nobody of the user 
+has problems with low arousal or too much performance anxiety (probably no one seemed himself under the judgment), so the personal activation of the users seems to be optimal.
+
+\subsection{User's level of expertise }
+At this stage all the users are beginners, but generically the application is simple and, except that the first moment for understanding the basic functionalities they can reach a good level of expertise. A big advantage is that almost all the users understand what the application does, which are the mathematical principles on which gAn is based, and how this application is integrated in their tasks.   
+All the users are absolutely expert pc-users.
+The two pilot-users play the role of super-users, able to be a bridge between the design of the application's interface and the needs of the users. They are also the developer of the pre-existent application, on which the interface is based. So they can be an extremely useful resource.  
+
+
+\subsection{Environment}
+The environment is a normal office. Often the users work in night shifts, and the only possible negative effect of the environment is the tiredness of the users, able to damage their arousal. 
+
+\section{Relation developer-user and progressive sematization}
+The developer of the application is a student in Software Engineering, and his domain is quite different from the users one. But in the time in which users and developer worked together the mutual adjustment between the two parts and the common approach to solve problems, united with the opportunity of use the pilot users (also supervisors) as bridges leads to a progressive semantization, so we can expect (hopefully) that under this point of view the developer has a deep understanding (or at least the deepest possible) of the real needs of the users.
+
+\section{How the tests take place} 
+
+This test is divided in three parts: 
+\begin{enumerate}
+\item
+The first part is a direct observation of the user when he uses the application. It takes place during the shifts: both the users and the designer partecipated in this task divided in groups of 3-4-5 people, so this is a perfect opportunity, also because actually it is not a simulated test, is a real test on the field in a real work situation. This test is an observation of the behavior of the user with the application: the developer tells to the user only a little information: the fact that this application can transform a run number and a kind of analysis in an output. 
+The first idea followed a pattern in which the developer asks to the user to use this application during the shift, in the situations that correspond to the expected scenario of gAn Web: in this situation the user talks about what he is doing, and makes comments, and the developer observes and takes notes about what happens (and this pattern was effectively applied with 4 users), but to test the biggest possible numbers of users and recover more information, in other cases the developer asks to the user to try to use the application in a simulated situation (not a really work situation) and to reason about what he is doing. The reason of this choice is that wait the moment in which the application can be used during the shifts to test isn't efficient (but still is a good resource) and "create" artificially the situation is a good idea to save time.
+
+\item
+The second consists in the proposition of a standard survey about the application to the user, to be compiled. This survey is the standard SUS survey. This choice is related to the fact that using a standard survey we can have an high quality already tested survey with precise and organized closed questions, able to give us an idea about the overall result of the interface. 
+
+\item 
+The third part consists in a brief discussion with the user (some chosen users, selected by their willingness to dedicate a moment to discuss about the application): the designer asks him in which way this application can be more useful and if there are in his opinion some good ideas to implement able to improve the helpfulness of the application. The discussion is quite free, but a fix topic is about what are the sources of the problems that the users had during the use of the application in the first part of the test. In fact the big limit of the observation of the users is that it is easy to find if there are problems but more difficult to understand why the problem there are and how they can be solved. So a direct confrontation of the user can overcome this limit. 
+The developer tried to ask to the users some of the 9 questions proposed by Nielsen, but not in an automatic way, searching a more flexible approach and trying to follow the user and let him talk freely.
+Another fix topic of the discussion is a generic request about tips and ideas that the users can have to improve the application (one of the interviewed user is also a web developer, who creates some applications and related interfaces used in the experiment, so in that case this second question occupied the biggest part of the interview, to exploit at maximum his experience in this field). 
+
+\end{enumerate} 
+
+\subsection{Preliminary observations}
+It is interesting to observe that it is very important to encourage the users to criticise the application: if fact the developer and the users work together for some weeks, and it is possible that the users are too gentle in the judging of the application, because they don't want to be offensive. Instead, is necessary say them that all their critics are absolutely useful to improve the result, because the developer cannot understand alone what can be modified. 
+ 
+
+\subsection{What the test is evaluating?}
+Often some tests measure the time that the user needs to execute tasks to understand how difficult the interaction can be; but in this case the developer takes the decision of not to evaluate the time: all the processes in the AEgIS experiment are very time consuming, and this is not a problem, because the goal is not the efficiency but the effectiveness. It is not important if the user makes an analysis in a few seconds, it is important that he can use all the functionalities that he needs correctly to achieve his goal. So the test are evaluated in these dimensions: how many functionalities the users use? If they search a particular functionality the search from the beginning in the expected place? Do they find the correct command or they ask to the developer for a hint? Does the functionality that the user search exists? These are the interesting answer that we need from the tests.  
+
+\subsection{Execution and Results}
+The first part of the test, the one related to the observation of the users working with the application and talking about what they do, gave a big amount of useful information and lets the developer observe a good amount of problems and errors. 
+The biggest part of the problems are founded by observing the behaviors of the user and asking directly to him if there is a problem: for example, if the user searches for a while how he can enable a sensor and has some difficult to understand how to do it, the developer can listen his comments, understanding his reasons about where he thinks this option can be, shows him where actually the sensor is, and understand that probably the location of the sensor option is not clear. 
+Here is a list of problems found in this phase:
+
+\begin{enumerate}
+
+\item
+Almost all the users tried very often to change a particular parameter by the configuration page, named "scint rebin", related to the thickness of the points that are fitted to create a function. Moving this parameter the user can modify a particular type of analysis named "TMeas", according to different exigences. Before the test was not so evident that this parameter was so important, and actually in the intermediate version it is not in the list of parameters that the web interface can modify. So in the tests the most of the user manually changed it by a text editor in the configuration file on the server: surely it is unacceptable and this problem must be solved to allow the application work in this particular situation.
+
+\item 
+The main options in the configuration page are related to the activation or de-activation of sensors, but the users actually don't use them very often, because  the default values are acceptably correct. So a good idea is to highlight other setting options, and move the rarely used ones in other part of the screen.
+
+\item
+In the page that shows the images the user can by a selector choose if he wants to see the images in a big, a middle, or a little format. During the test no one used this opportunity, and when the developer asked to the users if this control can be useful they simply say that the correct dimension of the image the "big" solution, with the image that cover (almost) all the screen in width. In this case the user can easily read all the information in the image. At this point is possible to observe that the "image dimension control" is useless, and it is a good idea remove it (or at least move it in another part of the screen). Also the other buttons in that group resulted not very useful, and also not very clear: this part of the interface must be carefully re-thought.   
+
+
+\item
+The interaction of the users with the personal output is particular: during the test the users read it rapidly, but actually they take from there only little information contained in 2-3 rows. Actually in each type of analysis in the most cases there are a few important information, and only in the other cases the user must read all the rest of the output (but in that cases he must). So a good idea is to highlight the more important parts (that varies based on the type of the analysis), to organize in groups the "sometimes important" parts, and to hide all the others (there are some rows that are reasonably important only in the debug phase, but before hide them it is better evaluate this point again with the super-users).
+
+\item 
+One of the worst problems is the maybe half of the users don't understand that if they right-click on the image they can access a lot of information such as other representation, drawing options, opportunity to zoom in or out, labels. In that cases almost all the users asked directly to the developer how to act this commands, because they are necessary to the correct use of the application. These controls are probably one of the biggest improvement between gAn and gAn Web, because give to the users new opportunities of understanding what is happening in the experiment through information related to the images (the previous version, before gAn Web, had only png-format images, without this controls), so the fact that the users often don't find it is a big deal. A solution can be create a label-advice to give the user a clearer vision.
+
+\item
+Some users, when is in the textual-output page, have some difficulties in finding the command to move to the images pages (and vice-versa): probably the button is not sufficiently evident in the screen. This problem can be an impediment with new users so it is important to solve it, re-thinking the distribution of the buttons in this page, that are actually not very clear. At the end the adopted solution is a complete re-distribution of the output pages, that now can be switched by a unique Navbar, that contain all the important commands.
+
+\item
+Users seems to be confused when they press start and must wait some seconds for the results, and some of them ask is the program is working correctly, even if there is an infinite progress bar and a "wait message". The wait time is longer that we expect, so it becomes a usability problem. This is unacceptable, but we think that the waiting time is related to the server that is too busy: in fact this is not the only application that works on it. In the spring 2017 we are going to format the server and re-distribute some applications, so we hope that some seconds of waiting will become less than one second (so, acceptable). According to this fact we hope to solve this problem working on the machine, not on the interface, obviously if on the new-configure server the problem will persist we'll have to create an exit-strategy for the user to eventually stop the waiting, and give him more precise temporal information about the remaining waiting time, maybe with a percentage progress bar instead of an infinite one.
+
+\item 
+It would be a good idea think a system able to help the users to link the run numbers to something they search without using human memory: a view on the RunLog is necessary.
+
+\end{enumerate}
+
+The second part, the one related with the surveys, has as goal to give an overall idea about the utility of gAn Web. This part of the test was unfortunately a bit less useful, because the results seemed to be too high if compared with the amount of problems founded in the first test (probably the users simply tried to be gentle with the developer). Generically the strategy based on the survey was used no more after this attempts (the direct tests with the users seems to be more promising).
+
+The third part, the one that consists in the discussion with the user, was very helpful: almost all the selected users proposed new ideas (all of them are useful, the most of them are effectively implementable), and new functionalities. Some functionalities was asked by almost all the users, so they probably are absolutely important to improve the interaction quality. 
+The biggest part of the users observations and ideas is coherent with the observation made observing them 
+
+Here is a list of observations obtained in the third phase, through discussions with the users:
+
+\begin{enumerate}
+
+\item 
+Probably inserting a tooltip on each button the overall clearness of the product can grow, but it is important to be careful with the risk of covering with the tooltips other buttons. For some commands the tooltips must be more long and precise, because they are not so easy to understand (the pilot users can understand them better because they are very expert in the domain, but it is not always clear for everybody; a more clear choice of what to write in the tooltips can make the application more usable).  
+
+\item
+Actually the names of some buttons are not clear. At this stage the developer is not a deep expert of the domain, but probably is more expert than at the beginning, so a general re-discussion of all the names of the buttons (and related tooltips) seems to be a good idea.
+
+\item 
+The application is though to be used in the standard AEgIS' experiment screens, that are quite large. But sometimes the users use it from home, and the application must be adaptive to smaller screens (there are some little problems, such as buttons overlapping).
+
+\end{enumerate}
+
+\subsection{Is the testing finished here?}
+
+No it is not. The application is entering right in this moment in the standard working processes of the AEgIS experiment. The web application can be prepared to meet the exigences that exist right now, but according to the dynamism of the experimental environment is highly probable that the continuous changing of the back-end (gAn) will lead to a need of constant upgrade of the requirements. In this situation the users will continue to utilise the application, to find new problems, and this fact will route the developer to a continuous process of adaptation.   
