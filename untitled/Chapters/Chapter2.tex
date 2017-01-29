@@ -1,12 +1,104 @@
 % Chapter 2
 
-\chapter{Pre-existing application: gAn} % Main chapter title
+\chapter{gAn, gAn Web, and their goal} % Main chapter title
 
 \label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 %----------------------------------------------------------------------------------------
 
+GAn Web, the main topic of this document, is a web application, that creates a user friendly web interface, based on the most important human-machine interaction principles, between the users and a pre-existing data analysis application named gAn. This chapter aims to introduce information, goals, points in common, and limits of these applications.
+
+\section{User friendly Data analysis: gAn Web}
+
+GAn is a program that aims to analyze data related to the AEgIS experiment at the CERN, gAn Web is the web interface of gAn, and it is the main topic of this document.
+ 
+This program receives in input from another software system some terabytes of files in ".root" format, and some input parameters inserted by the user;
+It does an analysis and it gives in output some summarized scientifically interesting information, understandable by humans.   
+
+For that regards the file in ".root" format:
+A file ".root" is a file produced by a variegated group of sensors through a complex and heterogeneous process. These sensors produce data continuously, and a software system validates and saves these data in file with .root extension. 
+
+The input parameters inserted by the users are:
+\begin{enumerate}
+
+% 1
+\item "Run Number", that identifies in which part of the data the user is interested. 
+The time in this experiment is divided in "runs" (a run lasts about some hundred seconds), so the user, by the run parameter can tell to gAn in which time slice he is interested. For example: run 55614 means that the user is interested in the information related to the 22th of November 2016, taken in the time slice between 15:45 and 15:47. 
+The enumeration of the runs is incremental: so the run 55199 identifies the time slice immediately after the time slices identified by 55198. The progress of the run numbers is always going on, so new run numbers are continuously added. 
+In this document every time we say "last run number" we don't mean the absolute last run numbers, but the run number that is going on right in this moment. This concept is important because usually in most cases the users use gAn Web on the last existing run number (so on the run number that is going on right at that moment) or on the immediately previous run number.  
+This system used to identify time slices seems to be strange at the beginning but is a standard for all the applications in the AEgIS experiment and it allows a very efficient and precise communication.
+
+How can the user have more information about the runs? 
+On another server exists a RunLog (sometimes also called LogBook). The RunLog is a document organized by date on which at each run a group of people write the run number, some informations (about settings), some observation (at maximum 2 rows, usually one.. so usually brief observations [but if in the run something particular happens, in that rare case the observations can become very long] ). 
+Is this document an input or an output for gAn Web? it depends:
+If the user uses gAn Web on the last existing run (or the run immediately before) probably the output of gAn Web is one of the (many) inputs of the RunLog.  
+If the user is interested in a phenomenon happened some days ago, probably he searches on the RunLog at the page related the date of the phenomenon, he chooses one or more runs related to this phenomenon (he recognize them by the observations), he works with gAn using these runs, and probably he notes parts of the output of gAn Web as observations on the RunLog, that in this situation is both input and output. Some runs are absolutely not related with gAn Web, so in some cases the RunLog is neither an input nor an output.  
+
+% 2
+\item "Type of analysis", that identifies what the program must do with the data and what it must show as output to the user.
+A "type" is a way in which the program extracts information from the raw data. Each type can extract different information using different parts of data and elaborating them in different ways. For example: a type of analysis named "Tmeas" can extract information about the temperatures of some elemental particles analysing how quickly they move subjected to a force. 
+
+\end{enumerate}
+
+
+The .root files can be analysed using a framework named ROOT Framework, that consists in a lot of libraries specialized in high-energy physics analysis, and an interpreter able to understand a C++ script.
+Actually, gAn is the sum of the Root Framework plus a lot of C++ scripts.
+The goal of gAn is to reduce the big amount of raw data received in input in a little amount of scientifically interesting and easily understandable data in output. To do this it has to filter data, understand which of them are scientifically interesting, choose the parts that are related to the run selected by the user (by the run parameter), elaborate and compare them, and make advanced statistical analysis on them.  
+GAn can be called using a common linux terminal, using a command with parameters. 
+
+The output of gAn consists of a single text file with computed, (quite) organized data, and a folder of images in png format.
+This structure (root files in input, data analysis using Root, images, organized and selected data in output) is very common in the CERN's experiments. 
+The output of gAn is quite understandable by an experienced physicist, but it is disorganized, complex for an untrained user, and the terminal interface can be surely improved using some more user friendly technologies.
+
+GAn Web is a web application, that aims to create a user friendly web interface, based on the most important human-machine interaction principles, between the users and gAn.
+A web interface can improve the system in two ways:
+
+\begin{enumerate}
+
+% 1
+\item gAn is a stand-alone program based on Root, installable on the user's machine; the user has to install the correct version of Root to avoid compatibility problems (Root is still not perfectly version independent: different versions can lead to different behaviours). Furthermore, this kind of program is continuously changing, the performed analysis is continuously improved (in the first 2 weeks from the debut of the program there are already several kinds of analysis, because often at the changing of the needs the programmers creates new generations of analysis), so the installed version of gAn is not final and unchangeable, and the user must often update it. Instead, a centralized version installed on a server, with services accessible from a normal browser by the user can avoid (at least reduce) this kind of problems and be more usable.    
+ 
+
+% 2
+\item a Linux terminal interface is practical for expert users, but a web based interface can be more attractive for new users, and, if well done, can be easier to use. It is important to notice that the users need to hardly exploit their memory to use correctly a terminal application, and we want try to make their work easier.
+
+
+\end{enumerate}
+
+
+The goal of gAn Web is to allow users to do analysis through a more friendly web interface, without install nothing on their machine. In the following image there is a schema that shows how this program is organized.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{GeneralGAnSchema.png} 
+\caption{gAn - gAn Web simple scheme}
+\end{figure}
+
+
+
+
+
+The raw material on which this system works is represented by a set of "Root files". 
+The hardware of AEgIS experiment (mostly the sensors) generates these Root files, that are raw, binary files. This means that humans can understand through gAn what is going on in the experiment, take scientific information, decide in an informed way how to set other system to take different outputs, and so on.
+ 
+Following the figure 1.7 present a schema related to the generation of these input files:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.35]{DAQSchema.png} 
+\caption{Root format input files generation, DAQ System}
+\end{figure}
+
+The data comes from different sensors, that communicate with different protocols, but all the communications use Xml as common language. All data are sent through a LAN to a server named DAQ. Here they are accessible for analysis. 
+
+These files contain a lot of binary information, in a binary format. gAn can read these Root files, make an ordered and organized analysis, extract the most important information, and produce an output that consists of a text with the most important information, comments, and eventual error logs, graphic material such as images of various kind, some other Root format files, with some features able to be useful  for gAn Web to make further graphical processing, related to the generation of dynamic graphics and figures. 
+
+The production of this data is not simply driven by machines: the choice of which data to take is mainly human-labour intensive, software like gAn Web can only improve the accessibility of the system acting as intermediary between the users and the machines.
+
+
 \section{What is data analysis?}
+
+The main goal of gAn Web is to analyse rapidly big amount of data extracting important information, so can be interesting expand this concept to understand what this kind of software aims to do.
 
 According to the John Tukey's definition data analysis is: 
 
@@ -46,10 +138,10 @@ Data analysis can be divided in some steps:
 
 \end{enumerate}
 
-Some experiments at the CERN represents about 150 million sensors delivering data 40 million times per second. There are nearly 600 million collisions per second. The point is that not all these collisions are scientifically interesting. In the huge amount of collisions discussed previously there are only around 100 collisions of interest per second.
+In the particular domain of the particles physic this kind of analysis is very important: some experiments at the CERN represents about 150 million sensors delivering data 40 million times per second. There are nearly 600 million collisions per second. This is not the exactly kind of AEgIS experiment, that doesn't generate this gigantic amount of data, but, the point is that not all these information are scientifically interesting. In the huge amount of collisions discussed previously there are only around 100 collisions of interest per second.
 This leads a big problem: it is difficult to find a rational way to work with flows of data having this dimension, and it is absolutely necessary to take only the part of the data actually required for the scientific analysis, but it is also important don't waste nothing interesting in this dataset.
 
-Another problem to solve to meet the user's requirements is related to the speed with which physicists develop and change focus in their experimental work: they are not interested always at the same things, and they cannot predict in advance what they will need in the future, because their needs are related the process of experimentation, and can change continuously. 
+Another problem to solve to meet the user's requirements is related to the speed with which physicists develop and change focus in their experimental work: they are not interested always at the same things, and they cannot predict in advance what they will need in a distant future, because their needs are related the process of experimentation, and can change continuously. 
 So a system of analysis must be very flexible and dynamic, always ready to answer to new requirements, always able to find exactly what is the "interesting" part of data.  
 
 This kind of problems are not just CERN's problems, they are common in major research centers. Bob Jones, Project Leader at CERN, says:
@@ -58,9 +150,6 @@ This kind of problems are not just CERN's problems, they are common in major res
  
 Big data analysis can provide an answer to this problems: with an intelligent and parameterizable process of filtering it is possible extract only the subset of scientifically interesting information, and delivering them to the users in an organized and structured way, by tables, statistical values, graphical images. 
 In this way is possible improve the productivity of the physicists, exempting them from unnecessary commitments and dynamically meeting their needs. 
-
-\section{What is gAn?} 
-
 
 \section{Root - Physical Data Analysis }
 
