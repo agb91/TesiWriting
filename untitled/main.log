@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  29 JAN 2017 18:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  30 JAN 2017 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1218,7 +1218,7 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Warning: Label `Chapter2' multiply defined.
 
 ) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux)
-(./Chapters/Chapter7.aux) (./Chapters/Chapter8.aux))
+(./Chapters/Chapter7.aux) (./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -1465,7 +1465,7 @@ Package hyperref Warning: Suppressing link with empty target on input line 92.
 Package hyperref Warning: Suppressing link with empty target on input line 102.
 
 
-<Chapters/images/Logo.png, id=257, 120.45pt x 116.8365pt>
+<Chapters/images/Logo.png, id=265, 120.45pt x 116.8365pt>
 File: Chapters/images/Logo.png Graphic file (type png)
 
 <use Chapters/images/Logo.png>
@@ -1550,7 +1550,7 @@ Overfull \hbox (6.51863pt too wide) in paragraph at lines 28--28
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 11.
-<Chapters/images/aegisLogo.png, id=524, 1156.32pt x 314.17375pt>
+<Chapters/images/aegisLogo.png, id=534, 1156.32pt x 314.17375pt>
 File: Chapters/images/aegisLogo.png Graphic file (type png)
 
 <use Chapters/images/aegisLogo.png>
@@ -1566,7 +1566,7 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 
 
  <./Chapters/images/aegisLogo.png>]
-<Chapters/images/aegis_collaboration_institutes.pdf, id=531, 722.7pt x 542.025p
+<Chapters/images/aegis_collaboration_institutes.pdf, id=541, 722.7pt x 542.025p
 t>
 File: Chapters/images/aegis_collaboration_institutes.pdf Graphic file (type pdf
 )
@@ -1575,7 +1575,7 @@ Package pdftex.def Info: Chapters/images/aegis_collaboration_institutes.pdf use
 d on input line 27.
 (pdftex.def)             Requested size: 361.3491pt x 271.01183pt.
 
-<Chapters/images/AEgISScheme.png, id=532, 532.99126pt x 349.305pt>
+<Chapters/images/AEgISScheme.png, id=542, 532.99126pt x 349.305pt>
 File: Chapters/images/AEgISScheme.png Graphic file (type png)
 
 <use Chapters/images/AEgISScheme.png>
@@ -1594,7 +1594,7 @@ Overfull \hbox (12.56645pt too wide) in paragraph at lines 67--68
 am of positrons
  []
 
-<Chapters/images/MoireDeflectometer.png, id=691, 461.725pt x 235.88126pt>
+<Chapters/images/MoireDeflectometer.png, id=702, 461.725pt x 235.88126pt>
 File: Chapters/images/MoireDeflectometer.png Graphic file (type png)
 
 <use Chapters/images/MoireDeflectometer.png>
@@ -1617,7 +1617,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--77
  []
 
 [4 <./Chapters/images/MoireDeflectometer.png>]
-<Chapters/images/SchemeMachineSetUp.png, id=698, 1025.8325pt x 397.485pt>
+<Chapters/images/SchemeMachineSetUp.png, id=708, 1025.8325pt x 397.485pt>
 File: Chapters/images/SchemeMachineSetUp.png Graphic file (type png)
 
 <use Chapters/images/SchemeMachineSetUp.png>
@@ -1641,7 +1641,7 @@ n-der-stand-able by
 
 1: section
 [7] [8] [9]
-<Chapters/images/GeneralGAnSchema.png, id=725, 626.34pt x 262.73157pt>
+<Chapters/images/GeneralGAnSchema.png, id=735, 626.34pt x 262.73157pt>
 File: Chapters/images/GeneralGAnSchema.png Graphic file (type png)
 
 <use Chapters/images/GeneralGAnSchema.png>
@@ -1649,7 +1649,7 @@ Package pdftex.def Info: Chapters/images/GeneralGAnSchema.png used on input lin
 e 73.
 (pdftex.def)             Requested size: 313.16922pt x 131.36545pt.
 
-<Chapters/images/DAQSchema.png, id=726, 993.7125pt x 616.3025pt>
+<Chapters/images/DAQSchema.png, id=736, 993.7125pt x 616.3025pt>
 File: Chapters/images/DAQSchema.png Graphic file (type png)
 
 <use Chapters/images/DAQSchema.png>
@@ -1657,7 +1657,7 @@ Package pdftex.def Info: Chapters/images/DAQSchema.png used on input line 88.
 (pdftex.def)             Requested size: 347.80458pt x 215.7091pt.
  [10 <./Chapters/images/GeneralGAnSchema.png>] [11 <./Chapters/images/DAQSchema
 .png>]
-<Chapters/images/DataAnalysisProcess.png, id=737, 526.96875pt x 395.22656pt>
+<Chapters/images/DataAnalysisProcess.png, id=747, 526.96875pt x 395.22656pt>
 File: Chapters/images/DataAnalysisProcess.png Graphic file (type png)
 
 <use Chapters/images/DataAnalysisProcess.png>
@@ -1706,7 +1706,7 @@ Overfull \hbox (1.12881pt too wide) in paragraph at lines 204--205
 elize data
  []
 
-<Chapters/images/RootStructure.png, id=780, 524.96124pt x 383.4325pt>
+<Chapters/images/RootStructure.png, id=790, 524.96124pt x 383.4325pt>
 File: Chapters/images/RootStructure.png Graphic file (type png)
 
 <use Chapters/images/RootStructure.png>
@@ -1729,7 +1729,7 @@ Overfull \hbox (6.34851pt too wide) in paragraph at lines 52--55
  present
  []
 
-<Chapters/images/TimeLine.png, id=805, 776.9025pt x 375.4025pt>
+<Chapters/images/TimeLine.png, id=815, 776.9025pt x 375.4025pt>
 File: Chapters/images/TimeLine.png Graphic file (type png)
 
 <use Chapters/images/TimeLine.png>
@@ -1791,7 +1791,7 @@ Overfull \hbox (8.44946pt too wide) in paragraph at lines 51--52
 g
  []
 
-[27] [28] <Chapters/images/HomePageOLD.png, id=865, 1305.87875pt x 746.79pt>
+[27] [28] <Chapters/images/HomePageOLD.png, id=875, 1305.87875pt x 746.79pt>
 File: Chapters/images/HomePageOLD.png Graphic file (type png)
 
 <use Chapters/images/HomePageOLD.png>
@@ -1799,7 +1799,7 @@ Package pdftex.def Info: Chapters/images/HomePageOLD.png used on input line 86.
 
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
 
-<Chapters/images/TextOutputOLD.png, id=866, 1305.87875pt x 746.79pt>
+<Chapters/images/TextOutputOLD.png, id=876, 1305.87875pt x 746.79pt>
 File: Chapters/images/TextOutputOLD.png Graphic file (type png)
 
 <use Chapters/images/TextOutputOLD.png>
@@ -1807,7 +1807,7 @@ Package pdftex.def Info: Chapters/images/TextOutputOLD.png used on input line 9
 6.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [29 <./Chapters/images/HomePageOLD.png>] <Chapters/images/AllImagesPageOLD.png
-, id=873, 1305.87875pt x 746.79pt>
+, id=883, 1305.87875pt x 746.79pt>
 File: Chapters/images/AllImagesPageOLD.png Graphic file (type png)
 
 <use Chapters/images/AllImagesPageOLD.png>
@@ -1816,7 +1816,7 @@ e 108.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [30 <./Chapters/images/TextOutputOLD.png> <./Chapters/images/AllImagesPageOLD.
 png>]
-<Chapters/images/EditConfigOLD.png, id=879, 1305.87875pt x 746.79pt>
+<Chapters/images/EditConfigOLD.png, id=889, 1305.87875pt x 746.79pt>
 File: Chapters/images/EditConfigOLD.png Graphic file (type png)
 
 <use Chapters/images/EditConfigOLD.png>
@@ -1847,7 +1847,7 @@ Overfull \hbox (3.76999pt too wide) in paragraph at lines 78--80
 \T1/ppl/m/n/12 a page in which, through some drop-down menus, he can change
  []
 
-<Chapters/images/HomePageEmpty.png, id=924, 1305.87875pt x 746.79pt>
+<Chapters/images/HomePageEmpty.png, id=934, 1305.87875pt x 746.79pt>
 File: Chapters/images/HomePageEmpty.png Graphic file (type png)
 
 <use Chapters/images/HomePageEmpty.png>
@@ -1855,14 +1855,14 @@ Package pdftex.def Info: Chapters/images/HomePageEmpty.png used on input line 1
 02.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [38]
-<Chapters/images/HomePage.png, id=932, 1305.87875pt x 746.79pt>
+<Chapters/images/HomePage.png, id=942, 1305.87875pt x 746.79pt>
 File: Chapters/images/HomePage.png Graphic file (type png)
 
 <use Chapters/images/HomePage.png>
 Package pdftex.def Info: Chapters/images/HomePage.png used on input line 109.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [39 <./Chapters/images/HomePageEmpty.png> <./Chapters/images/HomePage.png>]
-<Chapters/images/ErrorInputHomepage.png, id=939, 1089.06876pt x 106.3975pt>
+<Chapters/images/ErrorInputHomepage.png, id=949, 1089.06876pt x 106.3975pt>
 File: Chapters/images/ErrorInputHomepage.png Graphic file (type png)
 
 <use Chapters/images/ErrorInputHomepage.png>
@@ -1870,7 +1870,7 @@ Package pdftex.def Info: Chapters/images/ErrorInputHomepage.png used on input l
 ine 123.
 (pdftex.def)             Requested size: 272.26653pt x 26.5993pt.
 
-<Chapters/images/ProgressBar.png, id=940, 1237.62375pt x 138.5175pt>
+<Chapters/images/ProgressBar.png, id=950, 1237.62375pt x 138.5175pt>
 File: Chapters/images/ProgressBar.png Graphic file (type png)
 
 <use Chapters/images/ProgressBar.png>
@@ -1879,7 +1879,7 @@ Package pdftex.def Info: Chapters/images/ProgressBar.png used on input line 131
 (pdftex.def)             Requested size: 309.40518pt x 34.62929pt.
  [40 <./Chapters/images/ErrorInputHomepage.png> <./Chapters/images/ProgressBar.
 png>]
-<Chapters/images/RangeRunsModal.png, id=947, 1016.79875pt x 451.6875pt>
+<Chapters/images/RangeRunsModal.png, id=957, 1016.79875pt x 451.6875pt>
 File: Chapters/images/RangeRunsModal.png Graphic file (type png)
 
 <use Chapters/images/RangeRunsModal.png>
@@ -1887,7 +1887,7 @@ Package pdftex.def Info: Chapters/images/RangeRunsModal.png used on input line
 143.
 (pdftex.def)             Requested size: 254.19907pt x 112.92159pt.
 
-<Chapters/images/EditConfig.png, id=948, 1305.87875pt x 746.79pt>
+<Chapters/images/EditConfig.png, id=958, 1305.87875pt x 746.79pt>
 File: Chapters/images/EditConfig.png Graphic file (type png)
 
 <use Chapters/images/EditConfig.png>
@@ -1901,7 +1901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--161
  []
 
 [41 <./Chapters/images/RangeRunsModal.png>] [42 <./Chapters/images/EditConfig.p
-ng>] <Chapters/images/TextOutputPage.png, id=961, 1305.87875pt x 746.79pt>
+ng>] <Chapters/images/TextOutputPage.png, id=971, 1305.87875pt x 746.79pt>
 File: Chapters/images/TextOutputPage.png Graphic file (type png)
 
 <use Chapters/images/TextOutputPage.png>
@@ -1914,7 +1914,7 @@ Overfull \hbox (2.25764pt too wide) in paragraph at lines 178--179
 en
  []
 
-<Chapters/images/WhichRunNavbar.png, id=962, 1235.61626pt x 154.5775pt>
+<Chapters/images/WhichRunNavbar.png, id=972, 1235.61626pt x 154.5775pt>
 File: Chapters/images/WhichRunNavbar.png Graphic file (type png)
 
 <use Chapters/images/WhichRunNavbar.png>
@@ -1922,7 +1922,7 @@ Package pdftex.def Info: Chapters/images/WhichRunNavbar.png used on input line
 182.
 (pdftex.def)             Requested size: 308.9033pt x 38.64427pt.
 
-<Chapters/images/AllImagesPage.png, id=963, 1305.87875pt x 746.79pt>
+<Chapters/images/AllImagesPage.png, id=973, 1305.87875pt x 746.79pt>
 File: Chapters/images/AllImagesPage.png Graphic file (type png)
 
 <use Chapters/images/AllImagesPage.png>
@@ -1931,7 +1931,7 @@ Package pdftex.def Info: Chapters/images/AllImagesPage.png used on input line 2
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [43 <./Chapters/images/TextOutputPage.png> <./Chapters/images/WhichRunNavbar.p
 ng>]
-<Chapters/images/RootLikeImage2.png, id=972, 1305.87875pt x 746.79pt>
+<Chapters/images/RootLikeImage2.png, id=982, 1305.87875pt x 746.79pt>
 File: Chapters/images/RootLikeImage2.png Graphic file (type png)
 
 <use Chapters/images/RootLikeImage2.png>
@@ -1939,7 +1939,7 @@ Package pdftex.def Info: Chapters/images/RootLikeImage2.png used on input line
 219.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [44 <./Chapters/images/AllImagesPage.png>] <Chapters/images/RootLikeImage.png,
- id=981, 1305.87875pt x 746.79pt>
+ id=991, 1305.87875pt x 746.79pt>
 File: Chapters/images/RootLikeImage.png Graphic file (type png)
 
 <use Chapters/images/RootLikeImage.png>
@@ -1947,7 +1947,7 @@ Package pdftex.def Info: Chapters/images/RootLikeImage.png used on input line 2
 27.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
 
-<Chapters/images/RootLikeImage3.png, id=982, 1305.87875pt x 746.79pt>
+<Chapters/images/RootLikeImage3.png, id=992, 1305.87875pt x 746.79pt>
 File: Chapters/images/RootLikeImage3.png Graphic file (type png)
 
 <use Chapters/images/RootLikeImage3.png>
@@ -1956,7 +1956,7 @@ Package pdftex.def Info: Chapters/images/RootLikeImage3.png used on input line
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [45 <./Chapters/images/RootLikeImage2.png> <./Chapters/images/RootLikeImage.pn
 g>]
-<Chapters/images/RootLikeImage4.png, id=988, 1305.87875pt x 746.79pt>
+<Chapters/images/RootLikeImage4.png, id=998, 1305.87875pt x 746.79pt>
 File: Chapters/images/RootLikeImage4.png Graphic file (type png)
 
 <use Chapters/images/RootLikeImage4.png>
@@ -1965,14 +1965,14 @@ Package pdftex.def Info: Chapters/images/RootLikeImage4.png used on input line
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [46 <./Chapters/images/RootLikeImage3.png> <./Chapters/images/RootLikeImage4.p
 ng>]
-<Chapters/images/Login.png, id=993, 1305.87875pt x 746.79pt>
+<Chapters/images/Login.png, id=1003, 1305.87875pt x 746.79pt>
 File: Chapters/images/Login.png Graphic file (type png)
 
 <use Chapters/images/Login.png>
 Package pdftex.def Info: Chapters/images/Login.png used on input line 258.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
 
-<Chapters/images/RootVersionChoice.png, id=994, 1305.87875pt x 746.79pt>
+<Chapters/images/RootVersionChoice.png, id=1004, 1305.87875pt x 746.79pt>
 File: Chapters/images/RootVersionChoice.png Graphic file (type png)
 
 <use Chapters/images/RootVersionChoice.png>
@@ -1980,7 +1980,7 @@ Package pdftex.def Info: Chapters/images/RootVersionChoice.png used on input li
 ne 268.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [47 <./Chapters/images/Login.png>]
-<Chapters/images/ChoosegAnBranch.png, id=999, 1305.87875pt x 746.79pt>
+<Chapters/images/ChoosegAnBranch.png, id=1009, 1305.87875pt x 746.79pt>
 File: Chapters/images/ChoosegAnBranch.png Graphic file (type png)
 
 <use Chapters/images/ChoosegAnBranch.png>
@@ -1999,14 +1999,14 @@ Chapter 6.
 
 
 ] [50] [51] [52] [53]
-<Chapters/images/LastLogin.png, id=1040, 1371.1225pt x 718.685pt>
+<Chapters/images/LastLogin.png, id=1050, 1371.1225pt x 718.685pt>
 File: Chapters/images/LastLogin.png Graphic file (type png)
 
 <use Chapters/images/LastLogin.png>
 Package pdftex.def Info: Chapters/images/LastLogin.png used on input line 109.
 (pdftex.def)             Requested size: 342.77979pt x 179.6708pt.
  [54 <./Chapters/images/LastLogin.png>]
-<Chapters/images/LastInitialChoice.png, id=1045, 1371.1225pt x 718.685pt>
+<Chapters/images/LastInitialChoice.png, id=1055, 1371.1225pt x 718.685pt>
 File: Chapters/images/LastInitialChoice.png Graphic file (type png)
 
 <use Chapters/images/LastInitialChoice.png>
@@ -2014,7 +2014,7 @@ Package pdftex.def Info: Chapters/images/LastInitialChoice.png used on input li
 ne 121.
 (pdftex.def)             Requested size: 342.77979pt x 179.6708pt.
 
-<Chapters/images/ParticularExitStrategy.png, id=1046, 357.335pt x 64.24pt>
+<Chapters/images/ParticularExitStrategy.png, id=1056, 357.335pt x 64.24pt>
 File: Chapters/images/ParticularExitStrategy.png Graphic file (type png)
 
 <use Chapters/images/ParticularExitStrategy.png>
@@ -2023,7 +2023,7 @@ ut line 131.
 (pdftex.def)             Requested size: 89.33353pt x 16.05995pt.
  [55 <./Chapters/images/LastInitialChoice.png> <./Chapters/images/ParticularExi
 tStrategy.png>]
-<Chapters/images/LastSingle.png, id=1051, 1305.87875pt x 746.79pt>
+<Chapters/images/LastSingle.png, id=1061, 1305.87875pt x 746.79pt>
 File: Chapters/images/LastSingle.png Graphic file (type png)
 
 <use Chapters/images/LastSingle.png>
@@ -2031,7 +2031,7 @@ Package pdftex.def Info: Chapters/images/LastSingle.png used on input line 143.
 
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [56 <./Chapters/images/LastSingle.png>]
-<Chapters/images/ParticularStatusHP.png, id=1056, 257.96375pt x 119.44624pt>
+<Chapters/images/ParticularStatusHP.png, id=1066, 257.96375pt x 119.44624pt>
 File: Chapters/images/ParticularStatusHP.png Graphic file (type png)
 
 <use Chapters/images/ParticularStatusHP.png>
@@ -2045,7 +2045,7 @@ Overfull \hbox (15.0262pt too wide) in paragraph at lines 162--163
  []
 
 
-<Chapters/images/ParticularHowErrorsWork.png, id=1057, 475.7775pt x 375.65344pt
+<Chapters/images/ParticularHowErrorsWork.png, id=1067, 475.7775pt x 375.65344pt
 >
 File: Chapters/images/ParticularHowErrorsWork.png Graphic file (type png)
  <use Chapters/images/ParticularHowErrorsWork.png>
@@ -2054,7 +2054,7 @@ put line 166.
 (pdftex.def)             Requested size: 237.88815pt x 187.82625pt.
  [57 <./Chapters/images/ParticularStatusHP.png> <./Chapters/images/ParticularHo
 wErrorsWork.png>]
-<Chapters/images/ParticularDropDownSpecial.png, id=1064, 218.8175pt x 511.9125p
+<Chapters/images/ParticularDropDownSpecial.png, id=1074, 218.8175pt x 511.9125p
 t>
 File: Chapters/images/ParticularDropDownSpecial.png Graphic file (type png)
  <use Chapters/images/ParticularDropDownSpecial.png>
@@ -2062,7 +2062,7 @@ Package pdftex.def Info: Chapters/images/ParticularDropDownSpecial.png used on
 input line 176.
 (pdftex.def)             Requested size: 109.40848pt x 255.95563pt.
  [58 <./Chapters/images/ParticularDropDownSpecial.png>]
-<Chapters/images/LastMultipleFirst.png, id=1069, 1305.87875pt x 746.79pt>
+<Chapters/images/LastMultipleFirst.png, id=1079, 1305.87875pt x 746.79pt>
 File: Chapters/images/LastMultipleFirst.png Graphic file (type png)
 
 <use Chapters/images/LastMultipleFirst.png>
@@ -2070,7 +2070,7 @@ Package pdftex.def Info: Chapters/images/LastMultipleFirst.png used on input li
 ne 189.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
 
-<Chapters/images/LastMultipleRange.png, id=1070, 1305.87875pt x 746.79pt>
+<Chapters/images/LastMultipleRange.png, id=1080, 1305.87875pt x 746.79pt>
 File: Chapters/images/LastMultipleRange.png Graphic file (type png)
 
 <use Chapters/images/LastMultipleRange.png>
@@ -2078,7 +2078,7 @@ Package pdftex.def Info: Chapters/images/LastMultipleRange.png used on input li
 ne 198.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [59 <./Chapters/images/LastMultipleFirst.png>]
-<Chapters/images/ParticularRange.png, id=1075, 274.02374pt x 164.86594pt>
+<Chapters/images/ParticularRange.png, id=1085, 274.02374pt x 164.86594pt>
 File: Chapters/images/ParticularRange.png Graphic file (type png)
 
 <use Chapters/images/ParticularRange.png>
@@ -2086,7 +2086,7 @@ Package pdftex.def Info: Chapters/images/ParticularRange.png used on input line
  207.
 (pdftex.def)             Requested size: 68.50577pt x 41.21637pt.
 
-<Chapters/images/ParticularInputArea.png, id=1076, 274.02374pt x 164.86594pt>
+<Chapters/images/ParticularInputArea.png, id=1086, 274.02374pt x 164.86594pt>
 File: Chapters/images/ParticularInputArea.png Graphic file (type png)
 
 <use Chapters/images/ParticularInputArea.png>
@@ -2094,7 +2094,7 @@ Package pdftex.def Info: Chapters/images/ParticularInputArea.png used on input
 line 213.
 (pdftex.def)             Requested size: 68.50577pt x 41.21637pt.
 
-<Chapters/images/LastMultipleSecond.png, id=1077, 1305.87875pt x 746.79pt>
+<Chapters/images/LastMultipleSecond.png, id=1087, 1305.87875pt x 746.79pt>
 File: Chapters/images/LastMultipleSecond.png Graphic file (type png)
 
 <use Chapters/images/LastMultipleSecond.png>
@@ -2108,7 +2108,7 @@ Overfull \hbox (95.71446pt too wide) in paragraph at lines 222--223
 
 [60 <./Chapters/images/LastMultipleRange.png> <./Chapters/images/ParticularRang
 e.png> <./Chapters/images/ParticularInputArea.png>]
-<Chapters/images/LastEditConfig.png, id=1084, 1305.87875pt x 746.79pt>
+<Chapters/images/LastEditConfig.png, id=1094, 1305.87875pt x 746.79pt>
 File: Chapters/images/LastEditConfig.png Graphic file (type png)
 
 <use Chapters/images/LastEditConfig.png>
@@ -2117,7 +2117,7 @@ Package pdftex.def Info: Chapters/images/LastEditConfig.png used on input line
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [61 <./Chapters/images/LastMultipleSecond.png> <./Chapters/images/LastEditConf
 ig.png>]
-<Chapters/images/ParticularScalesExpo.png, id=1089, 782.925pt x 338.26375pt>
+<Chapters/images/ParticularScalesExpo.png, id=1099, 782.925pt x 338.26375pt>
 File: Chapters/images/ParticularScalesExpo.png Graphic file (type png)
 
 <use Chapters/images/ParticularScalesExpo.png>
@@ -2125,7 +2125,7 @@ Package pdftex.def Info: Chapters/images/ParticularScalesExpo.png used on input
  line 240.
 (pdftex.def)             Requested size: 195.73077pt x 84.56572pt.
  [62 <./Chapters/images/ParticularScalesExpo.png>]
-<Chapters/images/ParticularYesNoConfig.png, id=1094, 1305.87875pt x 746.79pt>
+<Chapters/images/ParticularYesNoConfig.png, id=1104, 1305.87875pt x 746.79pt>
 File: Chapters/images/ParticularYesNoConfig.png Graphic file (type png)
 
 <use Chapters/images/ParticularYesNoConfig.png>
@@ -2133,7 +2133,7 @@ Package pdftex.def Info: Chapters/images/ParticularYesNoConfig.png used on inpu
 t line 251.
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [63 <./Chapters/images/ParticularYesNoConfig.png>]
-<Chapters/images/LastNavbar.png, id=1100, 1174.3875pt x 358.33875pt>
+<Chapters/images/LastNavbar.png, id=1110, 1174.3875pt x 358.33875pt>
 File: Chapters/images/LastNavbar.png Graphic file (type png)
 
 <use Chapters/images/LastNavbar.png>
@@ -2146,7 +2146,7 @@ Overfull \hbox (49.69183pt too wide) in paragraph at lines 263--264
  []
 
 
-<Chapters/images/LastTextualOutputHighLight.png, id=1101, 1305.87875pt x 746.79
+<Chapters/images/LastTextualOutputHighLight.png, id=1111, 1305.87875pt x 746.79
 pt>
 File: Chapters/images/LastTextualOutputHighLight.png Graphic file (type png)
  <use Chapters/images/LastTextualOutputHighLight.png>
@@ -2155,7 +2155,7 @@ Package pdftex.def Info: Chapters/images/LastTextualOutputHighLight.png used on
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [64 <./Chapters/images/LastNavbar.png> <./Chapters/images/LastTextualOutputHig
 hLight.png>]
-<Chapters/images/TextConfrontation.png, id=1106, 840.13875pt x 393.72093pt>
+<Chapters/images/TextConfrontation.png, id=1116, 840.13875pt x 393.72093pt>
 File: Chapters/images/TextConfrontation.png Graphic file (type png)
 
 <use Chapters/images/TextConfrontation.png>
@@ -2167,7 +2167,7 @@ Overfull \hbox (16.709pt too wide) in paragraph at lines 282--283
  [][] 
  []
 
-<Chapters/images/ImageOutput.png, id=1107, 1305.87875pt x 746.79pt>
+<Chapters/images/ImageOutput.png, id=1117, 1305.87875pt x 746.79pt>
 File: Chapters/images/ImageOutput.png Graphic file (type png)
 
 <use Chapters/images/ImageOutput.png>
@@ -2176,7 +2176,7 @@ Package pdftex.def Info: Chapters/images/ImageOutput.png used on input line 291
 (pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
  [65 <./Chapters/images/TextConfrontation.png> <./Chapters/images/ImageOutput.p
 ng>]
-<Chapters/images/ParticularHowToSelectImages.png, id=1113, 472.76625pt x 93.348
+<Chapters/images/ParticularHowToSelectImages.png, id=1123, 472.76625pt x 93.348
 75pt>
 File: Chapters/images/ParticularHowToSelectImages.png Graphic file (type png)
  <use Chapters/images/ParticularHowToSelectImages.png>
@@ -2184,7 +2184,7 @@ Package pdftex.def Info: Chapters/images/ParticularHowToSelectImages.png used o
 n input line 300.
 (pdftex.def)             Requested size: 212.74284pt x 42.00653pt.
 
-<Chapters/images/ParticularConfrontationImages.png, id=1114, 1025.8325pt x 464.
+<Chapters/images/ParticularConfrontationImages.png, id=1124, 1025.8325pt x 464.
 73625pt>
 File: Chapters/images/ParticularConfrontationImages.png Graphic file (type png)
 
@@ -2193,7 +2193,7 @@ Package pdftex.def Info: Chapters/images/ParticularConfrontationImages.png used
  on input line 311.
 (pdftex.def)             Requested size: 359.04675pt x 162.66011pt.
  [66 <./Chapters/images/ParticularHowToSelectImages.png>]
-<Chapters/images/LastImagenotes.png, id=1119, 1256.695pt x 662.475pt>
+<Chapters/images/LastImagenotes.png, id=1129, 1256.695pt x 662.475pt>
 File: Chapters/images/LastImagenotes.png Graphic file (type png)
 
 <use Chapters/images/LastImagenotes.png>
@@ -2201,7 +2201,7 @@ Package pdftex.def Info: Chapters/images/LastImagenotes.png used on input line
 320.
 (pdftex.def)             Requested size: 314.17297pt x 165.61835pt.
 
-<Chapters/images/ParticularFastReadInfos.png, id=1120, 235.88126pt x 193.72375p
+<Chapters/images/ParticularFastReadInfos.png, id=1130, 235.88126pt x 193.72375p
 t>
 File: Chapters/images/ParticularFastReadInfos.png Graphic file (type png)
  <use Chapters/images/ParticularFastReadInfos.png>
@@ -2211,7 +2211,7 @@ put line 326.
  [67 <./Chapters/images/ParticularConfrontationImages.png> <./Chapters/images/L
 astImagenotes.png>]
 [68 <./Chapters/images/ParticularFastReadInfos.png>]
-<Chapters/images/LastImageOptions.png, id=1129, 1371.1225pt x 770.88pt>
+<Chapters/images/LastImageOptions.png, id=1139, 1371.1225pt x 770.88pt>
 File: Chapters/images/LastImageOptions.png Graphic file (type png)
 
 <use Chapters/images/LastImageOptions.png>
@@ -2219,7 +2219,7 @@ Package pdftex.def Info: Chapters/images/LastImageOptions.png used on input lin
 e 338.
 (pdftex.def)             Requested size: 342.77979pt x 192.71953pt.
 
-<Chapters/images/LastGraphImage2.png, id=1130, 1371.1225pt x 770.88pt>
+<Chapters/images/LastGraphImage2.png, id=1140, 1371.1225pt x 770.88pt>
 File: Chapters/images/LastGraphImage2.png Graphic file (type png)
 
 <use Chapters/images/LastGraphImage2.png>
@@ -2227,7 +2227,7 @@ Package pdftex.def Info: Chapters/images/LastGraphImage2.png used on input line
  344.
 (pdftex.def)             Requested size: 342.77979pt x 192.71953pt.
 
-<Chapters/images/LastImageLabel.png, id=1131, 337.26pt x 192.72pt>
+<Chapters/images/LastImageLabel.png, id=1141, 337.26pt x 192.72pt>
 File: Chapters/images/LastImageLabel.png Graphic file (type png)
 
 <use Chapters/images/LastImageLabel.png>
@@ -2236,7 +2236,7 @@ Package pdftex.def Info: Chapters/images/LastImageLabel.png used on input line
 (pdftex.def)             Requested size: 151.7656pt x 86.72319pt.
  [69 <./Chapters/images/LastImageOptions.png> <./Chapters/images/LastGraphImage
 2.png>]
-<Chapters/images/ParticularUnusedControls.png, id=1137, 224.84pt x 41.15375pt>
+<Chapters/images/ParticularUnusedControls.png, id=1147, 224.84pt x 41.15375pt>
 File: Chapters/images/ParticularUnusedControls.png Graphic file (type png)
 
 <use Chapters/images/ParticularUnusedControls.png>
@@ -2284,16 +2284,27 @@ load some-
  []
 
 [84] [85] [86] [87]) [88]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
- (./main.aux (./Chapters/Chapter1.aux)
-(./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux)
-(./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux)
-(./Chapters/Chapter8.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+\openout2 = `Chapters/Chapter9.aux'.
+
+ (./Chapters/Chapter9.tex
+Chapter 9.
+)
+1: section
+[89
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+ (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
+(./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
+(./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux) (./Chapters/Chapter8.aux)
+(./Chapters/Chapter9.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E12E76F58F4659D7643630E0EF529772;11480.
+(rerunfilecheck)             Checksum: 3D458B3AFBB75AEE13773AFA511CA249;11693.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2303,10 +2314,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29393 strings out of 493304
- 602009 string characters out of 6139871
- 710861 words of memory out of 5000000
- 32066 multiletter control sequences out of 15000+600000
+ 29410 strings out of 493304
+ 602320 string characters out of 6139871
+ 711910 words of memory out of 5000000
+ 32073 multiletter control sequences out of 15000+600000
  34757 words of font info for 61 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  58i,20n,78p,10402b,2237s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2318,10 +2329,10 @@ ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
 tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (98 pages, 3773963 bytes).
+Output written on main.pdf (99 pages, 3774513 bytes).
 PDF statistics:
- 1342 PDF objects out of 1440 (max. 8388607)
- 1073 compressed objects within 11 object streams
- 336 named destinations out of 1000 (max. 500000)
- 795 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1357 PDF objects out of 1440 (max. 8388607)
+ 1087 compressed objects within 11 object streams
+ 339 named destinations out of 1000 (max. 500000)
+ 811 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -64,3 +64,5 @@
 \contentsline {subsection}{\numberline {8.1.10}Harmless default}{87}{subsection.233}
 \contentsline {subsection}{\numberline {8.1.11}Same-page error messages}{88}{subsection.236}
 \contentsline {subsection}{\numberline {8.1.12}Alternative views}{88}{subsection.237}
+\contentsline {chapter}{\numberline {9}Conclusions}{89}{chapter.238}
+\contentsline {section}{\numberline {9.1}Conclusions}{89}{section.239}
