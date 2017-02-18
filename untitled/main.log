@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  18 FEB 2017 14:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  18 FEB 2017 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2286,24 +2286,29 @@ load some-
 
  (./Chapters/Chapter9.tex
 Chapter 9.
-)
 1: section
 [89
 
 
 
 ]
+Overfull \hbox (4.48978pt too wide) in paragraph at lines 32--33
+[]\T1/ppl/m/n/12 The pro-gram of data anal-y-sis (gAn) need to be con-fig-ured.
+ Some
+ []
+
+[90] [91]) [92]
 \openout2 = `Chapters/Chapter10.aux'.
 
- (./Chapters/Chapter10.tex [90
+ (./Chapters/Chapter10.tex
+Chapter 10.
+)
+1: section
+[93
 
 
 
 ]
-Chapter 10.
-)
-1: section
-[91]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
@@ -2313,14 +2318,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BD08632143F7D2A619CE817C85D759E0;12488.
+(rerunfilecheck)             Checksum: 466BE152CE8BB41FA4105B42FF955310;12498.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29439 strings out of 493304
- 602774 string characters out of 6139871
+ 29449 strings out of 493304
+ 602854 string characters out of 6139871
  714242 words of memory out of 5000000
  32085 multiletter control sequences out of 15000+600000
  34757 words of font info for 61 fonts, out of 8000000 for 9000
@@ -2334,10 +2339,10 @@ ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
 tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (103 pages, 3776949 bytes).
+Output written on main.pdf (105 pages, 3784416 bytes).
 PDF statistics:
- 1407 PDF objects out of 1440 (max. 8388607)
- 1132 compressed objects within 12 object streams
- 349 named destinations out of 1000 (max. 500000)
+ 1424 PDF objects out of 1440 (max. 8388607)
+ 1147 compressed objects within 12 object streams
+ 359 named destinations out of 1000 (max. 500000)
  859 words of extra memory for PDF output out of 10000 (max. 10000000)
 
