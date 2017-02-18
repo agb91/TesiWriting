@@ -8,15 +8,34 @@
 
 This chapter aims to explain what choice were made and why from the web development point of view. It is interesting to analyse which are the particular requisites of this software and what solutions were chosen to satisfy them. 
 
-\section{requisites}
+\section{Requirements}
 
-%separation between front end and back end
+%separation between front end and back end. why? because the back-end will change. %all changes: the back end fastly (non only upgrades: maybe also other application based on gAn!) the front-end more slowly
+%json is a good way to communicate and debug
+%easy to modify without programming experience
+%regular expressions not only to check input but also to save and to execute
+%root compatible, so able to process bash script and work with root apis (js api)
+
+
 
 \section{Why a web solution}
+%because the installation is complex
+%because the installation is continuously changing. also the development with github was a hell!
+%because the computation is not so easy, recover the data is not so easy, .
 
 \section{MVC}
+%the model are root files and root api. the original raw root file? no! this is gAn web not gAn! here the model is the semifnished root files with images and the xml of settings!
+
+%views: html, css (sass to use inheritance), javascript (for client side ad also for interpretation of json), a lot of HCI
+%php to generate lists.
+
+%controller: PHPs, able to generate json and able to talk with files and root scripts
 
 \section{Used Technologies}
+
+%sass
+%bootstrap
+%json
 
 \section{General Schema of the project}
 

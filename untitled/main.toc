@@ -50,7 +50,7 @@
 \contentsline {subsection}{\numberline {7.4.2}What the test is evaluating?}{77}{subsection.208}
 \contentsline {subsection}{\numberline {7.4.3}Execution and Results}{78}{subsection.209}
 \contentsline {subsection}{\numberline {7.4.4}Is the testing finished here?}{81}{subsection.221}
-\contentsline {chapter}{\numberline {8}Design and Patterns}{83}{chapter.222}
+\contentsline {chapter}{\numberline {8}Patterns}{83}{chapter.222}
 \contentsline {section}{\numberline {8.1}Used patterns}{83}{section.223}
 \contentsline {subsection}{\numberline {8.1.1}Clear entry point}{83}{subsection.224}
 \contentsline {subsection}{\numberline {8.1.2}Wizard}{84}{subsection.225}
@@ -64,5 +64,11 @@
 \contentsline {subsection}{\numberline {8.1.10}Harmless default}{87}{subsection.233}
 \contentsline {subsection}{\numberline {8.1.11}Same-page error messages}{88}{subsection.236}
 \contentsline {subsection}{\numberline {8.1.12}Alternative views}{88}{subsection.237}
-\contentsline {chapter}{\numberline {9}Conclusions}{89}{chapter.238}
-\contentsline {section}{\numberline {9.1}Conclusions}{89}{section.239}
+\contentsline {chapter}{\numberline {9}Web Design Development}{89}{chapter.238}
+\contentsline {section}{\numberline {9.1}requisites}{89}{section.239}
+\contentsline {section}{\numberline {9.2}Why a web solution}{89}{section.240}
+\contentsline {section}{\numberline {9.3}MVC}{89}{section.241}
+\contentsline {section}{\numberline {9.4}Used Technologies}{89}{section.242}
+\contentsline {section}{\numberline {9.5}General Schema of the project}{89}{section.243}
+\contentsline {chapter}{\numberline {10}Conclusions}{91}{chapter.244}
+\contentsline {section}{\numberline {10.1}Conclusions}{91}{section.245}
