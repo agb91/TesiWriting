@@ -40,7 +40,7 @@ All the software must work easily with the Root Framework, so communicate with i
 
 \end{enumerate}
 
-\section{Why a web solution}
+\section{Why a web solution?}
 
 Before start to work with this project using web development some other solution was evaluated:
 
@@ -57,16 +57,49 @@ Another analysed solution was the creation of a stand alone application, with an
 
 %3
 \item
-Probably the better possible solution (the adopted one) is the web application. So with simply a web browser also a low quality laptop can access information, and both the data and the application are always at the last version (the application change quite rapidly, but actually new data are added every some hundreds of seconds every days when the machine is working.. so only a centralized application can meet the need of react to the continuous modification of the situation).
-In this way the user doesn't need to install nothing, and this is an advantage because the practice shows that the installation process of gAn is not so linear and shows often configuration problems.
+Probably the better possible solution (the adopted one) is the web application. So with simply a web browser also a low quality laptop can access information, and both the data and the application are always at the last version (the application change quite rapidly, but actually new data are added every some hundreds of seconds every days when the machine is working.. so only a centralized application can meet the need to react to the continuous modification of the situation).
+In this way the user doesn't need to install nothing, and this is an advantage because the practice shows that the installation process of gAn is not so linear and shows often configuration problems (the behavior of gAn is linked to the version of Root Framework installed on the machine, the different versions are not perfectly compatible). Another advantage of this solution is that in this way only the server needs to manage the problem to recover the data (at their most recent version) and to store them in an intelligent way. Furthermore the computational power of the server is probably more suitable to execute the requested analysis. It is important to reason about the possible request of parallel execution from more users at the same time, but considering the number of the total user of this application, that is around at maximum a few tens, the charge on the server to satisfy the multiple requests is not so high.    
 
 \end{enumerate}
  
-%because the installation is complex
-%because the installation is continuously changing. also the development with github was a hell!
-%because the computation is not so easy, recover the data is not so easy, .
-
 \section{MVC}
+
+The application of the Model View Controller pattern is usually a good idea in Web Development, specially in an application that needs to be rapidly modified and needs a special attention to the maintenance.
+
+We can start with a precise definition of what a MVC pattern is; according to Wikipedia:
+
+\begin{quote} 
+
+Model–view–controller (MVC) is a software design pattern for implementing user interfaces on computers. It divides a given application into three interconnected parts in order to separate internal representations of information from the ways that information is presented to and accepted from the user. The MVC design pattern decouples these major components allowing for efficient code reuse and parallel development.
+
+\end{quote}
+
+The following figure can make the point more clear:
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.25]{MVC.png}  
+\caption{The general structure of the MVC pattern}
+\end{figure}    
+
+So the goal is to divide the application in "independent" modules:
+
+\begin{enumerate}
+
+%1, VIEW
+\item The view is the surface of the system. In this project it is created with Html, Css, Javascript (with some parts of Php, used to create through the "echo" command part of Html code that are repetitive, for example lists ). The design of the view in this kind of projects is particularly important because the application needs to represent particular kinds of information to particular kinds of users, and both the importance and the special feature needed by this interface are explained in the previous chapters. In the MVC pattern the view is the part less able to "reason" its goal is mainly related to the representation of information. In this project some kind of representations are quite complex, but this complexity is managed by other tiers, and the view needs only to show the users images, html constructions, and 
+
+%2, MODEL
+\item In the MVC the model is the central module of the pattern. It contains the application's behavior and must be independent of the user interface. Its primary goal is manage the data of the application. In gAn Web it is a complex situation: excluding some little data related to the configuration and other minor form of persistence, the main data related to this application are the output of another application (gAn). If we consider the whole system the model of the composed application is represented by the the raw root files taken in input by the system. Their loading, interpretation, analysis and activities related to the update of the view are the main activities of the model tier.   
+
+%3, CONTROLLER
+\item The main goal of a controller are related to receiving the command of the users, the interpretation of these commands, and the consequent actions to change the state of the model. In gAn Web the controller is represented by the javascript functions able to check, interpret, and send to the server the desires of the users, and the Php scripts able to receive this commands, start the cycle of analysis of the program, and work directly with the model 
+
+
+\end{enumerate}
+ 
+
+
 %the model are root files and root api. the original raw root file? no! this is gAn web not gAn! here the model is the semifnished root files with images and the xml of settings!
 
 %views: html, css (sass to use inheritance), javascript (for client side ad also for interpretation of json), a lot of HCI
