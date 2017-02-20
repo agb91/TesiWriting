@@ -6,11 +6,11 @@
 
 %----------------------------------------------------------------------------------------
 
-This chapter aims to explain what choice were made and why from the web development point of view. It is interesting to analyse which are the particular requirements of this software and what solutions were chosen to satisfy them. 
+This chapter aims to explain what choice were made and why from the web development point of view. It is interesting to analyze which are the particular requirements of this software and what solutions were chosen to satisfy them. 
 
 \section{Requirements}
 
-From the Web Development's point of view the first step to do is to identify what are the most important goal to achieve. They are uncorrelated but not conflict with the requirements already analysed related with the Human Machine Interaction's point of view. Following there are some observations:
+From the Web Development's point of view the first step to do is to identify what are the most important goal to achieve. They are uncorrelated but not conflict with the requirements already analyzed related with the Human Machine Interaction's point of view. Following there are some observations:
 
 \begin{enumerate}
 
@@ -25,18 +25,18 @@ Another quite important point to keep in mind is that this application will be m
 
 %3
 \item
-The logical separation between client and server implies that a way to communicate is needed. A simple communication based on Post and Get is quite effective, but a more structured communication based on exchange of complex object seems to be more re-usable, and simpler to maintain and modify. From this point of view Json language give a standard well known solution, simple, efficient, and effective to solve this issue  
+The logical separation between client and server implies that a way to communicate is needed. A simple communication based on Post and Get is quite effective, but a more structured communication based on exchange of complex object seems to be more re-usable, and simpler to maintain and modify. From this point of view Json language give a standard well-known solution, simple, efficient, and effective to solve this issue  
 
 %4
 \item
-The program of data analysis (gAn) need to be configured. Some of these configurations are accessible by the user, some aren't, but in both cases it is important to give a structured way to persist the configuration of the application. The first idea is to use a simple text file to achieve this goal, but with the growth of the file a more formal solution becomes preferable. Xml is a good solution, because it is a diffused standard and there are a lot of API and libraries able to help to write and read in an easy way.  
+The program of data analysis (gAn) need to be configured. Some of these configurations are accessible by the user, some aren't, but in both cases it is important to give a structured way to persist the configuration of the application. The first idea is to use a simple text file to achieve this goal, but with the growth of the file a more formal solution becomes preferable. Xml is a good solution, because it is a diffused standard and there are a lot of API and libraries able to help to write and read it easily.
 
 %5
 \item
-A simple but precise way to evaluate the formatting of a string or a group of strings is needed to ensure in every moment that the program is working with the correct value. For example, it is important to ensure that if the user is inserting a run number the entered value is effectively a decimal number: in other case the front-end can advise the user of the error. This first example is related to an inadvertent error, but it is important to consider also other situations when, for security reason, immediately before save a number in a file, or immediately before insert a number as a variable in a bash script the application needs to ensure that the value is compatible (so, has the same format) of the expected one. This is a prudential approach, but we must consider the this application is thought to work on a Intra-net, not, on the internet, so the occurrence of an attack is not so immediate. There are some solution considered to avoid problems and formatting objects correctly, the two effectively used are regular expressions to certify if a string respect some limits, and some standardized functions provided by Php to check if in a string there are dangerous commands.
+A simple but precise way to evaluate the formatting of a string or a group of strings is needed to ensure in every moment that the program is working with the correct value. For example, it is important to ensure that if the user is inserting a run number the entered value is effectively a decimal number: in other case the front-end can advise the user of the error. This first example is related to an inadvertent error, but it is important to consider also other situations when, for security reason, immediately before save a number in a file, or immediately before insert a number as a variable in a bash script the application needs to ensure that the value is compatible (so, has the same format) of the expected one. This is a prudential approach, but we must consider the this application is thought to work on a Intra-net, not, on the internet, so the occurrence of an attack is not so immediate. There are some solution considered in order to avoid problems and formatting objects correctly, the two effectively used are regular expressions to certify if a string respect some limits, and some standardized functions provided by Php to check if in a string there are dangerous commands.
  
 %6
-All the software must work easily with the Root Framework, so communicate with it using APIs or others way to interact with gAn. This is not always simply, because Root provides some APIs to communicate with languages used in web developing but there is a big lack of documentation. Often, in absence of documentation for some needed functionalities the best way to work was check directly the open source code of the APIs to understand the functionalities gave by them.
+All the software must work easily with the Root Framework, so communicate with it using APIs or other ways to interact with gAn. This is not always simply, because Root provides some APIs to communicate with languages used in web developing but there is a big lack of documentation. Often, in absence of documentation for some needed functionalities the best way to work was check directly the open source code of the APIs to understand the functionalities gave by them.
 
 \end{enumerate}
 
@@ -53,7 +53,7 @@ This solution is no longer used for the final application itself, but it is stil
 
 % 2
 \item
-Another analysed solution was the creation of a stand alone application, with an advanced graphical interface, able to perform analyses on a common laptop or on the computers of the AEgIS control room. This solution is able to use all the advantages of the application of the human machine interaction science, but it is quite limited: in a hypothetical situation with this solution applied it would be very difficult give to all the users the same version of the application (that is changing continuously). So in that case a system able to check automatically the application for updates every "x" days would be necessary, and the total amount of complexity would be quite high. Other problems of these solution are that it would be able to work only with the LAN of the AEgIS Control Room to access the data that are stored on dedicated hard disks, and the computational power of a common laptop would have some problem to analyse data in a reasonable time (the data at the moment are some terabytes, but in the future this amount will probably growth rapidly).
+Another analyzed solution was the creation of a standalone application, with an advanced graphical interface, able to perform analyses on a common laptop or on the computers of the AEgIS control room. This solution is able to use all the advantages of the application of the human machine interaction science, but it is quite limited: in a hypothetical situation with this solution applied it would be very difficult give to all the users the same version of the application (that is changing continuously). So in that case a system able to check automatically the application for updates every "x" days would be necessary, and the total amount of complexity would be quite high. Other problems with this solution are that it would be able to work only with the LAN of the AEgIS Control Room to access the data that are stored on dedicated hard disks, and the computational power of a common laptop would have some problem to analyze data in a reasonable time (the data at the moment are some terabytes, but in the future this amount will probably growth rapidly).
 
 %3
 \item
@@ -90,7 +90,7 @@ So the goal is to divide the application in "independent" modules:
 \item The view is the surface of the system. In this project it is created with Html, Css, Javascript (with some parts of Php, used to create through the "echo" command part of Html code that are repetitive, for example lists ). The design of the view in this kind of projects is particularly important because the application needs to represent particular kinds of information to particular kinds of users, and both the importance and the special feature needed by this interface are explained in the previous chapters. In the MVC pattern the view is the part less able to "reason" its goal is mainly related to the representation of information. In this project some kind of representations are quite complex, but this complexity is managed by other tiers, and the view needs only to show the users images, html constructions, and 
 
 %2, MODEL
-\item In the MVC the model is the central module of the pattern. It contains the application's behavior and must be independent of the user interface. Its primary goal is manage the data of the application. In gAn Web it is a complex situation: excluding some little data related to the configuration and other minor form of persistence, the main data related to this application are the output of another application (gAn). If we consider the whole system the model of the composed application is represented by the the raw root files taken in input by the system. Their loading, interpretation, analysis and activities related to the update of the view are the main activities of the model tier.   
+\item In the MVC the model is the central module of the pattern. It contains the application's behavior and must be independent of the user interface. Its primary goal is managing the data of the application. In gAn Web it is a complex situation: excluding some little data related to the configuration and other minor form of persistence, the main data related to this application are the output of another application (gAn). If we consider the whole system the model of the composed application is represented by the raw root files taken in input by the system. Their loading, interpretation, analysis and activities related to the update of the view are the main activities of the model tier.   
 
 %3, CONTROLLER
 \item The main goal of a controller are related to receiving the command of the users, the interpretation of these commands, and the consequent actions to change the state of the model. In gAn Web the controller is represented by the javascript functions able to check, interpret, and send to the server the desires of the users, and the Php scripts able to receive this commands, start the cycle of analysis of the program, and work directly with the model 
@@ -100,19 +100,19 @@ So the goal is to divide the application in "independent" modules:
  
 \section{Used Technologies}
 
-The adopted technologies for this project are generically the standard ones of a web application project, but some of them deserve some little explaination:
+The adopted technologies for this project are generically the standard ones of a web application project, but some of them deserve some little explanation:
 
 \begin{enumerate}
 
 %1 sass
 \item
 SASS:
-Syntactically Awesome StyleSheets is a language that aims to simplify the tasks related to the CSS files. The goals of this solution are not related directly with the functionalities of the application but more with the aesthetic of it.
+Syntactically Awesome Style Sheets is a language that aims to simplify the tasks related to the CSS files. The goals of this solution are not related directly with the functionalities of the application but more with the aesthetic of it.
 The normal CSS language is simple and well organized, but using Sass we can further improve its features:
 
 According to its official documentation :
 \begin{quote}
-Sass is an extension of CSS that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized, and get small stylesheets up and running quickly, particularly with the help of the Compass style library.
+Sass is an extension of CSS that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. Sass helps keep large style sheets well-organized, and get small style sheets up and running quickly, particularly with the help of the Compass style library.
 
 \end{quote}
 
@@ -125,12 +125,12 @@ First of all the fact that Scss admits the concept of variable, so is more simil
 Bootstrap
 This framework is mainly aimed to create a responsive (partially adaptive), well organized front-end. It is not a complete framework, so it not involves all the logical part of the application, but only the front-end of the web part. This fact is important because ensures us not to create conflicts with the Root Framework on the back-end, and if in a future the back-end part of the application will be strongly changed (it is quite likely), the existing strong separation will avoid without problem conflicts with this technology. Bootstrap is a not-invasive, light structure, that carries many advantages, but for this project there are in particular two Bootstrap's features that invite us to work with it: the availability of a responsive structure created with very simple commands and the existence of a lot of pre-produced standard graphic artifacts. 
 
-The first one is quite useful for any web project, because Bootstrap allows to divide the screen in twelve columns and assign to each component a number of columns to occupy (recursively, each component can in turn be devided in twelve columns and so on). This functionality can link easily the dimension of the component to a screen size and redistribute the components in the screen automatically if the dimension of the screen changes. There are also more advanced structures that allow to easily tell the component to occupy a different number of columns or adopt different behaviors if the dimensions of the screen are particularly little, giving to Bootstrap an interesting role in the development of web applications for the mobile world, but in this case the application is thought to work on a laptop or on a pc, so the general behavior is sufficient to satisfy the requests.
+The first one is quite useful for any web project, because Bootstrap allows to divide the screen in twelve columns and assign to each component a number of columns to occupy (recursively, each component can in turn be divided in twelve columns and so on). This functionality can link easily the dimension of the component to a screen size and redistribute the components in the screen automatically if the dimension of the screen changes. There are also more advanced structures that allow to easily tell the component to occupy a different number of columns or adopt different behaviors if the dimensions of the screen are particularly little, giving to Bootstrap an interesting role in the development of web applications for the mobile world, but in this case the application is thought to work on a laptop or on a pc, so the general behavior is sufficient to satisfy the requests.
 
 
 % %TODO %TODO %TODO %TODO %TODO %TODO  caccia una foto di bootstrap con le colonne qui
 
-The second is the availability of a big amount of already implemented graphic objects such as buttons, fields, widgets. This allows us not only to save time (implementation of the style sheet of a widget is easy.. the time saving would be actually little..) but mostly to re-use solution that was created by specialised personnel with graphic design experience, so thought to have the strongest possible affordance. Another interesting point is that Bootstrap is quite diffused on the web, many sites are created using Bootstrap's artifacts, so the user can re-use his experience to understand the meaning of some commands. 
+The second is the availability of a big amount of already implemented graphic objects such as buttons, fields, widgets. This allows us not only to save time (implementation of the style sheet of a widget is easy.. the time saving would be actually little..) but mostly to re-use solution that was created by specialized personnel with graphic design experience, so thought to have the strongest possible affordance. Another interesting point is that Bootstrap is quite diffused on the web, many sites are created using Bootstrap's artifacts, so the user can re-use his experience to understand the meaning of some commands. 
   
 \item
 Json
