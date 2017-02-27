@@ -66,9 +66,9 @@
 \contentsline {subsection}{\numberline {8.1.12}Alternative views}{88}{subsection.237}
 \contentsline {chapter}{\numberline {9}Web Design Development}{89}{chapter.238}
 \contentsline {section}{\numberline {9.1}Requirements}{89}{section.239}
-\contentsline {section}{\numberline {9.2}Why a web solution?}{91}{section.245}
+\contentsline {section}{\numberline {9.2}Why a web solution?}{92}{section.245}
 \contentsline {section}{\numberline {9.3}MVC}{93}{section.249}
-\contentsline {section}{\numberline {9.4}Used Technologies}{94}{section.254}
-\contentsline {section}{\numberline {9.5}General Schema of the project}{96}{section.258}
-\contentsline {chapter}{\numberline {10}Conclusions}{97}{chapter.259}
-\contentsline {section}{\numberline {10.1}Conclusions}{97}{section.260}
+\contentsline {section}{\numberline {9.4}Used Technologies}{95}{section.254}
+\contentsline {section}{\numberline {9.5}General Schema of the project}{97}{section.258}
+\contentsline {chapter}{\numberline {10}Conclusions}{99}{chapter.259}
+\contentsline {section}{\numberline {10.1}Conclusions}{99}{section.260}

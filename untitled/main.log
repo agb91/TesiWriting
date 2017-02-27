@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  20 FEB 2017 19:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.14)  27 FEB 2017 18:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2292,40 +2292,52 @@ Chapter 9.
 
 
 ]
-Overfull \hbox (4.48978pt too wide) in paragraph at lines 32--33
+Overfull \hbox (3.50514pt too wide) in paragraph at lines 28--29
+\T1/ppl/m/n/12 also other tech-nolo-gies were anal-ysed: in par-tic-u-lar we ar
+e look-
+ []
+
+
+Overfull \hbox (3.51732pt too wide) in paragraph at lines 28--29
+\T1/ppl/m/n/12 ing for tech-nolo-gies able to send human-readable mes-sages (th
+is
+ []
+
+[90]
+Overfull \hbox (4.48978pt too wide) in paragraph at lines 36--37
 []\T1/ppl/m/n/12 The pro-gram of data anal-y-sis (gAn) need to be con-fig-ured.
  Some
  []
 
-[90] [91]
-Overfull \hbox (1.45406pt too wide) in paragraph at lines 67--68
+[91] [92]
+Overfull \hbox (1.45406pt too wide) in paragraph at lines 71--72
 \T1/ppl/m/n/12 good idea in Web De-vel-op-ment, spe-cially in an ap-pli-ca-tion
  that needs
  []
 
-[92] <Chapters/images/MVC.png, id=1314, 441.65pt x 264.99pt>
+<Chapters/images/MVC.png, id=1314, 441.65pt x 264.99pt>
 File: Chapters/images/MVC.png Graphic file (type png)
 
 <use Chapters/images/MVC.png>
-Package pdftex.def Info: Chapters/images/MVC.png used on input line 81.
+Package pdftex.def Info: Chapters/images/MVC.png used on input line 85.
 (pdftex.def)             Requested size: 110.41222pt x 66.24733pt.
- [93 <./Chapters/images/MVC.png>] [94] [95]
-Overfull \hbox (5.71391pt too wide) in paragraph at lines 136--141
+ [93] [94 <./Chapters/images/MVC.png>] [95]
+Overfull \hbox (5.71391pt too wide) in paragraph at lines 140--145
 \T1/ppl/m/n/12 phase. It is the most com-mon data for-mat used for asyn-chronou
 s
  []
 
-) [96]
+[96]) [97]
 \openout2 = `Chapters/Chapter10.aux'.
 
- (./Chapters/Chapter10.tex
+ (./Chapters/Chapter10.tex [98
+
+
+
+]
 Chapter 10.
 1: section
-[97
-
-
-
-]) [98]
+[99]) [100]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
@@ -2341,9 +2353,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29466 strings out of 493304
- 603078 string characters out of 6139871
- 714242 words of memory out of 5000000
+ 29468 strings out of 493304
+ 603094 string characters out of 6139871
+ 714243 words of memory out of 5000000
  32089 multiletter control sequences out of 15000+600000
  34757 words of font info for 61 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -2356,10 +2368,10 @@ ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
 tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (110 pages, 3809221 bytes).
+Output written on main.pdf (112 pages, 3810562 bytes).
 PDF statistics:
- 1459 PDF objects out of 1728 (max. 8388607)
- 1175 compressed objects within 12 object streams
- 371 named destinations out of 1000 (max. 500000)
+ 1468 PDF objects out of 1728 (max. 8388607)
+ 1182 compressed objects within 12 object streams
+ 373 named destinations out of 1000 (max. 500000)
  864 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -21,11 +21,15 @@ As explained in the previous chapters the front-end, so the way in which the inf
 
 %2
 \item
-Another quite important point to keep in mind is that this application will be maintained and probably modified by people that aren't specialized Web Developer. So it is important to maintain the code as simple as possible and to "hide" the complexity where a complex structure is unavoidable. For example, the functions able to read and write on files, to extract histogram from vectors, to apply "regular expression" to verify the format of a file can be packed into functions able to be simply called without expect expertise from the programmer.   
+Another quite important point to keep in mind is that this application will be maintained and probably modified by people that aren't specialized Web Developer. So it is important to maintain the code as simple as possible and to "hide" the complexity where a complex structure is unavoidable. For example, the functions able to read and write on files, to extract histogram from vectors, to apply "regular expression" to verify the format of a file can be packed into functions able to be simply called without expect expertise from the programmer. All the decisions related to the paradigm and the environment to use for this project may take consideration about the fact that simplicity is a fundamental requirement.   
 
 %3
 \item
-The logical separation between client and server implies that a way to communicate is needed. A simple communication based on Post and Get is quite effective, but a more structured communication based on exchange of complex object seems to be more re-usable, and simpler to maintain and modify. From this point of view Json language give a standard well-known solution, simple, efficient, and effective to solve this issue  
+The logical separation between client and server implies that a way to communicate is needed. A simple communication based on Post and Get is quite effective, but a more structured communication based on exchange of complex object seems to be more re-usable, and simpler to maintain and modify. From this point of view Json language give a standard well-known solution, simple, efficient, and effective to solve this issue, but also other technologies were analysed: in particular we are looking for technologies able to send human-readable messages (this is useful in debug phase). The best alternative to Json is probably Yaml, that seems to be more readable, but also a more immature technology. In the following figure we can see the two different formats that encode the same message:
+
+%TODO %TODO %TODO %TODO  INSERISCI UN IMMAGINE DI CONFRONTO TRA JSON E YAML
+
+As we can see Yaml is very near to the way in which a human thinks, and has the advantage to be a superset of Json (so each Json message is also a Yaml message, but not viceversa) but this technology is less diffused and probably for the next programmers who will work on this application or will need to communicate through HTTP whit is having to work with a not-mainstream technology can create difficulties able to overcome advantages. 
 
 %4
 \item
@@ -61,10 +65,35 @@ Probably the better possible solution (the adopted one) is the web application. 
 In this way the user doesn't need to install nothing, and this is an advantage because the practice shows that the installation process of gAn is not so linear and shows often configuration problems (the behavior of gAn is linked to the version of Root Framework installed on the machine, the different versions are not perfectly compatible). Another advantage of this solution is that in this way only the server needs to manage the problem to recover the data (at their most recent version) and to store them in an intelligent way. Furthermore the computational power of the server is probably more suitable to execute the requested analysis. It is important to reason about the possible request of parallel execution from more users at the same time, but considering the number of the total user of this application, that is around at maximum a few tens, the charge on the server to satisfy the multiple requests is not so high.    
 
 \end{enumerate}
+
+\section{Different hypothesis about how to implement the project}
+
+After being sure about the choice of implementing a web solution it is important, considered the requirements take some decisions about the way in which work.
+For the client side the situation seems to be clear: a HTML5 and Javascript solution, together with some kind of CSS processing technology, can meet all that is needed.
+
+For the server side the challenge is a bit more open: there are to important decision to take: which programming language is more suitable for the exigences and which paradigm to adopt. This two question are in this case very linked together, and there are three solutions each one with pros and cons:
+
+\begin{enumerate}
+
+% 1: procedural PHP
+\item
+The first solution is simple: using Php with a Procedural approach. Php is born to be a procedural language able to work in the server side, and this approach can guarantee the simpler way to meet our goal. In particular this solution will allow also people that are not specialized in web developing to work easily on this project. On the other hand this solution is not very structured, and in a big project, specially with a numerous group of people that needs to work together will become full of problems.
+
+% 2: OO PHP
+\item
+An alternative solution is again Php, but adopting the Object Oriented paradigm. This solution is probably more suitable for big server sides, more easy to maintain and extend. But Php is not born as OO language, it supports the concept of object only from the 5th version, and a native OO language can be a better solution. This fact take us to the third choice:
+
+% 3: OO JAVA
+\item
+Java is a natively Object Oriented language, and Jave Enterprise Edition is perfect to work on an application server like apache. This is a very structured solution, and we can use also very good frameworks like Spring to create a very well organized server side, scalable also for big projects. But there are also bad sides: this kind of application is more complex, needs specialized programmers to be modified and is not very good for little server sides. 
+
+According to our exigences, this server side is not so big, the login of the application is quite similar to a procedure, and mostly of the developer in the AEgIS experiment come from experiences with C, so are used to work with the procedural approach. At this point the decision is to work with Php, adopting a procedural approach.  
+
+\end{enumerate}
  
 \section{MVC}
 
-The application of the Model View Controller pattern is usually a good idea in Web Development, specially in an application that needs to be rapidly modified and needs a special attention to the maintenance.
+The application of the Model View Controller pattern is usually a good idea in Web Development, specially in an application that needs to be rapidly modified and needs a special attention to the maintenance. This pattern is perfect when it works with an object oriented project, but we can implement its logic also with a procedural approach.
 
 We can start with a precise definition of what a MVC pattern is; according to Wikipedia:
 
@@ -87,7 +116,7 @@ So the goal is to divide the application in "independent" modules:
 \begin{enumerate}
 
 %1, VIEW
-\item The view is the surface of the system. In this project it is created with Html, Css, Javascript (with some parts of Php, used to create through the "echo" command part of Html code that are repetitive, for example lists ). The design of the view in this kind of projects is particularly important because the application needs to represent particular kinds of information to particular kinds of users, and both the importance and the special feature needed by this interface are explained in the previous chapters. In the MVC pattern the view is the part less able to "reason" its goal is mainly related to the representation of information. In this project some kind of representations are quite complex, but this complexity is managed by other tiers, and the view needs only to show the users images, html constructions, and 
+\item The view is the surface of the system. In this project it is created with Html, Css, Javascript (with some parts of Php, used to create through the "echo" command part of Html code that are repetitive, for example lists ). The design of the view in this kind of projects is particularly important because the application needs to represent particular kinds of information to particular kinds of users, and both the importance and the special feature needed by this interface are explained in the previous chapters. In the MVC pattern the view is the part less able to "reason" its goal is mainly related to the representation of information. In this project some kinds of representations are quite complex, but this complexity is managed by other tiers, and the view needs only to show the users images, html constructions, and artefacts to access graphics. So the view is the client side? No, it isn't: in the client side there are also a part of the controller, able to interpret the inputs of the user and send them to the logic of the application.
 
 %2, MODEL
 \item In the MVC the model is the central module of the pattern. It contains the application's behavior and must be independent of the user interface. Its primary goal is managing the data of the application. In gAn Web it is a complex situation: excluding some little data related to the configuration and other minor form of persistence, the main data related to this application are the output of another application (gAn). If we consider the whole system the model of the composed application is represented by the raw root files taken in input by the system. Their loading, interpretation, analysis and activities related to the update of the view are the main activities of the model tier.   
@@ -98,7 +127,7 @@ So the goal is to divide the application in "independent" modules:
 
 \end{enumerate}
  
-\section{Used Technologies}
+\section{Other Used Technologies}
 
 The adopted technologies for this project are generically the standard ones of a web application project, but some of them deserve some little explanation:
 
