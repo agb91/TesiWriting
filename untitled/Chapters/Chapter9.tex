@@ -8,7 +8,7 @@
 
 This chapter aims to explain what choice were made and why from the web development point of view. It is interesting to analyze which are the particular requirements of this software and what solutions were chosen to satisfy them. 
 
-\section{Requirements}
+\section{Requirements from the Web Development Point of View}
 
 From the Web Development's point of view the first step to do is to identify what are the most important goal to achieve. They are uncorrelated but not conflict with the requirements already analyzed related with the Human Machine Interaction's point of view. Following there are some observations:
 
@@ -91,7 +91,7 @@ According to our exigences, this server side is not so big, the login of the app
 
 \end{enumerate}
  
-\section{MVC}
+\section{The simple solution: MVC pattern}
 
 The application of the Model View Controller pattern is usually a good idea in Web Development, specially in an application that needs to be rapidly modified and needs a special attention to the maintenance. This pattern is perfect when it works with an object oriented project, but we can implement its logic also with a procedural approach.
 
@@ -126,6 +126,20 @@ So the goal is to divide the application in "independent" modules:
 
 
 \end{enumerate}
+
+In this explanation of the theory the MVC seems to be perfect, but in the application some further consideration are needed.
+
+\section{The alternative solution: MVVM pattern}
+
+In this situation it is perfectly clear what is the view and what it needs to do, and also it is quite clear what functions are surely related to the model. The definition of controller seems to be more nuanced: it is clear that this tier needs to receive the input of the user (and to manage it, that in some cases is not so simple), give them to the model that implements the business logic of the application and send to the view the results, so its role of "glue" is clear, but during the practical implementation an observation has grown: actually some functionalities that in the theory belongs to the controller, such as managing the complex interaction of the users when it works with the "alive" images provided by root and give him back a real-time feedback on the screen are in practice considerable part of the "logic" of the presentation, and furthermore their logic is implemented in the same methods able to read informations from the data so in some cases the strong division between view and controller seems to be less strong. 
+In practice in this case a "fat view" manage the data-binding talking with an extension of the model, because this is the smartest way. 
+At this point it is important to consider if in this project another way can be followed: apply a variation of the MVC: the Model View ViewModel pattern. 
+In this pattern instead of the controller there is a component named ViewModel that allows the view to implement a logic, for example in this case interpreting the desires of the users and calling directly model's methods, and giving back to the view an image, modified in real time, in svg format. 
+
+This pattern is less mainstream, but in this case can provide a more direct way to manage complex user interactions, at least in the page related to the output of the program, where the interaction user-data though images is quite complex. 
+However it seems to be not perfectly suitable for all this project, and an intermediate solution can be adopt it only in little parts, where it can really be useful, in derogation of the MVC, that is the main pattern of this project.
+
+
  
 \section{Other Used Technologies}
 
