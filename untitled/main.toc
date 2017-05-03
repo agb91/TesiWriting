@@ -72,5 +72,5 @@
 \contentsline {section}{\numberline {9.5}The alternative solution: MVVM pattern}{96}{section.258}
 \contentsline {section}{\numberline {9.6}Other Used Technologies}{97}{section.259}
 \contentsline {section}{\numberline {9.7}General Schema of the project}{99}{section.263}
-\contentsline {chapter}{\numberline {10}Conclusions}{101}{chapter.264}
-\contentsline {section}{\numberline {10.1}Conclusions}{101}{section.265}
+\contentsline {chapter}{\numberline {10}Conclusions}{101}{chapter.265}
+\contentsline {section}{\numberline {10.1}Conclusions}{101}{section.266}

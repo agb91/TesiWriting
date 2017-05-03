@@ -150,6 +150,8 @@ The adopted technologies for this project are generically the standard ones of a
 %1 sass
 \item
 SASS:
+\\
+\noindent
 Syntactically Awesome Style Sheets is a language that aims to simplify the tasks related to the CSS files. The goals of this solution are not related directly with the functionalities of the application but more with the aesthetic of it.
 The normal CSS language is simple and well organized, but using Sass we can further improve its features:
 
@@ -165,7 +167,9 @@ Some interesting features of Scss that can help this project are mainly two:
 First of all the fact that Scss admits the concept of variable, so is more similar to a programming language that CSS; Second, probably more interesting, the existence of the nesting inheritance, in which the classes that are included in other classes full inherits the parent's features. This structure allows to produce elegant, better organizer, more reusable CSS code.
 
 \item
-Bootstrap
+Bootstrap:
+\\
+\noindent
 This framework is mainly aimed to create a responsive (partially adaptive), well organized front-end. It is not a complete framework, so it not involves all the logical part of the application, but only the front-end of the web part. This fact is important because ensures us not to create conflicts with the Root Framework on the back-end, and if in a future the back-end part of the application will be strongly changed (it is quite likely), the existing strong separation will avoid without problem conflicts with this technology. Bootstrap is a not-invasive, light structure, that carries many advantages, but for this project there are in particular two Bootstrap's features that invite us to work with it: the availability of a responsive structure created with very simple commands and the existence of a lot of pre-produced standard graphic artifacts. 
 
 The first one is quite useful for any web project, because Bootstrap allows to divide the screen in twelve columns and assign to each component a number of columns to occupy (recursively, each component can in turn be divided in twelve columns and so on). This functionality can link easily the dimension of the component to a screen size and redistribute the components in the screen automatically if the dimension of the screen changes. There are also more advanced structures that allow to easily tell the component to occupy a different number of columns or adopt different behaviors if the dimensions of the screen are particularly little, giving to Bootstrap an interesting role in the development of web applications for the mobile world, but in this case the application is thought to work on a laptop or on a pc, so the general behavior is sufficient to satisfy the requests.
@@ -176,7 +180,9 @@ The first one is quite useful for any web project, because Bootstrap allows to d
 The second is the availability of a big amount of already implemented graphic objects such as buttons, fields, widgets. This allows us not only to save time (implementation of the style sheet of a widget is easy.. the time saving would be actually little..) but mostly to re-use solution that was created by specialized personnel with graphic design experience, so thought to have the strongest possible affordance. Another interesting point is that Bootstrap is quite diffused on the web, many sites are created using Bootstrap's artifacts, so the user can re-use his experience to understand the meaning of some commands. 
   
 \item
-Json
+Json:
+\\
+\noindent
 Json is a smart way to communicate between client and server.
 It is an open format that uses human-readable text to transmit data objects consisting of attribute–value pairs. The interesting point of this technologies is that it is (quite) easy to read by a human. This feature is very useful in debugging phase.  
 It is the most common data format used for asynchronous browser/server communication, largely replacing XML, and is used by AJAX. In this application each server module produces in output Json-formatted information, and the clients can (using javascript) interpret these information and use them to build the page, and communicate actively with the server sending him requests formatted using this standard.
@@ -188,3 +194,14 @@ The diffusion and language agnosticism of Json allows it to be a common language
 
 \section{General Schema of the project}
 
+In the following picture we try to explain the general structure of the project; This picture isn't a standard UML graph, because a more free and informal graph can in this case explain in a probably less precise but more simple way what are the roles of each part. In particular, in this picture there are both software and hardware components, because we want to clarify what is the generic flow of the system (not the flow of the software system, but the global flow of information in the AEgIS experiment). To meet the goal of explain what are the main actor in this situation some particulars are omitted, which the aim of exposing only what we want to clarify.
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.25]{generalAEgISImage.png} 
+\caption{The generic structure of the experiment}
+\end{figure}
+   
+Through this image the general situation is more understandable: gAn Web is the whole client of the application, and occupy also a part of the server. The view is the front end of the client, the controller is the bridge between the view and the model. We observe that the controller is divided in two part: the one on the client and the one on the server, and this part are strongly separates and able to communicate with json (actually, this explanation of the situation of the controller is simplified, as exposed in the previous paragraphs related to MVC and MVVM). It is very easy if needed to exchange the client or the server with another, and this leads that whereas the concepts of view and model are clearly defined and quite simply the controller is quite smoked (de facto, in the implementation of the images page the adopted solution is a MVVM). DAQ is the system of hardware and software able to take information from the machine and put them into raw, unfiltered Root files. DAQ is a very complex and heterogeneous machine, its description is not part of the goal of this document, but its role of information transporter is a key-role of the whole system. Also the AEgIS' experiment machine is a complex system, partially described in the first chapter, its role is to be the physical source of the whole information, the beginning of the system.
+
+      
