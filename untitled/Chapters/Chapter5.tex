@@ -36,7 +36,7 @@ In this version is not clear if all the different versions will be used for the 
 \item The super-users prefer the dropdown menu than the radio button, so all the radio buttons in the program are replaced by dropdown menus.
 
 % 8
-\item The user has to access not only a png image, but also a root-image. This kind of image is interactive: the user can left-click and drag the mouse to select parts of the image and zoom them, and with a right click perform dynamically some kind of image processing (set colors, choose what kind of chart to show, modify the chart legend, translate in a 3D space the image etc). In this way each user can choose freely which information he wants to see in the image (try to oversee all user's needs in this part seems to be too difficult, to overcome this limit giving him the freedom of accessing the image).
+\item The user has to access not only a png image, but also a root-image. This kind of image is interactive: the user can left-click and drag the mouse to select parts of the image and zoom them, and with a right click perform dynamically some kind of image processing (set colors, choose what kind of chart to see, modify the chart legend, translate in a 3D space the image etc). In this way each user can choose freely which information he wants to see in the image (try to oversee all user's needs in this part seems to be too difficult, to overcome this limit giving him the freedom of accessing the image).
 All of this must be done by the user through a browser window. This requisite seems to be quite complex, but Root provides libraries (these libraries work well but they are poorly documented) to interact with Javascript.
 
 % 9
@@ -165,7 +165,7 @@ This page doesn't use any more radio buttons, dropdown menus are preferred for a
 
 \newpage
 
-The page that shows the textual output of gAn is exposed in the following images, has some modifications:
+The page that shows the textual output of gAn is exposed in the following images, with some modifications with respect to the previous version:
 
 \begin{figure}[H]
 \centering
@@ -180,19 +180,19 @@ The page that shows the textual output of gAn is exposed in the following images
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.25]{WhichRunNavbar.png} 
-\caption{Intermediate version: by this "navbar" the user can choose the run results to show}
+\caption{Intermediate version: using this "navbar" the user can choose the run results to show}
 \end{figure}
 
-This navbar is in fixed position related to the screen, and can be dragged by the user to allow him to decide where put it.
+This navbar can be dragged by the user.
 
-\item "Download Root File of: nnnn" is a button that allows to user to download the semi-processed file .root with some output information regarding the computation.
+\item "Download Root File of: nnnn" is a button that allows the user to download the semi-processed file .root with some output information regarding the computation.
 
 \item "Back to Home" gives the user the opportunity to directly return to the homepage. 
 
 \item "Back to Home" and "Look at the images" are in a fixed position on the screen: even if the user scrolls down or up the screen he is always able to see these buttons.    
 
 \end{enumerate}
-The page that shows in an organized way the images that gAn produces in output. The following image shows the new appearance of the page:
+The page that shows in an organized way the images that gAn produces in output presents a new appearance as shon in the following:
 
 
 
@@ -206,13 +206,13 @@ The page that shows in an organized way the images that gAn produces in output. 
 Modifications:
 \begin{enumerate}
 
-\item The dropdown menu "Runs to show" allows the user to select only the images produced by a single run (by default the system shows the images related to all the runs). The users widely use this option, because in this way they can compare images extrapolated in the same way but related with runs with different configurations.
+\item The dropdown menu "Runs to show" allows the user to select only the images produced with a single run (by default the system shows the images related to all the runs). The users widely use this option, because in this way they can compare images extrapolated in the same way but related with runs with different configurations.
 
-\item "Download All Images" allows the user to download by a single click all the images related to the execution. The intermediate version introduces this requirement because commonly the users download the images using the right click of the mouse and the browser's button "Save Image As". In this way this process is faster and easier.
+\item "Download All Images" allows the user to download by a single click all the images related to the execution. The intermediate version introduces this requirement because often the users download the images using the right click of the mouse and the browser's button "Save Image As". In this way this process is faster and easier.
 
 \item The buttons "Back to Previous page" and "Back to Home" are links towards the textual output page and the homepage. They are in fixed position.
 
-\item By clicking on the image the user reaches a page that shows the image in full screen, but not in a static format: the image is dynamically accessible like shown in the following images:
+\item By clicking on the image the user reaches a page that shows the image in full screen, but not in a static format: the image is dynamically accessible as shown in the following images:
 
 \begin{figure}[H]
 \centering
@@ -249,9 +249,9 @@ Modifications:
 
 Some pages in the intermediate version are completely new, because they implement new functionalities.
 
-The first new page that the user sees is the login page. It is very simple, it doesn't authenticate a single user, but asks only the password of the office. This basic system of authentication aims simply to ensure that only the people that works in AEgIS experiment can use this software.
+The first new page that the user sees is the login page. It is very simple, it doesn't authenticate a single user, but asks only the password. This basic system of authentication aims simply to ensure that only the people that work in AEgIS experiment can use this software.
 
-Following the login page image:
+The login page image is shown in the following:
 
 \begin{figure}[H]
 \centering
@@ -259,9 +259,9 @@ Following the login page image:
 \caption{Intermediate version: simple login page}
 \end{figure}
 
-In this version there is also the opportunity for the user to choose which branch of gAn and which version of Root Framework to use to execute the program. The pages that the user can user are quite similar, and quite simple. The user must use dropdown menus to make these choices, and there is always a default safe choice (the system remembers the last working version of Root and the last working branch of gAn), so it is impossible make errors or inconsistent choices. 
+In this version there is also the opportunity for the user to choose which branch of gAn and which version of Root Framework can be used to execute the program. The pages that the user can visit are quite similar, and quite simple. The user must use dropdown menus to make these choices, and there is always a default safe choice (the system remembers the last working version of Root and the last working branch of gAn), so it is impossible to make errors or inconsistent choices. 
 
-Following there are some screen-shots of these pages
+In the following there are some screen-shots of these pages
 
 \begin{figure}[H]
 \centering
