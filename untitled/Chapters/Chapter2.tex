@@ -49,7 +49,7 @@ Data analysis can be divided in some steps:
 \item Communication: this is the final step. It is important to find a way to report the obtained information to the user in an understandable format. The communication must be adapted to the different users, in order to let the data analysis able to meet their requirements.
 
 \end{enumerate}
-According to an article written by Andrew Birmingham and Anna Russell (https://which-50.com/this-is-what-big-data-really-looks-like-cern-the-universe-and-everything/) in the particular domain of the particles physics this kind of analysis is very important: some experiments at the CERN represents about 150 million sensors delivering data 40 million times per second. There are nearly 600 million collisions per second. This is not the exactly kind of AEgIS experiment, that doesn't generate this gigantic amount of data, but, the point is that not all this information is scientifically interesting. In the huge amount of collisions discussed previously there are only around 100 collisions of interest per second.
+According to an article written by Andrew Birmingham and Anna Russell (\url{https://which-50.com/this-is-what-big-data-}	\\ \url{really-looks-like-cern-the-universe} 	\url{-and-everything} [4]) in the particular domain of the particles physics this kind of analysis is very important: some experiments at the CERN represents about 150 million sensors delivering data 40 million times per second. There are nearly 600 million collisions per second. This is not the exactly kind of AEgIS experiment, that doesn't generate this gigantic amount of data, but, the point is that not all this information is scientifically interesting. In the huge amount of collisions discussed previously there are only around 100 collisions of interest per second.
 This leads a big problem: it is difficult to find a rational way to work with flows of data having this size, and it is strongly required to take only the part of the data actually relevant for the scientific analysis, but it is also important to avoid wasting anything interesting in this dataset.
 
 Another problem to solve to meet the user's requirements is related to the speed with which physicists develop and change focus in their experimental work: they are not interested always at the same things, and they cannot predict in advance what they will need in a remote future, because their needs are related to the process of experimentation, and can change continuously. 
@@ -57,9 +57,9 @@ Therefore a system of analysis must be very flexible and dynamic, always ready t
 
 This kind of problems are not just CERN's problems, they are common in major research centers. Bob Jones, Project Leader at CERN, says:
 "CERN is a leader but not alone in having to deal with such high data throughput. We expect to see similar scales in other sciences (such as next generation genome sequencing as well as the Square Kilometer Array which will primarily be deployed in Australia and South Africa) and various business sectors linked to the growing Internet of Things in the near future."
-(quote taken from \url{http://www.cloudwatchhub.eu/what-big-data-really-looks-cern-universe-and-everything} [4])
+(quote taken from \url{http://www.cloudwatchhub.eu/what-big-data-really}	\\ \url{-looks-cern-universe-and-everything} [4])
  
-Big data analysis can provide an answer to this problems: with an intelligent and parameterizable process of filtering it is possible to extract only the subset of scientifically interesting information, and delivering them to the users in an organized and structured way, by tables, statistical values, graphical images. 
+Big data analysis can provide an answer to this problems: with an intelligent and parametrizable process of filtering it is possible to extract only the subset of scientifically interesting information, and delivering them to the users in an organized and structured way, by tables, statistical values, graphical images. 
 In this way is possible to improve the productivity of the physicists, exempting them from unnecessary commitments and dynamically meeting their needs. 
 
 
@@ -75,6 +75,7 @@ The goal of gAn Web is to allow users to perform analysis through a more friendl
 \caption{gAn - gAn Web simple scheme}
 \end{figure}
 
+The whole application allows to perform data collection, a process of selection and analysis of data, and data representation. In brief it means being able to extract from a big amount of raw material only the interesting information.
 
 The raw material on which this system works is represented by a set of "Root files". 
 The hardware of AEgIS experiment (mostly the sensors) generates these Root files, that are raw, binary files. 
@@ -108,9 +109,6 @@ This system used to identify time slices seems to be strange at the beginning bu
 
 How can the user have more information about the runs? 
 There is a RunLog (sometimes also called LogBook). The RunLog is a document organized by date on which for each run essential and specific information are reported, such as the run number, the date of acquisition, the experimental configuration, and other notes that the physicist that performed the data taking consider important to record.
-
-%Is this document an input or an output for gAn Web? it depends if the user uses gAn %Web on the last existing run (or the run immediately before) probably the output of %gAn Web is one of the (many) inputs of the RunLog.  
-%If the user is interested in a phenomenon happened some days ago, probably he searches %on the RunLog at the page related the date of the phenomenon, he chooses one or more %runs related to this phenomenon (he recognizes them by the observations), he works %with gAn using these runs, and probably he notes parts of the output of gAn Web as %observations on the RunLog, that in this situation is both input and output. Some runs %are absolutely not related with gAn Web, so in some cases the RunLog is neither an %input nor an output.  
 
 % 2
 \item "Type of analysis", that identifies what gAn must do with the data and what it must show as output to the user.
