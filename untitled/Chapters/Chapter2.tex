@@ -79,7 +79,7 @@ The goal of gAn Web is to allow users to perform analysis through a more friendl
 The raw material on which this system works is represented by a set of "Root files". 
 The hardware of AEgIS experiment (mostly the sensors) generates these Root files, that are raw, binary files. 
  
-The following the figure 2.3 presents a schema related to the generation of these input files:
+The following figure (2.3) presents a schema related to the generation of these input files:
 
 \begin{figure}[H]
 \centering
@@ -130,7 +130,7 @@ A web interface can improve the system in two ways:
 \begin{enumerate}
 
 % 1
-\item gAn is a stand-alone program based on Root, that can be installed on the user's machine; the user has to install the correct version of Root to avoid compatibility problems (Root is still not perfectly version independent: different versions can occasionally lead to different behaviors). Furthermore, this kind of program is continuously changing, the performed analysis is continuously improved (in the first 2 weeks from the debut of the program there were already several kinds of analysis, because often at the changing of the needs the programmers creates new analysis), so the installed version of gAn is not unchangeable, and the user must often update it. Instead, a centralized version installed on a server, with services accessible from a normal browser by the user can avoid (or at least reduce) this kind of problems and be more usable.    
+\item gAn is a stand-alone program based on ROOT, that can be installed on the user's machine; the user has to install the correct version of ROOT to avoid compatibility problems (ROOT is still not perfectly version independent: different versions can occasionally lead to different behaviors). Furthermore, this kind of program is continuously changing, the performed analysis is continuously improved (in the first 2 weeks from the debut of the program there were already several kinds of analysis, because often at the changing of the needs the programmers creates new analysis), so the installed version of gAn is not unchangeable, and the user must often update it. Instead, a centralized version installed on a server, with services accessible from a normal browser by the user can avoid (or at least reduce) this kind of problems and be more usable.    
  
 
 % 2
@@ -141,7 +141,7 @@ A web interface can improve the system in two ways:
 
 
 
-\section{Root - Physical Data Analysis }
+\section{ROOT - Physical Data Analysis }
 
 There are some software (often free software) specialized in the analysis of data. Each of these software has strengths and weaknesses, and none of them appear to be absolutely better than the others. Following there are some examples:
  
@@ -163,18 +163,18 @@ Some detractors say that the statistical support is incomplete if compared with 
 \end{enumerate}
 
 For the AEgIS experiment ROOT is the chosen software to carry out the activities of data analysis. The reason is that this software has been specifically tailored to meet the requirements of the analysis applied to particle physics.
-Another advantage of Root is that there are a lot of libraries created during the years related to the activities of the experiments of the CERN and it is nearly impossible rebuilt them from scratch with another software.
+Another advantage of ROOT is that there are a lot of libraries created during the years related to the activities of the experiments of the CERN and it is nearly impossible to rebuild them from scratch with another software.
 
 ROOT development was started by René Brun and Fons Rademakers in 1994 (but a more extended and precise list of collaborators is accessible here \url{https://root.cern.ch/root/htmldoc/guides/users -guide/ROOTUsersGuide.html#preface} [5]). 
-The ROOT's user guide start with this prefaction, that explains in detail how ROOT was born.:
+The ROOT's user guide start with this prefaction, that explains in detail how ROOT was born:
 "In late 1994, we decided to learn and investigate Object Oriented programming and C++ to better judge the suitability of these relatively new techniques for scientific programming. We knew that there is no better way to learn a new programming environment than to use it to write a program that can solve a real problem. After a few weeks, we had our first histogramming package in C++. A few weeks later we had a rewrite of the same package using the, at that time, very new template features of C++. Again, a few weeks later we had another rewrite of the package without templates since we could only compile the version with templates on one single platform using a specific compiler. Finally, after about four months we had a histogramming package that was faster and more efficient than the well-known FORTRAN based HBOOK histogramming package. This gave us enough confidence in the new technologies to decide to continue the development. Thus was born ROOT."
 (Taken from \url{https://root.cern.ch/root/htmldoc/guides/users-guide/ROOTUsersGuide.html#preface} [5])
 
 
 This software is partially released under GPL (this means that everyone is allowed to use, redistribute and change the software, but any changes made must also be licensed under the GPL), and partially under LGPL (The LGPL is similar to the GPL, but is more designed for software libraries in that the developer wants to allow non-GPL applications to link to your library and utilise it).
 
-ROOT is an object oriented framework that aims to solve problems related to high-energy physics. To better understand what is ROOT is important to start with understanding what is a framework: in IT a framework is a structure that helps the programmers providing them a set of already working utilities and services (for example, I/O, graphics, etc.) often related to the sector in which the framework aims to work (for example, the services of a web development framework are related to the layout of a web page, to the organization of DBs etc.). ROOT in particular offers services, functions, and packages related on the world of high-energy physics research, that allow to save much work.
-It provides, for example the possibility to use a computer's graphics subsystem and operating system with abstraction, allowing the developer to create a graphical user interface and a GUI builder. Root provides also an abstract platform that allows to run C++ and command line scripts. More precisely Root includes (among others):
+ROOT is an object oriented framework that aims to solve problems related to high-energy physics. To better understand what is ROOT is important to start with understanding what is a framework: in IT a framework is a structure that helps the programmers providing them a set of already working utilities and services (for example, I/O, graphics, etc.) often related to the sector in which the framework aims to work (for example, the services of a web development framework are related to the layout of a web page, to the organization of DBs etc.). ROOT in particular offers services, functions, and packages related to the world of high-energy physics research, that allow to save much work.
+It provides, for example the possibility to use a computer's graphics subsystem and operating system with abstraction, allowing the developer to create a graphical user interface and a GUI builder. ROOT provides also an abstract platform that allows to run C++ and command line scripts. More precisely ROOT includes (among others):
 
 \begin{enumerate}
 
@@ -197,7 +197,7 @@ It provides, for example the possibility to use a computer's graphics subsystem 
 \item The possibility of interfacing in both directions with code written in Python or Ruby.
 
 %7 
-\item The possibility of interfacing with Javascript, allowing the developer to access Root functionalities by a Browser.
+\item The possibility of interfacing with Javascript, allowing the developer to access ROOT functionalities by a Browser.
 
 \end{enumerate}
 

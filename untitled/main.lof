@@ -16,58 +16,58 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces An overview of the timeline of the project\relax }}{20}{figure.caption.56}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces First version: the first homepage of gAn Web\relax }}{27}{figure.caption.85}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces First version: the page related to the textual output of gAn Web\relax }}{28}{figure.caption.87}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces First version: the page able to show the output images in the early prototype\relax }}{28}{figure.caption.89}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces First version: the configuration page\relax }}{29}{figure.caption.91}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces First version: the first homepage of gAn Web\relax }}{29}{figure.caption.85}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces First version: the page related to the textual output of gAn Web\relax }}{30}{figure.caption.87}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces First version: the page able to show the output images in the early prototype\relax }}{30}{figure.caption.89}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces First version: the configuration page\relax }}{31}{figure.caption.91}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Intermediate version: the homepage of gAn Web without input\relax }}{37}{figure.caption.115}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Intermediate version: the homepage of gAn Web ready to start\relax }}{37}{figure.caption.116}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Intermediate version: the "Start" button is red if the values in the input field are invalid\relax }}{38}{figure.caption.119}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Intermediate version: the progress bar aims to make more accepttable the user's waiting\relax }}{38}{figure.caption.120}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Intermediate version: the modal opened by clicking the button "Add runs by range"\relax }}{39}{figure.caption.123}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Intermediate version: the edit-configurator page of gAn Web\relax }}{40}{figure.caption.127}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Intermediate version: the page who shows the textual output of gAn\relax }}{41}{figure.caption.128}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Intermediate version: using this "navbar" the user can choose the run results to show\relax }}{41}{figure.caption.130}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Intermediate version: this page shows all the images that gAn produces in output\relax }}{42}{figure.caption.134}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Intermediate version: moving the cursor the system shows the value of this histogram in the selected point\relax }}{43}{figure.caption.139}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Intermediate version: the user can modify numerous settings in the generated image\relax }}{43}{figure.caption.140}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Intermediate version: the user can show the histogram not only in traditional format, but also in a numerical format where the numbers are the value of the function in their position\relax }}{44}{figure.caption.141}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Intermediate version: another solution is to generate a 3d image in lego-style of the histogram\relax }}{44}{figure.caption.142}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Intermediate version: simple login page\relax }}{45}{figure.caption.144}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Intermediate version: page where the user can choose the Root version to use\relax }}{46}{figure.caption.145}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Intermediate version: page where the user can choose the Branch of gAn to use\relax }}{46}{figure.caption.146}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Intermediate version: the homepage of gAn Web without input\relax }}{39}{figure.caption.115}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Intermediate version: the homepage of gAn Web ready to start\relax }}{39}{figure.caption.116}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Intermediate version: the "Start" button is red if the values in the input field are invalid\relax }}{40}{figure.caption.119}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Intermediate version: the progress bar aims to make more accepttable the user's waiting\relax }}{40}{figure.caption.120}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Intermediate version: the modal opened by clicking the button "Add runs by range"\relax }}{41}{figure.caption.123}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Intermediate version: the edit-configurator page of gAn Web\relax }}{42}{figure.caption.127}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Intermediate version: the page who shows the textual output of gAn\relax }}{43}{figure.caption.128}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Intermediate version: using this "navbar" the user can choose the run results to show\relax }}{43}{figure.caption.130}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Intermediate version: this page shows all the images that gAn produces in output\relax }}{44}{figure.caption.134}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Intermediate version: moving the cursor the system shows the value of this histogram in the selected point\relax }}{45}{figure.caption.139}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Intermediate version: the user can modify numerous settings in the generated image\relax }}{45}{figure.caption.140}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Intermediate version: the user can show the histogram not only in traditional format, but also in a numerical format where the numbers are the value of the function in their position\relax }}{46}{figure.caption.141}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Intermediate version: another solution is to generate a 3d image in lego-style of the histogram\relax }}{46}{figure.caption.142}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Intermediate version: simple login page\relax }}{47}{figure.caption.144}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Intermediate version: page where the user can choose the Root version to use\relax }}{48}{figure.caption.145}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Intermediate version: page where the user can choose the Branch of gAn to use\relax }}{48}{figure.caption.146}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Final version: the Login Page of gAn Web\relax }}{52}{figure.caption.165}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Final version: the first thing that a logged user sees\relax }}{53}{figure.caption.166}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Final version: how the user can change his choice\relax }}{53}{figure.caption.167}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Final version: the Homepage if the user chooses Single run analysis\relax }}{54}{figure.caption.168}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Final version: a label with some information about the current status is always visible in the homepage\relax }}{55}{figure.caption.169}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Final version: how error messages work\relax }}{55}{figure.caption.170}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Final version: grouped dropdown menu\relax }}{56}{figure.caption.171}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Final version: the Homepage if the user chooses multiple runs analysis (first implementation)\relax }}{57}{figure.caption.172}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Final version: modal using which the users insert different ranges of runs (first implementation)\relax }}{58}{figure.caption.173}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Final version: here is if the user selects "By Range" (second implementation)\relax }}{58}{figure.caption.174}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Final version: here is if the user selects "By InputArea" (second implementation)\relax }}{58}{figure.caption.175}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Final version: how the homepage appears (second implementation)\relax }}{59}{figure.caption.176}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Final version: the page related to edit configurations\relax }}{59}{figure.caption.177}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Final version: an example of exponential scale (the first) followed by a non-exponential scale (the second) \relax }}{60}{figure.caption.178}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Final version: a group of dropdown menus \relax }}{61}{figure.caption.179}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Final version: the Navbar\relax }}{62}{figure.caption.180}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Final version: the output in textual version\relax }}{62}{figure.caption.181}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Final version: formatted vs unformatted output\relax }}{63}{figure.caption.182}
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Final version: the output images\relax }}{63}{figure.caption.183}
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Final version: how the user can choose which images to show\relax }}{64}{figure.caption.184}
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Final version: Images that are meant to be compared\relax }}{65}{figure.caption.185}
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Final version: images with info\relax }}{65}{figure.caption.186}
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Final version: other image with special info in a clear position \relax }}{66}{figure.caption.187}
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Final version: some options\relax }}{67}{figure.caption.188}
-\contentsline {figure}{\numberline {6.25}{\ignorespaces Final version: other option\relax }}{67}{figure.caption.189}
-\contentsline {figure}{\numberline {6.26}{\ignorespaces Final version: label to inform the user about a feature\relax }}{68}{figure.caption.190}
-\contentsline {figure}{\numberline {6.27}{\ignorespaces Final version: not frequently used controls\relax }}{68}{figure.caption.191}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Final version: the Login Page of gAn Web\relax }}{54}{figure.caption.165}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Final version: the first thing that a logged user sees\relax }}{55}{figure.caption.166}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Final version: how the user can change his choice\relax }}{55}{figure.caption.167}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Final version: the Homepage if the user chooses Single run analysis\relax }}{56}{figure.caption.168}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Final version: a label with some information about the current status is always visible in the homepage\relax }}{57}{figure.caption.169}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Final version: how error messages work\relax }}{57}{figure.caption.170}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Final version: grouped dropdown menu\relax }}{58}{figure.caption.171}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Final version: the Homepage if the user chooses multiple runs analysis (first implementation)\relax }}{59}{figure.caption.172}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Final version: modal using which the users insert different ranges of runs (first implementation)\relax }}{60}{figure.caption.173}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Final version: here is if the user selects "By Range" (second implementation)\relax }}{60}{figure.caption.174}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Final version: here is if the user selects "By InputArea" (second implementation)\relax }}{60}{figure.caption.175}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Final version: how the homepage appears (second implementation)\relax }}{61}{figure.caption.176}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Final version: the page related to edit configurations\relax }}{61}{figure.caption.177}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Final version: an example of exponential scale (the first) followed by a non-exponential scale (the second) \relax }}{62}{figure.caption.178}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Final version: a group of dropdown menus \relax }}{63}{figure.caption.179}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Final version: the Navbar\relax }}{64}{figure.caption.180}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Final version: the output in textual version\relax }}{64}{figure.caption.181}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Final version: formatted vs unformatted output\relax }}{65}{figure.caption.182}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Final version: the output images\relax }}{65}{figure.caption.183}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Final version: how the user can choose which images to show\relax }}{66}{figure.caption.184}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Final version: Images that are meant to be compared\relax }}{67}{figure.caption.185}
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Final version: images with info\relax }}{67}{figure.caption.186}
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Final version: other image with special info in a clear position \relax }}{68}{figure.caption.187}
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Final version: some options\relax }}{69}{figure.caption.188}
+\contentsline {figure}{\numberline {6.25}{\ignorespaces Final version: other option\relax }}{69}{figure.caption.189}
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Final version: label to inform the user about a feature\relax }}{70}{figure.caption.190}
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Final version: not frequently used controls\relax }}{70}{figure.caption.191}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces The general structure of the MVC pattern\relax }}{93}{figure.caption.255}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces The generic structure of the experiment\relax }}{97}{figure.caption.265}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces The general structure of the MVC pattern\relax }}{95}{figure.caption.255}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces The generic structure of the experiment\relax }}{99}{figure.caption.265}
 \addvspace {10\p@ }
