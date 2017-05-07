@@ -78,7 +78,7 @@ The goal of gAn Web is to allow users to perform analysis through a more friendl
 The whole application allows to perform data collection, a process of selection and analysis of data, and data representation. In brief it means being able to extract from a big amount of raw material only the interesting information.
 
 The raw material on which this system works is represented by a set of "Root files". 
-The hardware of AEgIS experiment (mostly the sensors) generates these Root files, that are raw, binary files. 
+The hardware of AEgIS experiment (mostly the detectors) generates these Root files, that are raw, binary files. 
  
 The following figure (2.3) presents a schema related to the generation of these input files:
 
@@ -88,7 +88,7 @@ The following figure (2.3) presents a schema related to the generation of these 
 \caption{Root format input files generation, DAQ System}
 \end{figure}
 
-The data comes from different sensors, that communicate with different protocols, but all the communications use XML as common language. All data are sent through a LAN to a server named DAQ. Here they are stored in the root file to be ready to be analyzed.
+The data comes from different detectors, that communicate with different protocols, but all the communications use XML as common language. All data are sent through a LAN to a server named DAQ. Here they are stored in the root file to be ready to be analyzed.
 The role of DAQ is to cover the first three steps of the data analysis process: it collects, processes and cleans data;
 
 The Root files can be analysed using a framework named ROOT Framework, that consists in a lot of libraries specialized in high-energy physics analysis, and an interpreter able to understand a C++ script.
