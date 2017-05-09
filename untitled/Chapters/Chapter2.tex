@@ -95,6 +95,19 @@ The Root files can be analysed using a framework named ROOT Framework, that cons
 GAn use this framework, it can access these Root files, make an ordered and organized analysis, extract the most important information, and produce an output that consists of a text with the most important information, comments, and eventual error logs, graphic material such as images of various kind, some other Root format files, with some features used by gAn Web to make further graphical processing, related to the generation of dynamic graphics and figures. 
 The goal of gAn is to reduce the big amount of raw data received in input in a little amount of scientifically interesting and easily understandable data in output, covering the forth and the fifth step of the data analysis process: exploratory analysis and modelling and algorithms.
 
+gAn is an application developed in C++ using Object Oriented programming, making 
+use of the ROOT (see Section. 2.3 for details) framework. It can be executed in a computer where ROOT 
+is installed, inside the root environment with the following line command: 
+\begin{verbatim}
+prompt>root
+root[].x rungAn.C(run_number, "analysis_file")
+\end{verbatim}
+
+where "run\_number" is a number identifying the data to be analysed (see below for a description of 
+a "run") and "analysis\_file" is a string corresponding to a specific analysis on the data (each analysis
+correspond to a unique analysis class, with its .C and .h files.
+
+
 In order to give the correct information gAn require some inputs from the users.
 
 The input parameters inserted by the users are:
