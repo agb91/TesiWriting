@@ -4,13 +4,13 @@
 
 \label{Chapter8} % For referencing the chapter elsewhere, use \ref{Chapter7} 
 
-Developing gAn Web it was decided to design together the physical part and the conceptual part. This is the holistic approach to design. In this project the users play a special role: they are absolutely participatory, they are an important part of the developing team.
-The point is that in this project the needs of the users are very particular, and very hard to understand for a person who doesn't work in the physics world. So the users must take part in each decision and give continuously opinions and feedbacks, to avoid misunderstandings and to obtain a good result.
-
-\section{Used patterns}
 
 The use of some patterns can help the designers to create a better application reusing good solutions already known.
 The main source of patterns of this project is the website \\ \url{http://designinginterfaces.com/patterns/} [7], based on the book "Designing interfaces", written by Jennifer Tidwell, in the edition of 2010.
+
+\section{Used patterns}
+
+Following there is a description about the used patterns and their features.
 
 \subsection{Clear entry point} 
 
@@ -39,7 +39,7 @@ This pattern is used in the page that allows the user to edit the configuration 
 There are some buttons in the web interface that executes tasks which need some pre-conditions. For example: to start the gAn program it is mandatory to insert one or more runs as input for the program. If this condition is not achieved the button is inactive, and only when the user inserts correctly the requested values it became clickable. A similar behavior happens in the configuration page. In this way is possible to avoid useless errors and wastes of time, without create frustrating experiences for experienced users. In the intermediate version in order to say to the user if the button is clickable or not we used the colors red-green, but in the final version the use of the standard Bootstrap's graphic that for this point prefers to use the variation of opacity, seems to be a better idea (for aesthetic reasons).   
 
 \subsection{Progress indicator}
-The starting of gAn is a complex task that takes some seconds. This waiting can be disturbing for the user, who can think that the program is crashed. Another problem is that is quite difficult at this moment estimate the waiting time with precision. A solution can be create an infinite progress bar, that cannot show to the user exactly how much time he must still wait, but can inform him that the system is effectively working and has receipt his request. In the finished product, with a completely working server, we expect that the waiting time is something around 2 seconds (in the worst case) , no more. 
+The starting of gAn is a complex task that takes some seconds. This waiting can be disturbing for the user, who can think that the program is crashed. Another problem is that is quite difficult at this moment to estimate the waiting time with precision. A solution can be create an infinite progress bar, that cannot show to the user exactly how much time he must still wait, but can inform him that the system is effectively working and has receipt his request. In the finished product, with a completely working server, we expect that the waiting time is something around 2 seconds (in the worst case) , no more. 
 
 \subsection{Go Back to a Safe Place}
 In each screen the user can easily return to the homepage , that is the common start point of all the possible tasks. When the user returns at this situation the program re-starts asking him if he prefers a multi-runs analysis or a single-run one, so the program is ready to start a new task. 
@@ -52,7 +52,7 @@ This useful pattern recommends to create a dynamic structure able to adapt itsel
 \subsection{Hover tools}
 
 This kind of helper allows the user to get information about the tasks that each object can carry on just moving the mouse over it. 
-The interface of gAn Web is quite simple, but for a new user is useful to have a some tips about the components potentialities. Bootstrap provides some easy commands to create the tooltips accessible by a "on hover" event, giving to the developer a fast way to implement this pattern. What to write in these tooltips is not trivial, the developer needed the advice of the super users (sometime also of common users) to be sure about what to write. 
+The interface of gAn Web is quite simple, but for a new user is useful to have some tips about the components potentialities. Bootstrap provides some easy commands to create the tooltips accessible by a "on hover" event, giving to the developer a fast way to implement this pattern. What to write in these tooltips is not trivial, the developer needed the advice of the super users (sometime also of common users) to be sure about what to write. 
 
 
 \subsection{Harmless default}
